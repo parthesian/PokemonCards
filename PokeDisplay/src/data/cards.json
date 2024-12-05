@@ -1,0 +1,6663 @@
+{
+  "pokemon": [
+    {
+      "Number": 2,
+      "Name": "Ivysaur",
+      "Card": "images\\PokemonCards-115.png",
+      "Quantity": 1,
+      "Set": "Secret Wonders",
+      "Code": "dp3-51",
+      "Special": null
+    },
+    {
+      "Number": 5,
+      "Name": "Charmeleon",
+      "Card": "images\\PokemonCards-6.png",
+      "Quantity": 1,
+      "Set": "Paldean Fates",
+      "Code": "sv4pt5-8",
+      "Special": null
+    },
+    {
+      "Number": 5,
+      "Name": "Charmeleon",
+      "Card": "images\\PokemonCards-146.png",
+      "Quantity": 1,
+      "Set": "Secret Wonders",
+      "Code": "dp3-46",
+      "Special": null
+    },
+    {
+      "Number": 5,
+      "Name": "Charmeleon",
+      "Card": "images\\PokemonCards-147.png",
+      "Quantity": 1,
+      "Set": "Crystal Guardians",
+      "Code": "ex14-30",
+      "Special": "δ DELTA SPECIES"
+    },
+    {
+      "Number": 6,
+      "Name": "Charizard",
+      "Card": "images\\PokemonCards-49.png",
+      "Quantity": 1,
+      "Set": "Crystal Guardians",
+      "Code": "ex14-4",
+      "Special": "δ DELTA SPECIES"
+    },
+    {
+      "Number": 7,
+      "Name": "Squirtle",
+      "Card": "images\\PokemonCards-30.png",
+      "Quantity": 4,
+      "Set": "Base Set 2",
+      "Code": "base4-93",
+      "Special": null
+    },
+    {
+      "Number": 8,
+      "Name": "Wartortle",
+      "Card": "images\\PokemonCards-31.png",
+      "Quantity": 1,
+      "Set": "Crystal Guardians",
+      "Code": "ex14-42",
+      "Special": null
+    },
+    {
+      "Number": 8,
+      "Name": "Wartortle",
+      "Card": "images\\PokemonCards-124.png",
+      "Quantity": 1,
+      "Set": "Base Set 2",
+      "Code": "base4-63",
+      "Special": null
+    },
+    {
+      "Number": 9,
+      "Name": "Blastoise",
+      "Card": "images\\PokemonCards-32.png",
+      "Quantity": 1,
+      "Set": "FireRed & LeafGreen",
+      "Code": "ex6-104",
+      "Special": "ex"
+    },
+    {
+      "Number": 26,
+      "Name": "Raichu",
+      "Card": "images\\PokemonCards-35.png",
+      "Quantity": 1,
+      "Set": "Power Keepers",
+      "Code": "ex16-12",
+      "Special": null
+    },
+    {
+      "Number": 29,
+      "Name": "Nidoran♀",
+      "Card": "images\\PokemonCards-122.png",
+      "Quantity": 1,
+      "Set": "Dragon Frontiers",
+      "Code": "ex15-56",
+      "Special": "δ DELTA SPECIES"
+    },
+    {
+      "Number": 32,
+      "Name": "Nidoran♂",
+      "Card": "images\\PokemonCards-121.png",
+      "Quantity": 1,
+      "Set": "Dragon Frontiers",
+      "Code": "ex15-57",
+      "Special": "δ DELTA SPECIES"
+    },
+    {
+      "Number": 35,
+      "Name": "Clefairy",
+      "Card": "images\\PokemonCards-102.png",
+      "Quantity": 1,
+      "Set": "Unseen Forces",
+      "Code": "ex10-53",
+      "Special": null
+    },
+    {
+      "Number": 36,
+      "Name": "Clefable",
+      "Card": "images\\PokemonCards-103.png",
+      "Quantity": 1,
+      "Set": "Jungle",
+      "Code": "base2-1",
+      "Special": null
+    },
+    {
+      "Number": 38,
+      "Name": "Ninetales",
+      "Card": "images\\PokemonCards-24.png",
+      "Quantity": 1,
+      "Set": "Mysterious Treasures",
+      "Code": "dp2-32",
+      "Special": null
+    },
+    {
+      "Number": 39,
+      "Name": "Jigglypuff",
+      "Card": "images\\PokemonCards-101.png",
+      "Quantity": 3,
+      "Set": "Base Set 2",
+      "Code": "base4-77",
+      "Special": null
+    },
+    {
+      "Number": 40,
+      "Name": "Wigglytuff",
+      "Card": "images\\PokemonCards-43.png",
+      "Quantity": 1,
+      "Set": "Jungle",
+      "Code": "base2-32",
+      "Special": null
+    },
+    {
+      "Number": 46,
+      "Name": "Paras",
+      "Card": "images\\PokemonCards-34.png",
+      "Quantity": 1,
+      "Set": "Mysterious Treasures",
+      "Code": "dp2-92",
+      "Special": null
+    },
+    {
+      "Number": 51,
+      "Name": "Dugtrio",
+      "Card": "images\\PokemonCards-33.png",
+      "Quantity": 1,
+      "Set": "Crystal Guardians",
+      "Code": "ex14-5",
+      "Special": null
+    },
+    {
+      "Number": 54,
+      "Name": "Psyduck",
+      "Card": "images\\PokemonCards-106.png",
+      "Quantity": 1,
+      "Set": "Gym Challenge",
+      "Code": "gym2-99",
+      "Special": "Sabrina's Psyduck"
+    },
+    {
+      "Number": 59,
+      "Name": "Arcanine",
+      "Card": "images\\PokemonCards-26.png",
+      "Quantity": 1,
+      "Set": "Secret Wonders",
+      "Code": "dp3-22",
+      "Special": null
+    },
+    {
+      "Number": 60,
+      "Name": "Poliwag",
+      "Card": "images\\PokemonCards-9.png",
+      "Quantity": 1,
+      "Set": "Unseen Forces",
+      "Code": "uf-67",
+      "Special": null
+    },
+    {
+      "Number": 63,
+      "Name": "Abra",
+      "Card": "images\\PokemonCards-10.png",
+      "Quantity": 3,
+      "Set": "Base Set 2",
+      "Code": "base4-65",
+      "Special": null
+    },
+    {
+      "Number": 64,
+      "Name": "Kadabra",
+      "Card": "images\\PokemonCards-108.png",
+      "Quantity": 1,
+      "Set": "Base Set 2",
+      "Code": "base4-46",
+      "Special": null
+    },
+    {
+      "Number": 66,
+      "Name": "Machop",
+      "Card": "images\\PokemonCards-109.png",
+      "Quantity": 1,
+      "Set": "Diamond & Pearl",
+      "Code": "dp1-86",
+      "Special": null
+    },
+    {
+      "Number": 66,
+      "Name": "Machop",
+      "Card": "images\\PokemonCards-129.png",
+      "Quantity": 1,
+      "Set": "Power Keepers",
+      "Code": "ex16-53",
+      "Special": null
+    },
+    {
+      "Number": 68,
+      "Name": "Machamp",
+      "Card": "images\\PokemonCards-110.png",
+      "Quantity": 1,
+      "Set": "Diamond & Pearl",
+      "Code": "dp1-31",
+      "Special": null
+    },
+    {
+      "Number": 75,
+      "Name": "Graveler",
+      "Card": "images\\PokemonCards-130.png",
+      "Quantity": 1,
+      "Set": "Mysterious Treasures",
+      "Code": "dp2-51",
+      "Special": null
+    },
+    {
+      "Number": 78,
+      "Name": "Rapidash",
+      "Card": "images\\PokemonCards-141.png",
+      "Quantity": 1,
+      "Set": "Diamond & Pearl",
+      "Code": "dp1-59",
+      "Special": null
+    },
+    {
+      "Number": 80,
+      "Name": "Slowbro",
+      "Card": "images\\PokemonCards-41.png",
+      "Quantity": 1,
+      "Set": "Great Encounters",
+      "Code": "dp4-54",
+      "Special": null
+    },
+    {
+      "Number": 81,
+      "Name": "Magnemite",
+      "Card": "images\\PokemonCards-15.png",
+      "Quantity": 1,
+      "Set": "Ex Delta Species",
+      "Code": "ex11-70",
+      "Special": "Holon's Magnemite"
+    },
+    {
+      "Number": 81,
+      "Name": "Magnemite",
+      "Card": "images\\PokemonCards-104.png",
+      "Quantity": 1,
+      "Set": "Power Keepers",
+      "Code": "ex16-54",
+      "Special": null
+    },
+    {
+      "Number": 86,
+      "Name": "Seel",
+      "Card": "images\\PokemonCards-99.png",
+      "Quantity": 1,
+      "Set": "Base Set 2",
+      "Code": "base4-61",
+      "Special": null
+    },
+    {
+      "Number": 95,
+      "Name": "Onix",
+      "Card": "images\\PokemonCards-138.png",
+      "Quantity": 1,
+      "Set": "Diamond & Pearl",
+      "Code": "dp1-92",
+      "Special": null
+    },
+    {
+      "Number": 96,
+      "Name": "Drowzee",
+      "Card": "images\\PokemonCards-90.png",
+      "Quantity": 2,
+      "Set": "Base Set 2",
+      "Code": "base4-73",
+      "Special": null
+    },
+    {
+      "Number": 98,
+      "Name": "Krabby",
+      "Card": "images\\PokemonCards-96.png",
+      "Quantity": 1,
+      "Set": "Crystal Guardians",
+      "Code": "ex14-54",
+      "Special": null
+    },
+    {
+      "Number": 109,
+      "Name": "Koffing",
+      "Card": "images\\PokemonCards-94.png",
+      "Quantity": 1,
+      "Set": "Team Rocket",
+      "Code": "base5-58",
+      "Special": null
+    },
+    {
+      "Number": 115,
+      "Name": "Kangaskhan",
+      "Card": "images\\PokemonCards-119.png",
+      "Quantity": 1,
+      "Set": "Jungle",
+      "Code": "base2-21",
+      "Special": null
+    },
+    {
+      "Number": 118,
+      "Name": "Goldeen",
+      "Card": "images\\PokemonCards-145.png",
+      "Quantity": 1,
+      "Set": "Diamond & Pearl",
+      "Code": "dp1-84",
+      "Special": null
+    },
+    {
+      "Number": 120,
+      "Name": "Staryu",
+      "Card": "images\\PokemonCards-88.png",
+      "Quantity": 3,
+      "Set": "Base Set 2",
+      "Code": "base4-95",
+      "Special": null
+    },
+    {
+      "Number": 121,
+      "Name": "Starmie",
+      "Card": "images\\PokemonCards-85.png",
+      "Quantity": 1,
+      "Set": "Base Set 2",
+      "Code": "base4-94",
+      "Special": null
+    },
+    {
+      "Number": 123,
+      "Name": "Scyther",
+      "Card": "images\\PokemonCards-18.png",
+      "Quantity": 1,
+      "Set": "Majestic Dawn",
+      "Code": "dp5-46",
+      "Special": null
+    },
+    {
+      "Number": 124,
+      "Name": "Jynx",
+      "Card": "images\\PokemonCards-97.png",
+      "Quantity": 2,
+      "Set": "Base Set 2",
+      "Code": "base4-45",
+      "Special": null
+    },
+    {
+      "Number": 125,
+      "Name": "Electabuzz",
+      "Card": "images\\PokemonCards-20.png",
+      "Quantity": 1,
+      "Set": "Diamond & Pearl",
+      "Code": "dp1-81",
+      "Special": null
+    },
+    {
+      "Number": 125,
+      "Name": "Electabuzz",
+      "Card": "images\\PokemonCards-86.png",
+      "Quantity": 1,
+      "Set": "Dragon Frontiers",
+      "Code": "ex15-29",
+      "Special": "δ DELTA SPECIES"
+    },
+    {
+      "Number": 130,
+      "Name": "Gyarados",
+      "Card": "images\\PokemonCards-42.png",
+      "Quantity": 1,
+      "Set": "Holon Phantoms",
+      "Code": "ex13-8",
+      "Special": "δ DELTA SPECIES"
+    },
+    {
+      "Number": 131,
+      "Name": "Lapras",
+      "Card": "images\\PokemonCards-79.png",
+      "Quantity": 1,
+      "Set": "Ruby & Sapphire",
+      "Code": "ex1-99",
+      "Special": "ex"
+    },
+    {
+      "Number": 134,
+      "Name": "Vaporeon",
+      "Card": "images\\PokemonCards-65.png",
+      "Quantity": 1,
+      "Set": "POP Series 3",
+      "Code": "pop3-6",
+      "Special": null
+    },
+    {
+      "Number": 135,
+      "Name": "Jolteon",
+      "Card": "images\\PokemonCards-56.png",
+      "Quantity": 1,
+      "Set": "POP Series 3",
+      "Code": "pop3-3",
+      "Special": null
+    },
+    {
+      "Number": 135,
+      "Name": "Jolteon",
+      "Card": "images\\PokemonCards-57.png",
+      "Quantity": 2,
+      "Set": "Delta Species",
+      "Code": "ex11-109",
+      "Special": "ex"
+    },
+    {
+      "Number": 140,
+      "Name": "Kabuto",
+      "Card": "images\\PokemonCards-87.png",
+      "Quantity": 1,
+      "Set": "Majestic Dawn",
+      "Code": "dp5-67",
+      "Special": null
+    },
+    {
+      "Number": 141,
+      "Name": "Kabutops",
+      "Card": "images\\PokemonCards-54.png",
+      "Quantity": 1,
+      "Set": "Holon Phantoms",
+      "Code": "ex13-9",
+      "Special": "δ DELTA SPECIES"
+    },
+    {
+      "Number": 147,
+      "Name": "Dratini",
+      "Card": "images\\PokemonCards-134.png",
+      "Quantity": 1,
+      "Set": "Dragon Frontiers",
+      "Code": "ex15-46",
+      "Special": "δ DELTA SPECIES"
+    },
+    {
+      "Number": 149,
+      "Name": "Dragonite",
+      "Card": "images\\PokemonCards-59.png",
+      "Quantity": 1,
+      "Set": "Legends Awakened",
+      "Code": "dp6-2",
+      "Special": null
+    },
+    {
+      "Number": 155,
+      "Name": "Cyndaquil",
+      "Card": "images\\PokemonCards-151.png",
+      "Quantity": 1,
+      "Set": "Dragon Frontiers",
+      "Code": "ex15-45",
+      "Special": "δ DELTA SPECIES"
+    },
+    {
+      "Number": 157,
+      "Name": "Typhlosion",
+      "Card": "images\\PokemonCards-45.png",
+      "Quantity": 1,
+      "Set": "Unseen Forces",
+      "Code": "ex10-17",
+      "Special": null
+    },
+    {
+      "Number": 170,
+      "Name": "Chinchou",
+      "Card": "images\\PokemonCards-25.png",
+      "Quantity": 1,
+      "Set": "Power Keepers",
+      "Code": "ex16-49",
+      "Special": null
+    },
+    {
+      "Number": 172,
+      "Name": "Pichu",
+      "Card": "images\\PokemonCards-107.png",
+      "Quantity": 1,
+      "Set": "Power Keepers",
+      "Code": "ex16-21",
+      "Special": null
+    },
+    {
+      "Number": 178,
+      "Name": "Xatu",
+      "Card": "images\\PokemonCards-98.png",
+      "Quantity": 1,
+      "Set": "Dragon Frontiers",
+      "Code": "ex15-25",
+      "Special": "δ DELTA SPECIES"
+    },
+    {
+      "Number": 181,
+      "Name": "Ampharos",
+      "Card": "images\\PokemonCards-52.png",
+      "Quantity": 1,
+      "Set": "Dragon Frontiers",
+      "Code": "ex15-1",
+      "Special": "δ DELTA SPECIES"
+    },
+    {
+      "Number": 183,
+      "Name": "Marill",
+      "Card": "images\\PokemonCards-128.png",
+      "Quantity": 1,
+      "Set": "Diamond & Pearl",
+      "Code": "dp1-88",
+      "Special": null
+    },
+    {
+      "Number": 185,
+      "Name": "Sudowoodo",
+      "Card": "images\\PokemonCards-8.png",
+      "Quantity": 1,
+      "Set": "Mysterious Treasures",
+      "Code": "dp2-35",
+      "Special": null
+    },
+    {
+      "Number": 192,
+      "Name": "Sunflora",
+      "Card": "images\\PokemonCards-123.png",
+      "Quantity": 1,
+      "Set": "Secret Wonders",
+      "Code": "dp3-38",
+      "Special": null
+    },
+    {
+      "Number": 194,
+      "Name": "Wooper",
+      "Card": "images\\PokemonCards-127.png",
+      "Quantity": 1,
+      "Set": "Team Rocket Returns",
+      "Code": "ex7-81",
+      "Special": null
+    },
+    {
+      "Number": 197,
+      "Name": "Umbreon",
+      "Card": "images\\PokemonCards-61.png",
+      "Quantity": 1,
+      "Set": "Majestic Dawn",
+      "Code": "dp5-32",
+      "Special": null
+    },
+    {
+      "Number": 202,
+      "Name": "Wobbuffet",
+      "Card": "images\\PokemonCards-92.png",
+      "Quantity": 1,
+      "Set": "Holon Phantoms",
+      "Code": "ex13-56",
+      "Special": null
+    },
+    {
+      "Number": 202,
+      "Name": "Wobbuffet",
+      "Card": "images\\PokemonCards-137.png",
+      "Quantity": 1,
+      "Set": "Power Keepers",
+      "Code": "ex16-24",
+      "Special": null
+    },
+    {
+      "Number": 204,
+      "Name": "Pineco",
+      "Card": "images\\PokemonCards-2.png",
+      "Quantity": 1,
+      "Set": "Paldean Fates",
+      "Code": "sv4pt5-1",
+      "Special": null
+    },
+    {
+      "Number": 205,
+      "Name": "Forretress",
+      "Card": "images\\PokemonCards-39.png",
+      "Quantity": 1,
+      "Set": "Legends Awakened",
+      "Code": "dp6-28",
+      "Special": null
+    },
+    {
+      "Number": 209,
+      "Name": "Snubbull",
+      "Card": "images\\PokemonCards-100.png",
+      "Quantity": 1,
+      "Set": "Unseen Forces",
+      "Code": "ex10-74",
+      "Special": null
+    },
+    {
+      "Number": 212,
+      "Name": "Scizor",
+      "Card": "images\\PokemonCards-81.png",
+      "Quantity": 1,
+      "Set": "Unseen Forces",
+      "Code": "ex10-108",
+      "Special": "ex"
+    },
+    {
+      "Number": 219,
+      "Name": "Magcargo",
+      "Card": "images\\PokemonCards-46.png",
+      "Quantity": 1,
+      "Set": "Great Encounters",
+      "Code": "dp4-45",
+      "Special": null
+    },
+    {
+      "Number": 227,
+      "Name": "Skarmory",
+      "Card": "images\\PokemonCards-74.png",
+      "Quantity": 1,
+      "Set": "Power Keepers",
+      "Code": "ex16-98",
+      "Special": "ex"
+    },
+    {
+      "Number": 230,
+      "Name": "Kingdra",
+      "Card": "images\\PokemonCards-50.png",
+      "Quantity": 1,
+      "Set": "Holon Phantoms",
+      "Code": "ex13-10",
+      "Special": "δ DELTA SPECIES"
+    },
+    {
+      "Number": 240,
+      "Name": "Magby",
+      "Card": "images\\PokemonCards-89.png",
+      "Quantity": 1,
+      "Set": "Mysterious Treasures",
+      "Code": "dp2-88",
+      "Special": null
+    },
+    {
+      "Number": 247,
+      "Name": "Pupitar",
+      "Card": "images\\PokemonCards-148.png",
+      "Quantity": 1,
+      "Set": "Dragon Frontiers",
+      "Code": "ex15-59",
+      "Special": "δ DELTA SPECIES"
+    },
+    {
+      "Number": 248,
+      "Name": "Tyranitar",
+      "Card": "images\\PokemonCards-47.png",
+      "Quantity": 1,
+      "Set": "Delta Species",
+      "Code": "ex11-16",
+      "Special": "δ DELTA SPECIES"
+    },
+    {
+      "Number": 248,
+      "Name": "Tyranitar",
+      "Card": "images\\PokemonCards-63.png",
+      "Quantity": 1,
+      "Set": "Mysterious Treasures",
+      "Code": "dp2-17",
+      "Special": null
+    },
+    {
+      "Number": 248,
+      "Name": "Tyranitar",
+      "Card": "images\\PokemonCards-75.png",
+      "Quantity": 1,
+      "Set": "POP Series 1",
+      "Code": "pop1-17",
+      "Special": "ex"
+    },
+    {
+      "Number": 254,
+      "Name": "Sceptile",
+      "Card": "images\\PokemonCards-40.png",
+      "Quantity": 1,
+      "Set": "Ruby & Sapphire",
+      "Code": "ex1-11",
+      "Special": null
+    },
+    {
+      "Number": 256,
+      "Name": "Combusken",
+      "Card": "images\\PokemonCards-84.png",
+      "Quantity": 1,
+      "Set": "Crystal Guardians",
+      "Code": "ex14-31",
+      "Special": null
+    },
+    {
+      "Number": 256,
+      "Name": "Combusken",
+      "Card": "images\\PokemonCards-139.png",
+      "Quantity": 1,
+      "Set": "Power Keepers",
+      "Code": "ex16-29",
+      "Special": null
+    },
+    {
+      "Number": 261,
+      "Name": "Poochyena",
+      "Card": "images\\PokemonCards-117.png",
+      "Quantity": 1,
+      "Set": "Power Keepers",
+      "Code": "ex16-58",
+      "Special": null
+    },
+    {
+      "Number": 263,
+      "Name": "Zigzagoon",
+      "Card": "images\\PokemonCards-19.png",
+      "Quantity": 1,
+      "Set": "EX Trainer Kit Latios",
+      "Code": "tk1b-7",
+      "Special": null
+    },
+    {
+      "Number": 267,
+      "Name": "Beautifly",
+      "Card": "images\\PokemonCards-16.png",
+      "Quantity": 1,
+      "Set": "Diamond & Pearl",
+      "Code": "dp1-19",
+      "Special": null
+    },
+    {
+      "Number": 271,
+      "Name": "Lombre",
+      "Card": "images\\PokemonCards-38.png",
+      "Quantity": 1,
+      "Set": "Deoxys",
+      "Code": "ex8-33",
+      "Special": null
+    },
+    {
+      "Number": 272,
+      "Name": "Ludicolo",
+      "Card": "images\\PokemonCards-116.png",
+      "Quantity": 1,
+      "Set": "Deoxys",
+      "Code": "ex8-19",
+      "Special": null
+    },
+    {
+      "Number": 273,
+      "Name": "Seedot",
+      "Card": "images\\PokemonCards-95.png",
+      "Quantity": 1,
+      "Set": "Diamond & Pearl",
+      "Code": "dp1-97",
+      "Special": null
+    },
+    {
+      "Number": 274,
+      "Name": "Nuzleaf",
+      "Card": "images\\PokemonCards-21.png",
+      "Quantity": 1,
+      "Set": "Power Keepers",
+      "Code": "ex16-36",
+      "Special": null
+    },
+    {
+      "Number": 280,
+      "Name": "Ralts",
+      "Card": "images\\PokemonCards-0.png",
+      "Quantity": 1,
+      "Set": "Paldean Fates",
+      "Code": "sv4pt5-27",
+      "Special": null
+    },
+    {
+      "Number": 282,
+      "Name": "Gardevoir",
+      "Card": "images\\PokemonCards-7.png",
+      "Quantity": 1,
+      "Set": "Paldean Fates",
+      "Code": "sv4pt5-217",
+      "Special": "ex"
+    },
+    {
+      "Number": 282,
+      "Name": "Gardevoir",
+      "Card": "images\\PokemonCards-68.png",
+      "Quantity": 1,
+      "Set": "Sandstorm",
+      "Code": "ex2-96",
+      "Special": null
+    },
+    {
+      "Number": 305,
+      "Name": "Lairon",
+      "Card": "images\\PokemonCards-17.png",
+      "Quantity": 1,
+      "Set": "Crystal Guardians",
+      "Code": "ex14-36",
+      "Special": null
+    },
+    {
+      "Number": 306,
+      "Name": "Aggron",
+      "Card": "images\\PokemonCards-36.png",
+      "Quantity": 1,
+      "Set": "Crystal Guardians",
+      "Code": "ex14-89",
+      "Special": "ex"
+    },
+    {
+      "Number": 309,
+      "Name": "Electrike",
+      "Card": "images\\PokemonCards-113.png",
+      "Quantity": 1,
+      "Set": "Mysterious Treasures",
+      "Code": "dp2-81",
+      "Special": null
+    },
+    {
+      "Number": 310,
+      "Name": "Manectric",
+      "Card": "images\\PokemonCards-112.png",
+      "Quantity": 1,
+      "Set": "Holon Phantoms",
+      "Code": "ex13-46",
+      "Special": null
+    },
+    {
+      "Number": 319,
+      "Name": "Sharpedo",
+      "Card": "images\\PokemonCards-132.png",
+      "Quantity": 1,
+      "Set": "Ruby & Sapphire",
+      "Code": "ex1-22",
+      "Special": null
+    },
+    {
+      "Number": 322,
+      "Name": "Numel",
+      "Card": "images\\PokemonCards-3.png",
+      "Quantity": 1,
+      "Set": "Paldean Fates",
+      "Code": "sv4pt5-11",
+      "Special": null
+    },
+    {
+      "Number": 323,
+      "Name": "Camerupt",
+      "Card": "images\\PokemonCards-5.png",
+      "Quantity": 1,
+      "Set": "Paldean Fates",
+      "Code": "sv4pt5-12",
+      "Special": null
+    },
+    {
+      "Number": 326,
+      "Name": "Grumpig",
+      "Card": "images\\PokemonCards-83.png",
+      "Quantity": 1,
+      "Set": "Crystal Guardians",
+      "Code": "ex14-20",
+      "Special": null
+    },
+    {
+      "Number": 326,
+      "Name": "Grumpig",
+      "Card": "images\\PokemonCards-111.png",
+      "Quantity": 1,
+      "Set": "Deoxys",
+      "Code": "ex8-32",
+      "Special": null
+    },
+    {
+      "Number": 328,
+      "Name": "Trapinch",
+      "Card": "images\\PokemonCards-152.png",
+      "Quantity": 1,
+      "Set": "Power Keepers",
+      "Code": "ex16-68",
+      "Special": null
+    },
+    {
+      "Number": 330,
+      "Name": "Flygon",
+      "Card": "images\\PokemonCards-66.png",
+      "Quantity": 1,
+      "Set": "Dragon Frontiers",
+      "Code": "ex15-92",
+      "Special": "ex"
+    },
+    {
+      "Number": 331,
+      "Name": "Cacnea",
+      "Card": "images\\PokemonCards-22.png",
+      "Quantity": 1,
+      "Set": "Power Keepers",
+      "Code": "ex16-46",
+      "Special": null
+    },
+    {
+      "Number": 333,
+      "Name": "Swablu",
+      "Card": "images\\PokemonCards-120.png",
+      "Quantity": 1,
+      "Set": "Power Keepers",
+      "Code": "ex16-66",
+      "Special": null
+    },
+    {
+      "Number": 334,
+      "Name": "Altaria",
+      "Card": "images\\PokemonCards-37.png",
+      "Quantity": 1,
+      "Set": "Power Keepers",
+      "Code": "ex16-2",
+      "Special": null
+    },
+    {
+      "Number": 334,
+      "Name": "Altaria",
+      "Card": "images\\PokemonCards-114.png",
+      "Quantity": 1,
+      "Set": "Great Encounters",
+      "Code": "dp4-12",
+      "Special": null
+    },
+    {
+      "Number": 340,
+      "Name": "Whiscash",
+      "Card": "images\\PokemonCards-140.png",
+      "Quantity": 1,
+      "Set": "Holon Phantoms",
+      "Code": "ex13-55",
+      "Special": null
+    },
+    {
+      "Number": 342,
+      "Name": "Crawdaunt",
+      "Card": "images\\PokemonCards-70.png",
+      "Quantity": 1,
+      "Set": "Deoxys",
+      "Code": "ex8-6",
+      "Special": null
+    },
+    {
+      "Number": 345,
+      "Name": "Lileep",
+      "Card": "images\\PokemonCards-13.png",
+      "Quantity": 1,
+      "Set": "Holon Phantoms",
+      "Code": "hp-68",
+      "Special": "δ DELTA SPECIES"
+    },
+    {
+      "Number": 348,
+      "Name": "Armaldo",
+      "Card": "images\\PokemonCards-78.png",
+      "Quantity": 1,
+      "Set": "POP Series 1",
+      "Code": "pop1-16",
+      "Special": "ex"
+    },
+    {
+      "Number": 348,
+      "Name": "Armaldo",
+      "Card": "images\\PokemonCards-126.png",
+      "Quantity": 1,
+      "Set": "Legends Awakened",
+      "Code": "dp6-18",
+      "Special": null
+    },
+    {
+      "Number": 354,
+      "Name": "Banette",
+      "Card": "images\\PokemonCards-64.png",
+      "Quantity": 1,
+      "Set": "Legend Maker",
+      "Code": "ex12-85",
+      "Special": "ex"
+    },
+    {
+      "Number": 355,
+      "Name": "Duskull",
+      "Card": "images\\PokemonCards-12.png",
+      "Quantity": 1,
+      "Set": "EX Power Keepers",
+      "Code": "ex16-50",
+      "Special": null
+    },
+    {
+      "Number": 356,
+      "Name": "Dusclops",
+      "Card": "images\\PokemonCards-105.png",
+      "Quantity": 1,
+      "Set": "Diamond & Pearl",
+      "Code": "dp1-47",
+      "Special": null
+    },
+    {
+      "Number": 359,
+      "Name": "Absol",
+      "Card": "images\\PokemonCards-72.png",
+      "Quantity": 1,
+      "Set": "Power Keepers",
+      "Code": "ex16-92",
+      "Special": "ex"
+    },
+    {
+      "Number": 359,
+      "Name": "Absol",
+      "Card": "images\\PokemonCards-73.png",
+      "Quantity": 1,
+      "Set": "Holon Phantoms",
+      "Code": "ex13-18",
+      "Special": null
+    },
+    {
+      "Number": 362,
+      "Name": "Glalie",
+      "Card": "images\\PokemonCards-23.png",
+      "Quantity": 1,
+      "Set": "Hidden Legends",
+      "Code": "ex5-34",
+      "Special": null
+    },
+    {
+      "Number": 363,
+      "Name": "Spheal",
+      "Card": "images\\PokemonCards-149.png",
+      "Quantity": 1,
+      "Set": "Mysterious Treasures",
+      "Code": "dp2-102",
+      "Special": null
+    },
+    {
+      "Number": 363,
+      "Name": "Spheal",
+      "Card": "images\\PokemonCards-150.png",
+      "Quantity": 1,
+      "Set": "Power Keepers",
+      "Code": "ex16-65",
+      "Special": null
+    },
+    {
+      "Number": 364,
+      "Name": "Sealeo",
+      "Card": "images\\PokemonCards-91.png",
+      "Quantity": 1,
+      "Set": "Power Keepers",
+      "Code": "ex16-37",
+      "Special": null
+    },
+    {
+      "Number": 365,
+      "Name": "Walrein",
+      "Card": "images\\PokemonCards-48.png",
+      "Quantity": 1,
+      "Set": "Team Magma vs Team Agua",
+      "Code": "ex4-6",
+      "Special": "Team Aqua's Walrein"
+    },
+    {
+      "Number": 373,
+      "Name": "Salamence",
+      "Card": "images\\PokemonCards-60.png",
+      "Quantity": 1,
+      "Set": "Secret Wonders",
+      "Code": "dp3-18",
+      "Special": null
+    },
+    {
+      "Number": 374,
+      "Name": "Beldum",
+      "Card": "images\\PokemonCards-118.png",
+      "Quantity": 1,
+      "Set": "Power Keepers",
+      "Code": "ex16-45",
+      "Special": null
+    },
+    {
+      "Number": 376,
+      "Name": "Metagross",
+      "Card": "images\\PokemonCards-143.png",
+      "Quantity": 1,
+      "Set": "Power Keepers",
+      "Code": "ex16-95",
+      "Special": "ex"
+    },
+    {
+      "Number": 376,
+      "Name": "Metagross",
+      "Card": "images\\PokemonCards-144.png",
+      "Quantity": 1,
+      "Set": "POP Series 1",
+      "Code": "pop1-2",
+      "Special": null
+    },
+    {
+      "Number": 380,
+      "Name": "Latias",
+      "Card": "images\\PokemonCards-80.png",
+      "Quantity": 1,
+      "Set": "Dragon",
+      "Code": "ex3-93",
+      "Special": "ex"
+    },
+    {
+      "Number": 384,
+      "Name": "Rayquaza",
+      "Card": "images\\PokemonCards-69.png",
+      "Quantity": 1,
+      "Set": "Dragon Frontiers",
+      "Code": "ex15-97",
+      "Special": "ex δ DELTA SPECIES"
+    },
+    {
+      "Number": 385,
+      "Name": "Jirachi",
+      "Card": "images\\PokemonCards-71.png",
+      "Quantity": 1,
+      "Set": "Crystal Guardians",
+      "Code": "ex14-94",
+      "Special": "ex"
+    },
+    {
+      "Number": 389,
+      "Name": "Torterra",
+      "Card": "images\\PokemonCards-76.png",
+      "Quantity": 1,
+      "Set": "DP Black Star Promos",
+      "Code": "dpp-dp09",
+      "Special": "Lv. X"
+    },
+    {
+      "Number": 390,
+      "Name": "Chimchar",
+      "Card": "images\\PokemonCards-27.png",
+      "Quantity": 1,
+      "Set": "Diamond & Pearl",
+      "Code": "dp1-76",
+      "Special": null
+    },
+    {
+      "Number": 390,
+      "Name": "Chimchar",
+      "Card": "images\\PokemonCards-62.png",
+      "Quantity": 1,
+      "Set": "Majestic Dawn",
+      "Code": "dp5-56",
+      "Special": null
+    },
+    {
+      "Number": 391,
+      "Name": "Monferno",
+      "Card": "images\\PokemonCards-28.png",
+      "Quantity": 1,
+      "Set": "Diamond & Pearl",
+      "Code": "dp1-56",
+      "Special": null
+    },
+    {
+      "Number": 392,
+      "Name": "Infernape",
+      "Card": "images\\PokemonCards-29.png",
+      "Quantity": 1,
+      "Set": "DP Black Star Promos",
+      "Code": "dpp-dp10",
+      "Special": "Lv. X"
+    },
+    {
+      "Number": 395,
+      "Name": "Empoleon",
+      "Card": "images\\PokemonCards-58.png",
+      "Quantity": 1,
+      "Set": "Diamond & Pearl",
+      "Code": "dp1-4",
+      "Special": null
+    },
+    {
+      "Number": 395,
+      "Name": "Empoleon",
+      "Card": "images\\PokemonCards-77.png",
+      "Quantity": 1,
+      "Set": "Diamond & Pearl",
+      "Code": "dp1-120",
+      "Special": "Lv. X"
+    },
+    {
+      "Number": 402,
+      "Name": "Kricketune",
+      "Card": "images\\PokemonCards-136.png",
+      "Quantity": 1,
+      "Set": "Mysterious Treasures",
+      "Code": "dp2-27",
+      "Special": null
+    },
+    {
+      "Number": 409,
+      "Name": "Rampardos",
+      "Card": "images\\PokemonCards-133.png",
+      "Quantity": 1,
+      "Set": "Mysterious Treasures",
+      "Code": "dp2-33",
+      "Special": null
+    },
+    {
+      "Number": 412,
+      "Name": "Burmy",
+      "Card": "images\\PokemonCards-93.png",
+      "Quantity": 1,
+      "Set": "Secret Wonders",
+      "Code": "dp3-78",
+      "Special": "Plant Cloak"
+    },
+    {
+      "Number": 415,
+      "Name": "Combee",
+      "Card": "images\\PokemonCards-11.png",
+      "Quantity": 1,
+      "Set": "Majestic Dawn",
+      "Code": "md-59",
+      "Special": null
+    },
+    {
+      "Number": 419,
+      "Name": "Floatzel",
+      "Card": "images\\PokemonCards-125.png",
+      "Quantity": 1,
+      "Set": "Diamond & Pearl",
+      "Code": "dp1-26",
+      "Special": null
+    },
+    {
+      "Number": 427,
+      "Name": "Buneary",
+      "Card": "images\\PokemonCards-135.png",
+      "Quantity": 1,
+      "Set": "Majestic Dawn",
+      "Code": "dp5-53",
+      "Special": null
+    },
+    {
+      "Number": 429,
+      "Name": "Mismagius",
+      "Card": "images\\PokemonCards-44.png",
+      "Quantity": 1,
+      "Set": "Diamond & Pearl",
+      "Code": "dp1-10",
+      "Special": null
+    },
+    {
+      "Number": 430,
+      "Name": "Honchkrow",
+      "Card": "images\\PokemonCards-14.png",
+      "Quantity": 1,
+      "Set": "Secret Wonders",
+      "Code": "dp3-132",
+      "Special": "Lv. X"
+    },
+    {
+      "Number": 432,
+      "Name": "Purugly",
+      "Card": "images\\PokemonCards-131.png",
+      "Quantity": 1,
+      "Set": "Diamond & Pearl",
+      "Code": "dp1-36",
+      "Special": null
+    },
+    {
+      "Number": 448,
+      "Name": "Lucario",
+      "Card": "images\\PokemonCards-82.png",
+      "Quantity": 1,
+      "Set": "DP Black Star Promos",
+      "Code": "dpp-dp12",
+      "Special": "Lv. X"
+    },
+    {
+      "Number": 450,
+      "Name": "Hippowdon",
+      "Card": "images\\PokemonCards-142.png",
+      "Quantity": 1,
+      "Set": "Diamond & Pearl",
+      "Code": "dp1-29",
+      "Special": null
+    },
+    {
+      "Number": 464,
+      "Name": "Rhyperior",
+      "Card": "images\\PokemonCards-53.png",
+      "Quantity": 1,
+      "Set": "Diamond & Pearl",
+      "Code": "dp1-12",
+      "Special": null
+    },
+    {
+      "Number": 466,
+      "Name": "Electivire",
+      "Card": "images\\PokemonCards-55.png",
+      "Quantity": 1,
+      "Set": "Diamond & Pearl",
+      "Code": "dp1-3",
+      "Special": null
+    },
+    {
+      "Number": 467,
+      "Name": "Magmortar",
+      "Card": "images\\PokemonCards-1.png",
+      "Quantity": 1,
+      "Set": "Paldean Fates",
+      "Code": "sv4pt5-10",
+      "Special": null
+    },
+    {
+      "Number": 474,
+      "Name": "Porygon-Z",
+      "Card": "images\\PokemonCards-51.png",
+      "Quantity": 1,
+      "Set": "Great Encounters",
+      "Code": "dp4-6",
+      "Special": null
+    },
+    {
+      "Number": 484,
+      "Name": "Palkia",
+      "Card": "images\\PokemonCards-67.png",
+      "Quantity": 1,
+      "Set": "Great Encounters",
+      "Code": "dp4-26",
+      "Special": null
+    },
+    {
+      "Number": 556,
+      "Name": "Maractus",
+      "Card": "images\\PokemonCards-4.png",
+      "Quantity": 1,
+      "Set": "Paldean Fates",
+      "Code": "sv4pt5-3",
+      "Special": null
+    }
+  ],
+  "other": [
+    {
+      "Type": "Energy",
+      "Name": "Basic Lightning Energy",
+      "Card": "images\\PokemonCards-154.png",
+      "Quantity": 1,
+      "Set": "Paldean Fates",
+      "Code": "sve4-4"
+    },
+    {
+      "Type": "Energy",
+      "Name": "Psychic Energy",
+      "Card": "images\\PokemonCards-156.png",
+      "Quantity": 13,
+      "Set": "Base Set 2",
+      "Code": "base4-129"
+    },
+    {
+      "Type": "Energy",
+      "Name": "Water Energy",
+      "Card": "images\\PokemonCards-158.png",
+      "Quantity": 15,
+      "Set": "Base Set 2",
+      "Code": "base4-130"
+    },
+    {
+      "Type": "Item",
+      "Name": "Defender",
+      "Card": "images\\PokemonCards-167.png",
+      "Quantity": 1,
+      "Set": "Base Set 2",
+      "Code": "base4-109"
+    },
+    {
+      "Type": "Item",
+      "Name": "Electric Generator",
+      "Card": "images\\PokemonCards-155.png",
+      "Quantity": 1,
+      "Set": "Paldean Fates",
+      "Code": "sv4pt5-79"
+    },
+    {
+      "Type": "Item",
+      "Name": "Great Ball",
+      "Card": "images\\PokemonCards-170.png",
+      "Quantity": 1,
+      "Set": "Power Keepers",
+      "Code": "ex16-77"
+    },
+    {
+      "Type": "Item",
+      "Name": "Holon Fossil",
+      "Card": "images\\PokemonCards-162.png",
+      "Quantity": 1,
+      "Set": "Holon Phantoms",
+      "Code": "ex13-86"
+    },
+    {
+      "Type": "Item",
+      "Name": "Master Ball",
+      "Card": "images\\PokemonCards-161.png",
+      "Quantity": 1,
+      "Set": "Power Keepers",
+      "Code": "ex16-78"
+    },
+    {
+      "Type": "Item",
+      "Name": "Mysterious Fossil",
+      "Card": "images\\PokemonCards-168.png",
+      "Quantity": 1,
+      "Set": "Holon Phantoms",
+      "Code": "ex13-92"
+    },
+    {
+      "Type": "Item",
+      "Name": "Poke Ball",
+      "Card": "images\\PokemonCards-169.png",
+      "Quantity": 1,
+      "Set": "Unseen Forces",
+      "Code": "ex10-87"
+    },
+    {
+      "Type": "Item",
+      "Name": "Potion",
+      "Card": "images\\PokemonCards-164.png",
+      "Quantity": 1,
+      "Set": "Base Set 2",
+      "Code": "base4-122"
+    },
+    {
+      "Type": "Item",
+      "Name": "Super Potion",
+      "Card": "images\\PokemonCards-166.png",
+      "Quantity": 1,
+      "Set": "Base Set 2",
+      "Code": "base4-117"
+    },
+    {
+      "Type": "Stadium",
+      "Name": "Batle Frontier",
+      "Card": "images\\PokemonCards-157.png",
+      "Quantity": 2,
+      "Set": "Power Keepers",
+      "Code": "ex16-71"
+    },
+    {
+      "Type": "Stadium",
+      "Name": "Lake Boundary",
+      "Card": "images\\PokemonCards-160.png",
+      "Quantity": 1,
+      "Set": "Mysterious Treasures",
+      "Code": "dp2-112"
+    },
+    {
+      "Type": "Supporter",
+      "Name": "Paldean Student",
+      "Card": "images\\PokemonCards-153.png",
+      "Quantity": 1,
+      "Set": "Paldean Fates",
+      "Code": "sv4pt5-85"
+    },
+    {
+      "Type": "Trainer",
+      "Name": "Computer Search",
+      "Card": "images\\PokemonCards-165.png",
+      "Quantity": 1,
+      "Set": "Base Set 2",
+      "Code": "base4-101"
+    },
+    {
+      "Type": "Trainer",
+      "Name": "Gust of Wind",
+      "Card": "images\\PokemonCards-163.png",
+      "Quantity": 3,
+      "Set": "Base Set 2",
+      "Code": "base4-120"
+    },
+    {
+      "Type": "Trainer",
+      "Name": "Switch",
+      "Card": "images\\PokemonCards-159.png",
+      "Quantity": 2,
+      "Set": "Base Set 2",
+      "Code": "base4-123"
+    }
+  ],
+  "pokedex": [
+    {
+      "Name": "Bulbasaur",
+      "Number": 1,
+      "Collected": false
+    },
+    {
+      "Name": "Ivysaur",
+      "Number": 2,
+      "Collected": true
+    },
+    {
+      "Name": "Venusaur",
+      "Number": 3,
+      "Collected": false
+    },
+    {
+      "Name": "Charmander",
+      "Number": 4,
+      "Collected": false
+    },
+    {
+      "Name": "Charmeleon",
+      "Number": 5,
+      "Collected": true
+    },
+    {
+      "Name": "Charizard",
+      "Number": 6,
+      "Collected": true
+    },
+    {
+      "Name": "Squirtle",
+      "Number": 7,
+      "Collected": true
+    },
+    {
+      "Name": "Wartortle",
+      "Number": 8,
+      "Collected": true
+    },
+    {
+      "Name": "Blastoise",
+      "Number": 9,
+      "Collected": true
+    },
+    {
+      "Name": "Caterpie",
+      "Number": 10,
+      "Collected": false
+    },
+    {
+      "Name": "Metapod",
+      "Number": 11,
+      "Collected": false
+    },
+    {
+      "Name": "Butterfree",
+      "Number": 12,
+      "Collected": false
+    },
+    {
+      "Name": "Weedle",
+      "Number": 13,
+      "Collected": false
+    },
+    {
+      "Name": "Kakuna",
+      "Number": 14,
+      "Collected": false
+    },
+    {
+      "Name": "Beedrill",
+      "Number": 15,
+      "Collected": false
+    },
+    {
+      "Name": "Pidgey",
+      "Number": 16,
+      "Collected": false
+    },
+    {
+      "Name": "Pidgeotto",
+      "Number": 17,
+      "Collected": false
+    },
+    {
+      "Name": "Pidgeot",
+      "Number": 18,
+      "Collected": false
+    },
+    {
+      "Name": "Rattata",
+      "Number": 19,
+      "Collected": false
+    },
+    {
+      "Name": "Raticate",
+      "Number": 20,
+      "Collected": false
+    },
+    {
+      "Name": "Spearow",
+      "Number": 21,
+      "Collected": false
+    },
+    {
+      "Name": "Fearow",
+      "Number": 22,
+      "Collected": false
+    },
+    {
+      "Name": "Ekans",
+      "Number": 23,
+      "Collected": false
+    },
+    {
+      "Name": "Arbok",
+      "Number": 24,
+      "Collected": false
+    },
+    {
+      "Name": "Pikachu",
+      "Number": 25,
+      "Collected": false
+    },
+    {
+      "Name": "Raichu",
+      "Number": 26,
+      "Collected": true
+    },
+    {
+      "Name": "Sandshrew",
+      "Number": 27,
+      "Collected": false
+    },
+    {
+      "Name": "Sandslash",
+      "Number": 28,
+      "Collected": false
+    },
+    {
+      "Name": "Nidoran♀",
+      "Number": 29,
+      "Collected": true
+    },
+    {
+      "Name": "Nidorina",
+      "Number": 30,
+      "Collected": false
+    },
+    {
+      "Name": "Nidoqueen",
+      "Number": 31,
+      "Collected": false
+    },
+    {
+      "Name": "Nidoran♂",
+      "Number": 32,
+      "Collected": true
+    },
+    {
+      "Name": "Nidorino",
+      "Number": 33,
+      "Collected": false
+    },
+    {
+      "Name": "Nidoking",
+      "Number": 34,
+      "Collected": false
+    },
+    {
+      "Name": "Clefairy",
+      "Number": 35,
+      "Collected": true
+    },
+    {
+      "Name": "Clefable",
+      "Number": 36,
+      "Collected": true
+    },
+    {
+      "Name": "Vulpix",
+      "Number": 37,
+      "Collected": false
+    },
+    {
+      "Name": "Ninetales",
+      "Number": 38,
+      "Collected": true
+    },
+    {
+      "Name": "Jigglypuff",
+      "Number": 39,
+      "Collected": true
+    },
+    {
+      "Name": "Wigglytuff",
+      "Number": 40,
+      "Collected": true
+    },
+    {
+      "Name": "Zubat",
+      "Number": 41,
+      "Collected": false
+    },
+    {
+      "Name": "Golbat",
+      "Number": 42,
+      "Collected": false
+    },
+    {
+      "Name": "Oddish",
+      "Number": 43,
+      "Collected": false
+    },
+    {
+      "Name": "Gloom",
+      "Number": 44,
+      "Collected": false
+    },
+    {
+      "Name": "Vileplume",
+      "Number": 45,
+      "Collected": false
+    },
+    {
+      "Name": "Paras",
+      "Number": 46,
+      "Collected": true
+    },
+    {
+      "Name": "Parasect",
+      "Number": 47,
+      "Collected": false
+    },
+    {
+      "Name": "Venonat",
+      "Number": 48,
+      "Collected": false
+    },
+    {
+      "Name": "Venomoth",
+      "Number": 49,
+      "Collected": false
+    },
+    {
+      "Name": "Diglett",
+      "Number": 50,
+      "Collected": false
+    },
+    {
+      "Name": "Dugtrio",
+      "Number": 51,
+      "Collected": true
+    },
+    {
+      "Name": "Meowth",
+      "Number": 52,
+      "Collected": false
+    },
+    {
+      "Name": "Persian",
+      "Number": 53,
+      "Collected": false
+    },
+    {
+      "Name": "Psyduck",
+      "Number": 54,
+      "Collected": true
+    },
+    {
+      "Name": "Golduck",
+      "Number": 55,
+      "Collected": false
+    },
+    {
+      "Name": "Mankey",
+      "Number": 56,
+      "Collected": false
+    },
+    {
+      "Name": "Primeape",
+      "Number": 57,
+      "Collected": false
+    },
+    {
+      "Name": "Growlithe",
+      "Number": 58,
+      "Collected": false
+    },
+    {
+      "Name": "Arcanine",
+      "Number": 59,
+      "Collected": true
+    },
+    {
+      "Name": "Poliwag",
+      "Number": 60,
+      "Collected": true
+    },
+    {
+      "Name": "Poliwhirl",
+      "Number": 61,
+      "Collected": false
+    },
+    {
+      "Name": "Poliwrath",
+      "Number": 62,
+      "Collected": false
+    },
+    {
+      "Name": "Abra",
+      "Number": 63,
+      "Collected": true
+    },
+    {
+      "Name": "Kadabra",
+      "Number": 64,
+      "Collected": true
+    },
+    {
+      "Name": "Alakazam",
+      "Number": 65,
+      "Collected": false
+    },
+    {
+      "Name": "Machop",
+      "Number": 66,
+      "Collected": true
+    },
+    {
+      "Name": "Machoke",
+      "Number": 67,
+      "Collected": false
+    },
+    {
+      "Name": "Machamp",
+      "Number": 68,
+      "Collected": true
+    },
+    {
+      "Name": "Bellsprout",
+      "Number": 69,
+      "Collected": false
+    },
+    {
+      "Name": "Weepinbell",
+      "Number": 70,
+      "Collected": false
+    },
+    {
+      "Name": "Victreebel",
+      "Number": 71,
+      "Collected": false
+    },
+    {
+      "Name": "Tentacool",
+      "Number": 72,
+      "Collected": false
+    },
+    {
+      "Name": "Tentacruel",
+      "Number": 73,
+      "Collected": false
+    },
+    {
+      "Name": "Geodude",
+      "Number": 74,
+      "Collected": false
+    },
+    {
+      "Name": "Graveler",
+      "Number": 75,
+      "Collected": true
+    },
+    {
+      "Name": "Golem",
+      "Number": 76,
+      "Collected": false
+    },
+    {
+      "Name": "Ponyta",
+      "Number": 77,
+      "Collected": false
+    },
+    {
+      "Name": "Rapidash",
+      "Number": 78,
+      "Collected": true
+    },
+    {
+      "Name": "Slowpoke",
+      "Number": 79,
+      "Collected": false
+    },
+    {
+      "Name": "Slowbro",
+      "Number": 80,
+      "Collected": true
+    },
+    {
+      "Name": "Magnemite",
+      "Number": 81,
+      "Collected": true
+    },
+    {
+      "Name": "Magneton",
+      "Number": 82,
+      "Collected": false
+    },
+    {
+      "Name": "Farfetch’d",
+      "Number": 83,
+      "Collected": false
+    },
+    {
+      "Name": "Doduo",
+      "Number": 84,
+      "Collected": false
+    },
+    {
+      "Name": "Dodrio",
+      "Number": 85,
+      "Collected": false
+    },
+    {
+      "Name": "Seel",
+      "Number": 86,
+      "Collected": true
+    },
+    {
+      "Name": "Dewgong",
+      "Number": 87,
+      "Collected": false
+    },
+    {
+      "Name": "Grimer",
+      "Number": 88,
+      "Collected": false
+    },
+    {
+      "Name": "Muk",
+      "Number": 89,
+      "Collected": false
+    },
+    {
+      "Name": "Shellder",
+      "Number": 90,
+      "Collected": false
+    },
+    {
+      "Name": "Cloyster",
+      "Number": 91,
+      "Collected": false
+    },
+    {
+      "Name": "Gastly",
+      "Number": 92,
+      "Collected": false
+    },
+    {
+      "Name": "Haunter",
+      "Number": 93,
+      "Collected": false
+    },
+    {
+      "Name": "Gengar",
+      "Number": 94,
+      "Collected": false
+    },
+    {
+      "Name": "Onix",
+      "Number": 95,
+      "Collected": true
+    },
+    {
+      "Name": "Drowzee",
+      "Number": 96,
+      "Collected": true
+    },
+    {
+      "Name": "Hypno",
+      "Number": 97,
+      "Collected": false
+    },
+    {
+      "Name": "Krabby",
+      "Number": 98,
+      "Collected": true
+    },
+    {
+      "Name": "Kingler",
+      "Number": 99,
+      "Collected": false
+    },
+    {
+      "Name": "Voltorb",
+      "Number": 100,
+      "Collected": false
+    },
+    {
+      "Name": "Electrode",
+      "Number": 101,
+      "Collected": false
+    },
+    {
+      "Name": "Exeggcute",
+      "Number": 102,
+      "Collected": false
+    },
+    {
+      "Name": "Exeggutor",
+      "Number": 103,
+      "Collected": false
+    },
+    {
+      "Name": "Cubone",
+      "Number": 104,
+      "Collected": false
+    },
+    {
+      "Name": "Marowak",
+      "Number": 105,
+      "Collected": false
+    },
+    {
+      "Name": "Hitmonlee",
+      "Number": 106,
+      "Collected": false
+    },
+    {
+      "Name": "Hitmonchan",
+      "Number": 107,
+      "Collected": false
+    },
+    {
+      "Name": "Lickitung",
+      "Number": 108,
+      "Collected": false
+    },
+    {
+      "Name": "Koffing",
+      "Number": 109,
+      "Collected": true
+    },
+    {
+      "Name": "Weezing",
+      "Number": 110,
+      "Collected": false
+    },
+    {
+      "Name": "Rhyhorn",
+      "Number": 111,
+      "Collected": false
+    },
+    {
+      "Name": "Rhydon",
+      "Number": 112,
+      "Collected": false
+    },
+    {
+      "Name": "Chansey",
+      "Number": 113,
+      "Collected": false
+    },
+    {
+      "Name": "Tangela",
+      "Number": 114,
+      "Collected": false
+    },
+    {
+      "Name": "Kangaskhan",
+      "Number": 115,
+      "Collected": true
+    },
+    {
+      "Name": "Horsea",
+      "Number": 116,
+      "Collected": false
+    },
+    {
+      "Name": "Seadra",
+      "Number": 117,
+      "Collected": false
+    },
+    {
+      "Name": "Goldeen",
+      "Number": 118,
+      "Collected": true
+    },
+    {
+      "Name": "Seaking",
+      "Number": 119,
+      "Collected": false
+    },
+    {
+      "Name": "Staryu",
+      "Number": 120,
+      "Collected": true
+    },
+    {
+      "Name": "Starmie",
+      "Number": 121,
+      "Collected": true
+    },
+    {
+      "Name": "Mr. Mime",
+      "Number": 122,
+      "Collected": false
+    },
+    {
+      "Name": "Scyther",
+      "Number": 123,
+      "Collected": true
+    },
+    {
+      "Name": "Jynx",
+      "Number": 124,
+      "Collected": true
+    },
+    {
+      "Name": "Electabuzz",
+      "Number": 125,
+      "Collected": true
+    },
+    {
+      "Name": "Magmar",
+      "Number": 126,
+      "Collected": false
+    },
+    {
+      "Name": "Pinsir",
+      "Number": 127,
+      "Collected": false
+    },
+    {
+      "Name": "Tauros",
+      "Number": 128,
+      "Collected": false
+    },
+    {
+      "Name": "Magikarp",
+      "Number": 129,
+      "Collected": false
+    },
+    {
+      "Name": "Gyarados",
+      "Number": 130,
+      "Collected": true
+    },
+    {
+      "Name": "Lapras",
+      "Number": 131,
+      "Collected": true
+    },
+    {
+      "Name": "Ditto",
+      "Number": 132,
+      "Collected": false
+    },
+    {
+      "Name": "Eevee",
+      "Number": 133,
+      "Collected": false
+    },
+    {
+      "Name": "Vaporeon",
+      "Number": 134,
+      "Collected": true
+    },
+    {
+      "Name": "Jolteon",
+      "Number": 135,
+      "Collected": true
+    },
+    {
+      "Name": "Flareon",
+      "Number": 136,
+      "Collected": false
+    },
+    {
+      "Name": "Porygon",
+      "Number": 137,
+      "Collected": false
+    },
+    {
+      "Name": "Omanyte",
+      "Number": 138,
+      "Collected": false
+    },
+    {
+      "Name": "Omastar",
+      "Number": 139,
+      "Collected": false
+    },
+    {
+      "Name": "Kabuto",
+      "Number": 140,
+      "Collected": true
+    },
+    {
+      "Name": "Kabutops",
+      "Number": 141,
+      "Collected": true
+    },
+    {
+      "Name": "Aerodactyl",
+      "Number": 142,
+      "Collected": false
+    },
+    {
+      "Name": "Snorlax",
+      "Number": 143,
+      "Collected": false
+    },
+    {
+      "Name": "Articuno",
+      "Number": 144,
+      "Collected": false
+    },
+    {
+      "Name": "Zapdos",
+      "Number": 145,
+      "Collected": false
+    },
+    {
+      "Name": "Moltres",
+      "Number": 146,
+      "Collected": false
+    },
+    {
+      "Name": "Dratini",
+      "Number": 147,
+      "Collected": true
+    },
+    {
+      "Name": "Dragonair",
+      "Number": 148,
+      "Collected": false
+    },
+    {
+      "Name": "Dragonite",
+      "Number": 149,
+      "Collected": true
+    },
+    {
+      "Name": "Mewtwo",
+      "Number": 150,
+      "Collected": false
+    },
+    {
+      "Name": "Mew",
+      "Number": 151,
+      "Collected": false
+    },
+    {
+      "Name": "Chikorita",
+      "Number": 152,
+      "Collected": false
+    },
+    {
+      "Name": "Bayleef",
+      "Number": 153,
+      "Collected": false
+    },
+    {
+      "Name": "Meganium",
+      "Number": 154,
+      "Collected": false
+    },
+    {
+      "Name": "Cyndaquil",
+      "Number": 155,
+      "Collected": true
+    },
+    {
+      "Name": "Quilava",
+      "Number": 156,
+      "Collected": false
+    },
+    {
+      "Name": "Typhlosion",
+      "Number": 157,
+      "Collected": true
+    },
+    {
+      "Name": "Totodile",
+      "Number": 158,
+      "Collected": false
+    },
+    {
+      "Name": "Croconaw",
+      "Number": 159,
+      "Collected": false
+    },
+    {
+      "Name": "Feraligatr",
+      "Number": 160,
+      "Collected": false
+    },
+    {
+      "Name": "Sentret",
+      "Number": 161,
+      "Collected": false
+    },
+    {
+      "Name": "Furret",
+      "Number": 162,
+      "Collected": false
+    },
+    {
+      "Name": "Hoothoot",
+      "Number": 163,
+      "Collected": false
+    },
+    {
+      "Name": "Noctowl",
+      "Number": 164,
+      "Collected": false
+    },
+    {
+      "Name": "Ledyba",
+      "Number": 165,
+      "Collected": false
+    },
+    {
+      "Name": "Ledian",
+      "Number": 166,
+      "Collected": false
+    },
+    {
+      "Name": "Spinarak",
+      "Number": 167,
+      "Collected": false
+    },
+    {
+      "Name": "Ariados",
+      "Number": 168,
+      "Collected": false
+    },
+    {
+      "Name": "Crobat",
+      "Number": 169,
+      "Collected": false
+    },
+    {
+      "Name": "Chinchou",
+      "Number": 170,
+      "Collected": true
+    },
+    {
+      "Name": "Lanturn",
+      "Number": 171,
+      "Collected": false
+    },
+    {
+      "Name": "Pichu",
+      "Number": 172,
+      "Collected": true
+    },
+    {
+      "Name": "Cleffa",
+      "Number": 173,
+      "Collected": false
+    },
+    {
+      "Name": "Igglybuff",
+      "Number": 174,
+      "Collected": false
+    },
+    {
+      "Name": "Togepi",
+      "Number": 175,
+      "Collected": false
+    },
+    {
+      "Name": "Togetic",
+      "Number": 176,
+      "Collected": false
+    },
+    {
+      "Name": "Natu",
+      "Number": 177,
+      "Collected": false
+    },
+    {
+      "Name": "Xatu",
+      "Number": 178,
+      "Collected": true
+    },
+    {
+      "Name": "Mareep",
+      "Number": 179,
+      "Collected": false
+    },
+    {
+      "Name": "Flaaffy",
+      "Number": 180,
+      "Collected": false
+    },
+    {
+      "Name": "Ampharos",
+      "Number": 181,
+      "Collected": true
+    },
+    {
+      "Name": "Bellossom",
+      "Number": 182,
+      "Collected": false
+    },
+    {
+      "Name": "Marill",
+      "Number": 183,
+      "Collected": true
+    },
+    {
+      "Name": "Azumarill",
+      "Number": 184,
+      "Collected": false
+    },
+    {
+      "Name": "Sudowoodo",
+      "Number": 185,
+      "Collected": true
+    },
+    {
+      "Name": "Politoed",
+      "Number": 186,
+      "Collected": false
+    },
+    {
+      "Name": "Hoppip",
+      "Number": 187,
+      "Collected": false
+    },
+    {
+      "Name": "Skiploom",
+      "Number": 188,
+      "Collected": false
+    },
+    {
+      "Name": "Jumpluff",
+      "Number": 189,
+      "Collected": false
+    },
+    {
+      "Name": "Aipom",
+      "Number": 190,
+      "Collected": false
+    },
+    {
+      "Name": "Sunkern",
+      "Number": 191,
+      "Collected": false
+    },
+    {
+      "Name": "Sunflora",
+      "Number": 192,
+      "Collected": true
+    },
+    {
+      "Name": "Yanma",
+      "Number": 193,
+      "Collected": false
+    },
+    {
+      "Name": "Wooper",
+      "Number": 194,
+      "Collected": true
+    },
+    {
+      "Name": "Quagsire",
+      "Number": 195,
+      "Collected": false
+    },
+    {
+      "Name": "Espeon",
+      "Number": 196,
+      "Collected": false
+    },
+    {
+      "Name": "Umbreon",
+      "Number": 197,
+      "Collected": true
+    },
+    {
+      "Name": "Murkrow",
+      "Number": 198,
+      "Collected": false
+    },
+    {
+      "Name": "Slowking",
+      "Number": 199,
+      "Collected": false
+    },
+    {
+      "Name": "Misdreavus",
+      "Number": 200,
+      "Collected": false
+    },
+    {
+      "Name": "Unown",
+      "Number": 201,
+      "Collected": false
+    },
+    {
+      "Name": "Wobbuffet",
+      "Number": 202,
+      "Collected": true
+    },
+    {
+      "Name": "Girafarig",
+      "Number": 203,
+      "Collected": false
+    },
+    {
+      "Name": "Pineco",
+      "Number": 204,
+      "Collected": true
+    },
+    {
+      "Name": "Forretress",
+      "Number": 205,
+      "Collected": true
+    },
+    {
+      "Name": "Dunsparce",
+      "Number": 206,
+      "Collected": false
+    },
+    {
+      "Name": "Gligar",
+      "Number": 207,
+      "Collected": false
+    },
+    {
+      "Name": "Steelix",
+      "Number": 208,
+      "Collected": false
+    },
+    {
+      "Name": "Snubbull",
+      "Number": 209,
+      "Collected": true
+    },
+    {
+      "Name": "Granbull",
+      "Number": 210,
+      "Collected": false
+    },
+    {
+      "Name": "Qwilfish",
+      "Number": 211,
+      "Collected": false
+    },
+    {
+      "Name": "Scizor",
+      "Number": 212,
+      "Collected": true
+    },
+    {
+      "Name": "Shuckle",
+      "Number": 213,
+      "Collected": false
+    },
+    {
+      "Name": "Heracross",
+      "Number": 214,
+      "Collected": false
+    },
+    {
+      "Name": "Sneasel",
+      "Number": 215,
+      "Collected": false
+    },
+    {
+      "Name": "Teddiursa",
+      "Number": 216,
+      "Collected": false
+    },
+    {
+      "Name": "Ursaring",
+      "Number": 217,
+      "Collected": false
+    },
+    {
+      "Name": "Slugma",
+      "Number": 218,
+      "Collected": false
+    },
+    {
+      "Name": "Magcargo",
+      "Number": 219,
+      "Collected": true
+    },
+    {
+      "Name": "Swinub",
+      "Number": 220,
+      "Collected": false
+    },
+    {
+      "Name": "Piloswine",
+      "Number": 221,
+      "Collected": false
+    },
+    {
+      "Name": "Corsola",
+      "Number": 222,
+      "Collected": false
+    },
+    {
+      "Name": "Remoraid",
+      "Number": 223,
+      "Collected": false
+    },
+    {
+      "Name": "Octillery",
+      "Number": 224,
+      "Collected": false
+    },
+    {
+      "Name": "Delibird",
+      "Number": 225,
+      "Collected": false
+    },
+    {
+      "Name": "Mantine",
+      "Number": 226,
+      "Collected": false
+    },
+    {
+      "Name": "Skarmory",
+      "Number": 227,
+      "Collected": true
+    },
+    {
+      "Name": "Houndour",
+      "Number": 228,
+      "Collected": false
+    },
+    {
+      "Name": "Houndoom",
+      "Number": 229,
+      "Collected": false
+    },
+    {
+      "Name": "Kingdra",
+      "Number": 230,
+      "Collected": true
+    },
+    {
+      "Name": "Phanpy",
+      "Number": 231,
+      "Collected": false
+    },
+    {
+      "Name": "Donphan",
+      "Number": 232,
+      "Collected": false
+    },
+    {
+      "Name": "Porygon2",
+      "Number": 233,
+      "Collected": false
+    },
+    {
+      "Name": "Stantler",
+      "Number": 234,
+      "Collected": false
+    },
+    {
+      "Name": "Smeargle",
+      "Number": 235,
+      "Collected": false
+    },
+    {
+      "Name": "Tyrogue",
+      "Number": 236,
+      "Collected": false
+    },
+    {
+      "Name": "Hitmontop",
+      "Number": 237,
+      "Collected": false
+    },
+    {
+      "Name": "Smoochum",
+      "Number": 238,
+      "Collected": false
+    },
+    {
+      "Name": "Elekid",
+      "Number": 239,
+      "Collected": false
+    },
+    {
+      "Name": "Magby",
+      "Number": 240,
+      "Collected": true
+    },
+    {
+      "Name": "Miltank",
+      "Number": 241,
+      "Collected": false
+    },
+    {
+      "Name": "Blissey",
+      "Number": 242,
+      "Collected": false
+    },
+    {
+      "Name": "Raikou",
+      "Number": 243,
+      "Collected": false
+    },
+    {
+      "Name": "Entei",
+      "Number": 244,
+      "Collected": false
+    },
+    {
+      "Name": "Suicune",
+      "Number": 245,
+      "Collected": false
+    },
+    {
+      "Name": "Larvitar",
+      "Number": 246,
+      "Collected": false
+    },
+    {
+      "Name": "Pupitar",
+      "Number": 247,
+      "Collected": true
+    },
+    {
+      "Name": "Tyranitar",
+      "Number": 248,
+      "Collected": true
+    },
+    {
+      "Name": "Lugia",
+      "Number": 249,
+      "Collected": false
+    },
+    {
+      "Name": "Ho-Oh",
+      "Number": 250,
+      "Collected": false
+    },
+    {
+      "Name": "Celebi",
+      "Number": 251,
+      "Collected": false
+    },
+    {
+      "Name": "Treecko",
+      "Number": 252,
+      "Collected": false
+    },
+    {
+      "Name": "Grovyle",
+      "Number": 253,
+      "Collected": false
+    },
+    {
+      "Name": "Sceptile",
+      "Number": 254,
+      "Collected": true
+    },
+    {
+      "Name": "Torchic",
+      "Number": 255,
+      "Collected": false
+    },
+    {
+      "Name": "Combusken",
+      "Number": 256,
+      "Collected": true
+    },
+    {
+      "Name": "Blaziken",
+      "Number": 257,
+      "Collected": false
+    },
+    {
+      "Name": "Mudkip",
+      "Number": 258,
+      "Collected": false
+    },
+    {
+      "Name": "Marshtomp",
+      "Number": 259,
+      "Collected": false
+    },
+    {
+      "Name": "Swampert",
+      "Number": 260,
+      "Collected": false
+    },
+    {
+      "Name": "Poochyena",
+      "Number": 261,
+      "Collected": true
+    },
+    {
+      "Name": "Mightyena",
+      "Number": 262,
+      "Collected": false
+    },
+    {
+      "Name": "Zigzagoon",
+      "Number": 263,
+      "Collected": true
+    },
+    {
+      "Name": "Linoone",
+      "Number": 264,
+      "Collected": false
+    },
+    {
+      "Name": "Wurmple",
+      "Number": 265,
+      "Collected": false
+    },
+    {
+      "Name": "Silcoon",
+      "Number": 266,
+      "Collected": false
+    },
+    {
+      "Name": "Beautifly",
+      "Number": 267,
+      "Collected": true
+    },
+    {
+      "Name": "Cascoon",
+      "Number": 268,
+      "Collected": false
+    },
+    {
+      "Name": "Dustox",
+      "Number": 269,
+      "Collected": false
+    },
+    {
+      "Name": "Lotad",
+      "Number": 270,
+      "Collected": false
+    },
+    {
+      "Name": "Lombre",
+      "Number": 271,
+      "Collected": true
+    },
+    {
+      "Name": "Ludicolo",
+      "Number": 272,
+      "Collected": true
+    },
+    {
+      "Name": "Seedot",
+      "Number": 273,
+      "Collected": true
+    },
+    {
+      "Name": "Nuzleaf",
+      "Number": 274,
+      "Collected": true
+    },
+    {
+      "Name": "Shiftry",
+      "Number": 275,
+      "Collected": false
+    },
+    {
+      "Name": "Taillow",
+      "Number": 276,
+      "Collected": false
+    },
+    {
+      "Name": "Swellow",
+      "Number": 277,
+      "Collected": false
+    },
+    {
+      "Name": "Wingull",
+      "Number": 278,
+      "Collected": false
+    },
+    {
+      "Name": "Pelipper",
+      "Number": 279,
+      "Collected": false
+    },
+    {
+      "Name": "Ralts",
+      "Number": 280,
+      "Collected": true
+    },
+    {
+      "Name": "Kirlia",
+      "Number": 281,
+      "Collected": false
+    },
+    {
+      "Name": "Gardevoir",
+      "Number": 282,
+      "Collected": true
+    },
+    {
+      "Name": "Surskit",
+      "Number": 283,
+      "Collected": false
+    },
+    {
+      "Name": "Masquerain",
+      "Number": 284,
+      "Collected": false
+    },
+    {
+      "Name": "Shroomish",
+      "Number": 285,
+      "Collected": false
+    },
+    {
+      "Name": "Breloom",
+      "Number": 286,
+      "Collected": false
+    },
+    {
+      "Name": "Slakoth",
+      "Number": 287,
+      "Collected": false
+    },
+    {
+      "Name": "Vigoroth",
+      "Number": 288,
+      "Collected": false
+    },
+    {
+      "Name": "Slaking",
+      "Number": 289,
+      "Collected": false
+    },
+    {
+      "Name": "Nincada",
+      "Number": 290,
+      "Collected": false
+    },
+    {
+      "Name": "Ninjask",
+      "Number": 291,
+      "Collected": false
+    },
+    {
+      "Name": "Shedinja",
+      "Number": 292,
+      "Collected": false
+    },
+    {
+      "Name": "Whismur",
+      "Number": 293,
+      "Collected": false
+    },
+    {
+      "Name": "Loudred",
+      "Number": 294,
+      "Collected": false
+    },
+    {
+      "Name": "Exploud",
+      "Number": 295,
+      "Collected": false
+    },
+    {
+      "Name": "Makuhita",
+      "Number": 296,
+      "Collected": false
+    },
+    {
+      "Name": "Hariyama",
+      "Number": 297,
+      "Collected": false
+    },
+    {
+      "Name": "Azurill",
+      "Number": 298,
+      "Collected": false
+    },
+    {
+      "Name": "Nosepass",
+      "Number": 299,
+      "Collected": false
+    },
+    {
+      "Name": "Skitty",
+      "Number": 300,
+      "Collected": false
+    },
+    {
+      "Name": "Delcatty",
+      "Number": 301,
+      "Collected": false
+    },
+    {
+      "Name": "Sableye",
+      "Number": 302,
+      "Collected": false
+    },
+    {
+      "Name": "Mawile",
+      "Number": 303,
+      "Collected": false
+    },
+    {
+      "Name": "Aron",
+      "Number": 304,
+      "Collected": false
+    },
+    {
+      "Name": "Lairon",
+      "Number": 305,
+      "Collected": true
+    },
+    {
+      "Name": "Aggron",
+      "Number": 306,
+      "Collected": true
+    },
+    {
+      "Name": "Meditite",
+      "Number": 307,
+      "Collected": false
+    },
+    {
+      "Name": "Medicham",
+      "Number": 308,
+      "Collected": false
+    },
+    {
+      "Name": "Electrike",
+      "Number": 309,
+      "Collected": true
+    },
+    {
+      "Name": "Manectric",
+      "Number": 310,
+      "Collected": true
+    },
+    {
+      "Name": "Plusle",
+      "Number": 311,
+      "Collected": false
+    },
+    {
+      "Name": "Minun",
+      "Number": 312,
+      "Collected": false
+    },
+    {
+      "Name": "Volbeat",
+      "Number": 313,
+      "Collected": false
+    },
+    {
+      "Name": "Illumise",
+      "Number": 314,
+      "Collected": false
+    },
+    {
+      "Name": "Roselia",
+      "Number": 315,
+      "Collected": false
+    },
+    {
+      "Name": "Gulpin",
+      "Number": 316,
+      "Collected": false
+    },
+    {
+      "Name": "Swalot",
+      "Number": 317,
+      "Collected": false
+    },
+    {
+      "Name": "Carvanha",
+      "Number": 318,
+      "Collected": false
+    },
+    {
+      "Name": "Sharpedo",
+      "Number": 319,
+      "Collected": true
+    },
+    {
+      "Name": "Wailmer",
+      "Number": 320,
+      "Collected": false
+    },
+    {
+      "Name": "Wailord",
+      "Number": 321,
+      "Collected": false
+    },
+    {
+      "Name": "Numel",
+      "Number": 322,
+      "Collected": true
+    },
+    {
+      "Name": "Camerupt",
+      "Number": 323,
+      "Collected": true
+    },
+    {
+      "Name": "Torkoal",
+      "Number": 324,
+      "Collected": false
+    },
+    {
+      "Name": "Spoink",
+      "Number": 325,
+      "Collected": false
+    },
+    {
+      "Name": "Grumpig",
+      "Number": 326,
+      "Collected": true
+    },
+    {
+      "Name": "Spinda",
+      "Number": 327,
+      "Collected": false
+    },
+    {
+      "Name": "Trapinch",
+      "Number": 328,
+      "Collected": true
+    },
+    {
+      "Name": "Vibrava",
+      "Number": 329,
+      "Collected": false
+    },
+    {
+      "Name": "Flygon",
+      "Number": 330,
+      "Collected": true
+    },
+    {
+      "Name": "Cacnea",
+      "Number": 331,
+      "Collected": true
+    },
+    {
+      "Name": "Cacturne",
+      "Number": 332,
+      "Collected": false
+    },
+    {
+      "Name": "Swablu",
+      "Number": 333,
+      "Collected": true
+    },
+    {
+      "Name": "Altaria",
+      "Number": 334,
+      "Collected": true
+    },
+    {
+      "Name": "Zangoose",
+      "Number": 335,
+      "Collected": false
+    },
+    {
+      "Name": "Seviper",
+      "Number": 336,
+      "Collected": false
+    },
+    {
+      "Name": "Lunatone",
+      "Number": 337,
+      "Collected": false
+    },
+    {
+      "Name": "Solrock",
+      "Number": 338,
+      "Collected": false
+    },
+    {
+      "Name": "Barboach",
+      "Number": 339,
+      "Collected": false
+    },
+    {
+      "Name": "Whiscash",
+      "Number": 340,
+      "Collected": true
+    },
+    {
+      "Name": "Corphish",
+      "Number": 341,
+      "Collected": false
+    },
+    {
+      "Name": "Crawdaunt",
+      "Number": 342,
+      "Collected": true
+    },
+    {
+      "Name": "Baltoy",
+      "Number": 343,
+      "Collected": false
+    },
+    {
+      "Name": "Claydol",
+      "Number": 344,
+      "Collected": false
+    },
+    {
+      "Name": "Lileep",
+      "Number": 345,
+      "Collected": true
+    },
+    {
+      "Name": "Cradily",
+      "Number": 346,
+      "Collected": false
+    },
+    {
+      "Name": "Anorith",
+      "Number": 347,
+      "Collected": false
+    },
+    {
+      "Name": "Armaldo",
+      "Number": 348,
+      "Collected": true
+    },
+    {
+      "Name": "Feebas",
+      "Number": 349,
+      "Collected": false
+    },
+    {
+      "Name": "Milotic",
+      "Number": 350,
+      "Collected": false
+    },
+    {
+      "Name": "Castform",
+      "Number": 351,
+      "Collected": false
+    },
+    {
+      "Name": "Kecleon",
+      "Number": 352,
+      "Collected": false
+    },
+    {
+      "Name": "Shuppet",
+      "Number": 353,
+      "Collected": false
+    },
+    {
+      "Name": "Banette",
+      "Number": 354,
+      "Collected": true
+    },
+    {
+      "Name": "Duskull",
+      "Number": 355,
+      "Collected": true
+    },
+    {
+      "Name": "Dusclops",
+      "Number": 356,
+      "Collected": true
+    },
+    {
+      "Name": "Tropius",
+      "Number": 357,
+      "Collected": false
+    },
+    {
+      "Name": "Chimecho",
+      "Number": 358,
+      "Collected": false
+    },
+    {
+      "Name": "Absol",
+      "Number": 359,
+      "Collected": true
+    },
+    {
+      "Name": "Wynaut",
+      "Number": 360,
+      "Collected": false
+    },
+    {
+      "Name": "Snorunt",
+      "Number": 361,
+      "Collected": false
+    },
+    {
+      "Name": "Glalie",
+      "Number": 362,
+      "Collected": true
+    },
+    {
+      "Name": "Spheal",
+      "Number": 363,
+      "Collected": true
+    },
+    {
+      "Name": "Sealeo",
+      "Number": 364,
+      "Collected": true
+    },
+    {
+      "Name": "Walrein",
+      "Number": 365,
+      "Collected": true
+    },
+    {
+      "Name": "Clamperl",
+      "Number": 366,
+      "Collected": false
+    },
+    {
+      "Name": "Huntail",
+      "Number": 367,
+      "Collected": false
+    },
+    {
+      "Name": "Gorebyss",
+      "Number": 368,
+      "Collected": false
+    },
+    {
+      "Name": "Relicanth",
+      "Number": 369,
+      "Collected": false
+    },
+    {
+      "Name": "Luvdisc",
+      "Number": 370,
+      "Collected": false
+    },
+    {
+      "Name": "Bagon",
+      "Number": 371,
+      "Collected": false
+    },
+    {
+      "Name": "Shelgon",
+      "Number": 372,
+      "Collected": false
+    },
+    {
+      "Name": "Salamence",
+      "Number": 373,
+      "Collected": true
+    },
+    {
+      "Name": "Beldum",
+      "Number": 374,
+      "Collected": true
+    },
+    {
+      "Name": "Metang",
+      "Number": 375,
+      "Collected": false
+    },
+    {
+      "Name": "Metagross",
+      "Number": 376,
+      "Collected": true
+    },
+    {
+      "Name": "Regirock",
+      "Number": 377,
+      "Collected": false
+    },
+    {
+      "Name": "Regice",
+      "Number": 378,
+      "Collected": false
+    },
+    {
+      "Name": "Registeel",
+      "Number": 379,
+      "Collected": false
+    },
+    {
+      "Name": "Latias",
+      "Number": 380,
+      "Collected": true
+    },
+    {
+      "Name": "Latios",
+      "Number": 381,
+      "Collected": false
+    },
+    {
+      "Name": "Kyogre",
+      "Number": 382,
+      "Collected": false
+    },
+    {
+      "Name": "Groudon",
+      "Number": 383,
+      "Collected": false
+    },
+    {
+      "Name": "Rayquaza",
+      "Number": 384,
+      "Collected": true
+    },
+    {
+      "Name": "Jirachi",
+      "Number": 385,
+      "Collected": true
+    },
+    {
+      "Name": "Deoxys",
+      "Number": 386,
+      "Collected": false
+    },
+    {
+      "Name": "Turtwig",
+      "Number": 387,
+      "Collected": false
+    },
+    {
+      "Name": "Grotle",
+      "Number": 388,
+      "Collected": false
+    },
+    {
+      "Name": "Torterra",
+      "Number": 389,
+      "Collected": true
+    },
+    {
+      "Name": "Chimchar",
+      "Number": 390,
+      "Collected": true
+    },
+    {
+      "Name": "Monferno",
+      "Number": 391,
+      "Collected": true
+    },
+    {
+      "Name": "Infernape",
+      "Number": 392,
+      "Collected": true
+    },
+    {
+      "Name": "Piplup",
+      "Number": 393,
+      "Collected": false
+    },
+    {
+      "Name": "Prinplup",
+      "Number": 394,
+      "Collected": false
+    },
+    {
+      "Name": "Empoleon",
+      "Number": 395,
+      "Collected": true
+    },
+    {
+      "Name": "Starly",
+      "Number": 396,
+      "Collected": false
+    },
+    {
+      "Name": "Staravia",
+      "Number": 397,
+      "Collected": false
+    },
+    {
+      "Name": "Staraptor",
+      "Number": 398,
+      "Collected": false
+    },
+    {
+      "Name": "Bidoof",
+      "Number": 399,
+      "Collected": false
+    },
+    {
+      "Name": "Bibarel",
+      "Number": 400,
+      "Collected": false
+    },
+    {
+      "Name": "Kricketot",
+      "Number": 401,
+      "Collected": false
+    },
+    {
+      "Name": "Kricketune",
+      "Number": 402,
+      "Collected": true
+    },
+    {
+      "Name": "Shinx",
+      "Number": 403,
+      "Collected": false
+    },
+    {
+      "Name": "Luxio",
+      "Number": 404,
+      "Collected": false
+    },
+    {
+      "Name": "Luxray",
+      "Number": 405,
+      "Collected": false
+    },
+    {
+      "Name": "Budew",
+      "Number": 406,
+      "Collected": false
+    },
+    {
+      "Name": "Roserade",
+      "Number": 407,
+      "Collected": false
+    },
+    {
+      "Name": "Cranidos",
+      "Number": 408,
+      "Collected": false
+    },
+    {
+      "Name": "Rampardos",
+      "Number": 409,
+      "Collected": true
+    },
+    {
+      "Name": "Shieldon",
+      "Number": 410,
+      "Collected": false
+    },
+    {
+      "Name": "Bastiodon",
+      "Number": 411,
+      "Collected": false
+    },
+    {
+      "Name": "Burmy",
+      "Number": 412,
+      "Collected": true
+    },
+    {
+      "Name": "Wormadam",
+      "Number": 413,
+      "Collected": false
+    },
+    {
+      "Name": "Mothim",
+      "Number": 414,
+      "Collected": false
+    },
+    {
+      "Name": "Combee",
+      "Number": 415,
+      "Collected": true
+    },
+    {
+      "Name": "Vespiquen",
+      "Number": 416,
+      "Collected": false
+    },
+    {
+      "Name": "Pachirisu",
+      "Number": 417,
+      "Collected": false
+    },
+    {
+      "Name": "Buizel",
+      "Number": 418,
+      "Collected": false
+    },
+    {
+      "Name": "Floatzel",
+      "Number": 419,
+      "Collected": true
+    },
+    {
+      "Name": "Cherubi",
+      "Number": 420,
+      "Collected": false
+    },
+    {
+      "Name": "Cherrim",
+      "Number": 421,
+      "Collected": false
+    },
+    {
+      "Name": "Shellos",
+      "Number": 422,
+      "Collected": false
+    },
+    {
+      "Name": "Gastrodon",
+      "Number": 423,
+      "Collected": false
+    },
+    {
+      "Name": "Ambipom",
+      "Number": 424,
+      "Collected": false
+    },
+    {
+      "Name": "Drifloon",
+      "Number": 425,
+      "Collected": false
+    },
+    {
+      "Name": "Drifblim",
+      "Number": 426,
+      "Collected": false
+    },
+    {
+      "Name": "Buneary",
+      "Number": 427,
+      "Collected": true
+    },
+    {
+      "Name": "Lopunny",
+      "Number": 428,
+      "Collected": false
+    },
+    {
+      "Name": "Mismagius",
+      "Number": 429,
+      "Collected": true
+    },
+    {
+      "Name": "Honchkrow",
+      "Number": 430,
+      "Collected": true
+    },
+    {
+      "Name": "Glameow",
+      "Number": 431,
+      "Collected": false
+    },
+    {
+      "Name": "Purugly",
+      "Number": 432,
+      "Collected": true
+    },
+    {
+      "Name": "Chingling",
+      "Number": 433,
+      "Collected": false
+    },
+    {
+      "Name": "Stunky",
+      "Number": 434,
+      "Collected": false
+    },
+    {
+      "Name": "Skuntank",
+      "Number": 435,
+      "Collected": false
+    },
+    {
+      "Name": "Bronzor",
+      "Number": 436,
+      "Collected": false
+    },
+    {
+      "Name": "Bronzong",
+      "Number": 437,
+      "Collected": false
+    },
+    {
+      "Name": "Bonsly",
+      "Number": 438,
+      "Collected": false
+    },
+    {
+      "Name": "Mime Jr.",
+      "Number": 439,
+      "Collected": false
+    },
+    {
+      "Name": "Happiny",
+      "Number": 440,
+      "Collected": false
+    },
+    {
+      "Name": "Chatot",
+      "Number": 441,
+      "Collected": false
+    },
+    {
+      "Name": "Spiritomb",
+      "Number": 442,
+      "Collected": false
+    },
+    {
+      "Name": "Gible",
+      "Number": 443,
+      "Collected": false
+    },
+    {
+      "Name": "Gabite",
+      "Number": 444,
+      "Collected": false
+    },
+    {
+      "Name": "Garchomp",
+      "Number": 445,
+      "Collected": false
+    },
+    {
+      "Name": "Munchlax",
+      "Number": 446,
+      "Collected": false
+    },
+    {
+      "Name": "Riolu",
+      "Number": 447,
+      "Collected": false
+    },
+    {
+      "Name": "Lucario",
+      "Number": 448,
+      "Collected": true
+    },
+    {
+      "Name": "Hippopotas",
+      "Number": 449,
+      "Collected": false
+    },
+    {
+      "Name": "Hippowdon",
+      "Number": 450,
+      "Collected": true
+    },
+    {
+      "Name": "Skorupi",
+      "Number": 451,
+      "Collected": false
+    },
+    {
+      "Name": "Drapion",
+      "Number": 452,
+      "Collected": false
+    },
+    {
+      "Name": "Croagunk",
+      "Number": 453,
+      "Collected": false
+    },
+    {
+      "Name": "Toxicroak",
+      "Number": 454,
+      "Collected": false
+    },
+    {
+      "Name": "Carnivine",
+      "Number": 455,
+      "Collected": false
+    },
+    {
+      "Name": "Finneon",
+      "Number": 456,
+      "Collected": false
+    },
+    {
+      "Name": "Lumineon",
+      "Number": 457,
+      "Collected": false
+    },
+    {
+      "Name": "Mantyke",
+      "Number": 458,
+      "Collected": false
+    },
+    {
+      "Name": "Snover",
+      "Number": 459,
+      "Collected": false
+    },
+    {
+      "Name": "Abomasnow",
+      "Number": 460,
+      "Collected": false
+    },
+    {
+      "Name": "Weavile",
+      "Number": 461,
+      "Collected": false
+    },
+    {
+      "Name": "Magnezone",
+      "Number": 462,
+      "Collected": false
+    },
+    {
+      "Name": "Lickilicky",
+      "Number": 463,
+      "Collected": false
+    },
+    {
+      "Name": "Rhyperior",
+      "Number": 464,
+      "Collected": true
+    },
+    {
+      "Name": "Tangrowth",
+      "Number": 465,
+      "Collected": false
+    },
+    {
+      "Name": "Electivire",
+      "Number": 466,
+      "Collected": true
+    },
+    {
+      "Name": "Magmortar",
+      "Number": 467,
+      "Collected": true
+    },
+    {
+      "Name": "Togekiss",
+      "Number": 468,
+      "Collected": false
+    },
+    {
+      "Name": "Yanmega",
+      "Number": 469,
+      "Collected": false
+    },
+    {
+      "Name": "Leafeon",
+      "Number": 470,
+      "Collected": false
+    },
+    {
+      "Name": "Glaceon",
+      "Number": 471,
+      "Collected": false
+    },
+    {
+      "Name": "Gliscor",
+      "Number": 472,
+      "Collected": false
+    },
+    {
+      "Name": "Mamoswine",
+      "Number": 473,
+      "Collected": false
+    },
+    {
+      "Name": "Porygon-Z",
+      "Number": 474,
+      "Collected": true
+    },
+    {
+      "Name": "Gallade",
+      "Number": 475,
+      "Collected": false
+    },
+    {
+      "Name": "Probopass",
+      "Number": 476,
+      "Collected": false
+    },
+    {
+      "Name": "Dusknoir",
+      "Number": 477,
+      "Collected": false
+    },
+    {
+      "Name": "Froslass",
+      "Number": 478,
+      "Collected": false
+    },
+    {
+      "Name": "Rotom",
+      "Number": 479,
+      "Collected": false
+    },
+    {
+      "Name": "Uxie",
+      "Number": 480,
+      "Collected": false
+    },
+    {
+      "Name": "Mesprit",
+      "Number": 481,
+      "Collected": false
+    },
+    {
+      "Name": "Azelf",
+      "Number": 482,
+      "Collected": false
+    },
+    {
+      "Name": "Dialga",
+      "Number": 483,
+      "Collected": false
+    },
+    {
+      "Name": "Palkia",
+      "Number": 484,
+      "Collected": true
+    },
+    {
+      "Name": "Heatran",
+      "Number": 485,
+      "Collected": false
+    },
+    {
+      "Name": "Regigigas",
+      "Number": 486,
+      "Collected": false
+    },
+    {
+      "Name": "Giratina",
+      "Number": 487,
+      "Collected": false
+    },
+    {
+      "Name": "Cresselia",
+      "Number": 488,
+      "Collected": false
+    },
+    {
+      "Name": "Phione",
+      "Number": 489,
+      "Collected": false
+    },
+    {
+      "Name": "Manaphy",
+      "Number": 490,
+      "Collected": false
+    },
+    {
+      "Name": "Darkrai",
+      "Number": 491,
+      "Collected": false
+    },
+    {
+      "Name": "Shaymin",
+      "Number": 492,
+      "Collected": false
+    },
+    {
+      "Name": "Arceus",
+      "Number": 493,
+      "Collected": false
+    },
+    {
+      "Name": "Victini",
+      "Number": 494,
+      "Collected": false
+    },
+    {
+      "Name": "Snivy",
+      "Number": 495,
+      "Collected": false
+    },
+    {
+      "Name": "Servine",
+      "Number": 496,
+      "Collected": false
+    },
+    {
+      "Name": "Serperior",
+      "Number": 497,
+      "Collected": false
+    },
+    {
+      "Name": "Tepig",
+      "Number": 498,
+      "Collected": false
+    },
+    {
+      "Name": "Pignite",
+      "Number": 499,
+      "Collected": false
+    },
+    {
+      "Name": "Emboar",
+      "Number": 500,
+      "Collected": false
+    },
+    {
+      "Name": "Oshawott",
+      "Number": 501,
+      "Collected": false
+    },
+    {
+      "Name": "Dewott",
+      "Number": 502,
+      "Collected": false
+    },
+    {
+      "Name": "Samurott",
+      "Number": 503,
+      "Collected": false
+    },
+    {
+      "Name": "Patrat",
+      "Number": 504,
+      "Collected": false
+    },
+    {
+      "Name": "Watchog",
+      "Number": 505,
+      "Collected": false
+    },
+    {
+      "Name": "Lillipup",
+      "Number": 506,
+      "Collected": false
+    },
+    {
+      "Name": "Herdier",
+      "Number": 507,
+      "Collected": false
+    },
+    {
+      "Name": "Stoutland",
+      "Number": 508,
+      "Collected": false
+    },
+    {
+      "Name": "Purrloin",
+      "Number": 509,
+      "Collected": false
+    },
+    {
+      "Name": "Liepard",
+      "Number": 510,
+      "Collected": false
+    },
+    {
+      "Name": "Pansage",
+      "Number": 511,
+      "Collected": false
+    },
+    {
+      "Name": "Simisage",
+      "Number": 512,
+      "Collected": false
+    },
+    {
+      "Name": "Pansear",
+      "Number": 513,
+      "Collected": false
+    },
+    {
+      "Name": "Simisear",
+      "Number": 514,
+      "Collected": false
+    },
+    {
+      "Name": "Panpour",
+      "Number": 515,
+      "Collected": false
+    },
+    {
+      "Name": "Simipour",
+      "Number": 516,
+      "Collected": false
+    },
+    {
+      "Name": "Munna",
+      "Number": 517,
+      "Collected": false
+    },
+    {
+      "Name": "Musharna",
+      "Number": 518,
+      "Collected": false
+    },
+    {
+      "Name": "Pidove",
+      "Number": 519,
+      "Collected": false
+    },
+    {
+      "Name": "Tranquill",
+      "Number": 520,
+      "Collected": false
+    },
+    {
+      "Name": "Unfezant",
+      "Number": 521,
+      "Collected": false
+    },
+    {
+      "Name": "Blitzle",
+      "Number": 522,
+      "Collected": false
+    },
+    {
+      "Name": "Zebstrika",
+      "Number": 523,
+      "Collected": false
+    },
+    {
+      "Name": "Roggenrola",
+      "Number": 524,
+      "Collected": false
+    },
+    {
+      "Name": "Boldore",
+      "Number": 525,
+      "Collected": false
+    },
+    {
+      "Name": "Gigalith",
+      "Number": 526,
+      "Collected": false
+    },
+    {
+      "Name": "Woobat",
+      "Number": 527,
+      "Collected": false
+    },
+    {
+      "Name": "Swoobat",
+      "Number": 528,
+      "Collected": false
+    },
+    {
+      "Name": "Drilbur",
+      "Number": 529,
+      "Collected": false
+    },
+    {
+      "Name": "Excadrill",
+      "Number": 530,
+      "Collected": false
+    },
+    {
+      "Name": "Audino",
+      "Number": 531,
+      "Collected": false
+    },
+    {
+      "Name": "Timburr",
+      "Number": 532,
+      "Collected": false
+    },
+    {
+      "Name": "Gurdurr",
+      "Number": 533,
+      "Collected": false
+    },
+    {
+      "Name": "Conkeldurr",
+      "Number": 534,
+      "Collected": false
+    },
+    {
+      "Name": "Tympole",
+      "Number": 535,
+      "Collected": false
+    },
+    {
+      "Name": "Palpitoad",
+      "Number": 536,
+      "Collected": false
+    },
+    {
+      "Name": "Seismitoad",
+      "Number": 537,
+      "Collected": false
+    },
+    {
+      "Name": "Throh",
+      "Number": 538,
+      "Collected": false
+    },
+    {
+      "Name": "Sawk",
+      "Number": 539,
+      "Collected": false
+    },
+    {
+      "Name": "Sewaddle",
+      "Number": 540,
+      "Collected": false
+    },
+    {
+      "Name": "Swadloon",
+      "Number": 541,
+      "Collected": false
+    },
+    {
+      "Name": "Leavanny",
+      "Number": 542,
+      "Collected": false
+    },
+    {
+      "Name": "Venipede",
+      "Number": 543,
+      "Collected": false
+    },
+    {
+      "Name": "Whirlipede",
+      "Number": 544,
+      "Collected": false
+    },
+    {
+      "Name": "Scolipede",
+      "Number": 545,
+      "Collected": false
+    },
+    {
+      "Name": "Cottonee",
+      "Number": 546,
+      "Collected": false
+    },
+    {
+      "Name": "Whimsicott",
+      "Number": 547,
+      "Collected": false
+    },
+    {
+      "Name": "Petilil",
+      "Number": 548,
+      "Collected": false
+    },
+    {
+      "Name": "Lilligant",
+      "Number": 549,
+      "Collected": false
+    },
+    {
+      "Name": "Basculin",
+      "Number": 550,
+      "Collected": false
+    },
+    {
+      "Name": "Sandile",
+      "Number": 551,
+      "Collected": false
+    },
+    {
+      "Name": "Krokorok",
+      "Number": 552,
+      "Collected": false
+    },
+    {
+      "Name": "Krookodile",
+      "Number": 553,
+      "Collected": false
+    },
+    {
+      "Name": "Darumaka",
+      "Number": 554,
+      "Collected": false
+    },
+    {
+      "Name": "Darmanitan",
+      "Number": 555,
+      "Collected": false
+    },
+    {
+      "Name": "Maractus",
+      "Number": 556,
+      "Collected": true
+    },
+    {
+      "Name": "Dwebble",
+      "Number": 557,
+      "Collected": false
+    },
+    {
+      "Name": "Crustle",
+      "Number": 558,
+      "Collected": false
+    },
+    {
+      "Name": "Scraggy",
+      "Number": 559,
+      "Collected": false
+    },
+    {
+      "Name": "Scrafty",
+      "Number": 560,
+      "Collected": false
+    },
+    {
+      "Name": "Sigilyph",
+      "Number": 561,
+      "Collected": false
+    },
+    {
+      "Name": "Yamask",
+      "Number": 562,
+      "Collected": false
+    },
+    {
+      "Name": "Cofagrigus",
+      "Number": 563,
+      "Collected": false
+    },
+    {
+      "Name": "Tirtouga",
+      "Number": 564,
+      "Collected": false
+    },
+    {
+      "Name": "Carracosta",
+      "Number": 565,
+      "Collected": false
+    },
+    {
+      "Name": "Archen",
+      "Number": 566,
+      "Collected": false
+    },
+    {
+      "Name": "Archeops",
+      "Number": 567,
+      "Collected": false
+    },
+    {
+      "Name": "Trubbish",
+      "Number": 568,
+      "Collected": false
+    },
+    {
+      "Name": "Garbodor",
+      "Number": 569,
+      "Collected": false
+    },
+    {
+      "Name": "Zorua",
+      "Number": 570,
+      "Collected": false
+    },
+    {
+      "Name": "Zoroark",
+      "Number": 571,
+      "Collected": false
+    },
+    {
+      "Name": "Minccino",
+      "Number": 572,
+      "Collected": false
+    },
+    {
+      "Name": "Cinccino",
+      "Number": 573,
+      "Collected": false
+    },
+    {
+      "Name": "Gothita",
+      "Number": 574,
+      "Collected": false
+    },
+    {
+      "Name": "Gothorita",
+      "Number": 575,
+      "Collected": false
+    },
+    {
+      "Name": "Gothitelle",
+      "Number": 576,
+      "Collected": false
+    },
+    {
+      "Name": "Solosis",
+      "Number": 577,
+      "Collected": false
+    },
+    {
+      "Name": "Duosion",
+      "Number": 578,
+      "Collected": false
+    },
+    {
+      "Name": "Reuniclus",
+      "Number": 579,
+      "Collected": false
+    },
+    {
+      "Name": "Ducklett",
+      "Number": 580,
+      "Collected": false
+    },
+    {
+      "Name": "Swanna",
+      "Number": 581,
+      "Collected": false
+    },
+    {
+      "Name": "Vanillite",
+      "Number": 582,
+      "Collected": false
+    },
+    {
+      "Name": "Vanillish",
+      "Number": 583,
+      "Collected": false
+    },
+    {
+      "Name": "Vanilluxe",
+      "Number": 584,
+      "Collected": false
+    },
+    {
+      "Name": "Deerling",
+      "Number": 585,
+      "Collected": false
+    },
+    {
+      "Name": "Sawsbuck",
+      "Number": 586,
+      "Collected": false
+    },
+    {
+      "Name": "Emolga",
+      "Number": 587,
+      "Collected": false
+    },
+    {
+      "Name": "Karrablast",
+      "Number": 588,
+      "Collected": false
+    },
+    {
+      "Name": "Escavalier",
+      "Number": 589,
+      "Collected": false
+    },
+    {
+      "Name": "Foongus",
+      "Number": 590,
+      "Collected": false
+    },
+    {
+      "Name": "Amoonguss",
+      "Number": 591,
+      "Collected": false
+    },
+    {
+      "Name": "Frillish",
+      "Number": 592,
+      "Collected": false
+    },
+    {
+      "Name": "Jellicent",
+      "Number": 593,
+      "Collected": false
+    },
+    {
+      "Name": "Alomomola",
+      "Number": 594,
+      "Collected": false
+    },
+    {
+      "Name": "Joltik",
+      "Number": 595,
+      "Collected": false
+    },
+    {
+      "Name": "Galvantula",
+      "Number": 596,
+      "Collected": false
+    },
+    {
+      "Name": "Ferroseed",
+      "Number": 597,
+      "Collected": false
+    },
+    {
+      "Name": "Ferrothorn",
+      "Number": 598,
+      "Collected": false
+    },
+    {
+      "Name": "Klink",
+      "Number": 599,
+      "Collected": false
+    },
+    {
+      "Name": "Klang",
+      "Number": 600,
+      "Collected": false
+    },
+    {
+      "Name": "Klinklang",
+      "Number": 601,
+      "Collected": false
+    },
+    {
+      "Name": "Tynamo",
+      "Number": 602,
+      "Collected": false
+    },
+    {
+      "Name": "Eelektrik",
+      "Number": 603,
+      "Collected": false
+    },
+    {
+      "Name": "Eelektross",
+      "Number": 604,
+      "Collected": false
+    },
+    {
+      "Name": "Elgyem",
+      "Number": 605,
+      "Collected": false
+    },
+    {
+      "Name": "Beheeyem",
+      "Number": 606,
+      "Collected": false
+    },
+    {
+      "Name": "Litwick",
+      "Number": 607,
+      "Collected": false
+    },
+    {
+      "Name": "Lampent",
+      "Number": 608,
+      "Collected": false
+    },
+    {
+      "Name": "Chandelure",
+      "Number": 609,
+      "Collected": false
+    },
+    {
+      "Name": "Axew",
+      "Number": 610,
+      "Collected": false
+    },
+    {
+      "Name": "Fraxure",
+      "Number": 611,
+      "Collected": false
+    },
+    {
+      "Name": "Haxorus",
+      "Number": 612,
+      "Collected": false
+    },
+    {
+      "Name": "Cubchoo",
+      "Number": 613,
+      "Collected": false
+    },
+    {
+      "Name": "Beartic",
+      "Number": 614,
+      "Collected": false
+    },
+    {
+      "Name": "Cryogonal",
+      "Number": 615,
+      "Collected": false
+    },
+    {
+      "Name": "Shelmet",
+      "Number": 616,
+      "Collected": false
+    },
+    {
+      "Name": "Accelgor",
+      "Number": 617,
+      "Collected": false
+    },
+    {
+      "Name": "Stunfisk",
+      "Number": 618,
+      "Collected": false
+    },
+    {
+      "Name": "Mienfoo",
+      "Number": 619,
+      "Collected": false
+    },
+    {
+      "Name": "Mienshao",
+      "Number": 620,
+      "Collected": false
+    },
+    {
+      "Name": "Druddigon",
+      "Number": 621,
+      "Collected": false
+    },
+    {
+      "Name": "Golett",
+      "Number": 622,
+      "Collected": false
+    },
+    {
+      "Name": "Golurk",
+      "Number": 623,
+      "Collected": false
+    },
+    {
+      "Name": "Pawniard",
+      "Number": 624,
+      "Collected": false
+    },
+    {
+      "Name": "Bisharp",
+      "Number": 625,
+      "Collected": false
+    },
+    {
+      "Name": "Bouffalant",
+      "Number": 626,
+      "Collected": false
+    },
+    {
+      "Name": "Rufflet",
+      "Number": 627,
+      "Collected": false
+    },
+    {
+      "Name": "Braviary",
+      "Number": 628,
+      "Collected": false
+    },
+    {
+      "Name": "Vullaby",
+      "Number": 629,
+      "Collected": false
+    },
+    {
+      "Name": "Mandibuzz",
+      "Number": 630,
+      "Collected": false
+    },
+    {
+      "Name": "Heatmor",
+      "Number": 631,
+      "Collected": false
+    },
+    {
+      "Name": "Durant",
+      "Number": 632,
+      "Collected": false
+    },
+    {
+      "Name": "Deino",
+      "Number": 633,
+      "Collected": false
+    },
+    {
+      "Name": "Zweilous",
+      "Number": 634,
+      "Collected": false
+    },
+    {
+      "Name": "Hydreigon",
+      "Number": 635,
+      "Collected": false
+    },
+    {
+      "Name": "Larvesta",
+      "Number": 636,
+      "Collected": false
+    },
+    {
+      "Name": "Volcarona",
+      "Number": 637,
+      "Collected": false
+    },
+    {
+      "Name": "Cobalion",
+      "Number": 638,
+      "Collected": false
+    },
+    {
+      "Name": "Terrakion",
+      "Number": 639,
+      "Collected": false
+    },
+    {
+      "Name": "Virizion",
+      "Number": 640,
+      "Collected": false
+    },
+    {
+      "Name": "Tornadus",
+      "Number": 641,
+      "Collected": false
+    },
+    {
+      "Name": "Thundurus",
+      "Number": 642,
+      "Collected": false
+    },
+    {
+      "Name": "Reshiram",
+      "Number": 643,
+      "Collected": false
+    },
+    {
+      "Name": "Zekrom",
+      "Number": 644,
+      "Collected": false
+    },
+    {
+      "Name": "Landorus",
+      "Number": 645,
+      "Collected": false
+    },
+    {
+      "Name": "Kyurem",
+      "Number": 646,
+      "Collected": false
+    },
+    {
+      "Name": "Keldeo",
+      "Number": 647,
+      "Collected": false
+    },
+    {
+      "Name": "Meloetta",
+      "Number": 648,
+      "Collected": false
+    },
+    {
+      "Name": "Genesect",
+      "Number": 649,
+      "Collected": false
+    },
+    {
+      "Name": "Chespin",
+      "Number": 650,
+      "Collected": false
+    },
+    {
+      "Name": "Quilladin",
+      "Number": 651,
+      "Collected": false
+    },
+    {
+      "Name": "Chesnaught",
+      "Number": 652,
+      "Collected": false
+    },
+    {
+      "Name": "Fennekin",
+      "Number": 653,
+      "Collected": false
+    },
+    {
+      "Name": "Braixen",
+      "Number": 654,
+      "Collected": false
+    },
+    {
+      "Name": "Delphox",
+      "Number": 655,
+      "Collected": false
+    },
+    {
+      "Name": "Froakie",
+      "Number": 656,
+      "Collected": false
+    },
+    {
+      "Name": "Frogadier",
+      "Number": 657,
+      "Collected": false
+    },
+    {
+      "Name": "Greninja",
+      "Number": 658,
+      "Collected": false
+    },
+    {
+      "Name": "Bunnelby",
+      "Number": 659,
+      "Collected": false
+    },
+    {
+      "Name": "Diggersby",
+      "Number": 660,
+      "Collected": false
+    },
+    {
+      "Name": "Fletchling",
+      "Number": 661,
+      "Collected": false
+    },
+    {
+      "Name": "Fletchinder",
+      "Number": 662,
+      "Collected": false
+    },
+    {
+      "Name": "Talonflame",
+      "Number": 663,
+      "Collected": false
+    },
+    {
+      "Name": "Scatterbug",
+      "Number": 664,
+      "Collected": false
+    },
+    {
+      "Name": "Spewpa",
+      "Number": 665,
+      "Collected": false
+    },
+    {
+      "Name": "Vivillon",
+      "Number": 666,
+      "Collected": false
+    },
+    {
+      "Name": "Litleo",
+      "Number": 667,
+      "Collected": false
+    },
+    {
+      "Name": "Pyroar",
+      "Number": 668,
+      "Collected": false
+    },
+    {
+      "Name": "Flabébé",
+      "Number": 669,
+      "Collected": false
+    },
+    {
+      "Name": "Floette",
+      "Number": 670,
+      "Collected": false
+    },
+    {
+      "Name": "Florges",
+      "Number": 671,
+      "Collected": false
+    },
+    {
+      "Name": "Skiddo",
+      "Number": 672,
+      "Collected": false
+    },
+    {
+      "Name": "Gogoat",
+      "Number": 673,
+      "Collected": false
+    },
+    {
+      "Name": "Pancham",
+      "Number": 674,
+      "Collected": false
+    },
+    {
+      "Name": "Pangoro",
+      "Number": 675,
+      "Collected": false
+    },
+    {
+      "Name": "Furfrou",
+      "Number": 676,
+      "Collected": false
+    },
+    {
+      "Name": "Espurr",
+      "Number": 677,
+      "Collected": false
+    },
+    {
+      "Name": "Meowstic",
+      "Number": 678,
+      "Collected": false
+    },
+    {
+      "Name": "Honedge",
+      "Number": 679,
+      "Collected": false
+    },
+    {
+      "Name": "Doublade",
+      "Number": 680,
+      "Collected": false
+    },
+    {
+      "Name": "Aegislash",
+      "Number": 681,
+      "Collected": false
+    },
+    {
+      "Name": "Spritzee",
+      "Number": 682,
+      "Collected": false
+    },
+    {
+      "Name": "Aromatisse",
+      "Number": 683,
+      "Collected": false
+    },
+    {
+      "Name": "Swirlix",
+      "Number": 684,
+      "Collected": false
+    },
+    {
+      "Name": "Slurpuff",
+      "Number": 685,
+      "Collected": false
+    },
+    {
+      "Name": "Inkay",
+      "Number": 686,
+      "Collected": false
+    },
+    {
+      "Name": "Malamar",
+      "Number": 687,
+      "Collected": false
+    },
+    {
+      "Name": "Binacle",
+      "Number": 688,
+      "Collected": false
+    },
+    {
+      "Name": "Barbaracle",
+      "Number": 689,
+      "Collected": false
+    },
+    {
+      "Name": "Skrelp",
+      "Number": 690,
+      "Collected": false
+    },
+    {
+      "Name": "Dragalge",
+      "Number": 691,
+      "Collected": false
+    },
+    {
+      "Name": "Clauncher",
+      "Number": 692,
+      "Collected": false
+    },
+    {
+      "Name": "Clawitzer",
+      "Number": 693,
+      "Collected": false
+    },
+    {
+      "Name": "Helioptile",
+      "Number": 694,
+      "Collected": false
+    },
+    {
+      "Name": "Heliolisk",
+      "Number": 695,
+      "Collected": false
+    },
+    {
+      "Name": "Tyrunt",
+      "Number": 696,
+      "Collected": false
+    },
+    {
+      "Name": "Tyrantrum",
+      "Number": 697,
+      "Collected": false
+    },
+    {
+      "Name": "Amaura",
+      "Number": 698,
+      "Collected": false
+    },
+    {
+      "Name": "Aurorus",
+      "Number": 699,
+      "Collected": false
+    },
+    {
+      "Name": "Sylveon",
+      "Number": 700,
+      "Collected": false
+    },
+    {
+      "Name": "Hawlucha",
+      "Number": 701,
+      "Collected": false
+    },
+    {
+      "Name": "Dedenne",
+      "Number": 702,
+      "Collected": false
+    },
+    {
+      "Name": "Carbink",
+      "Number": 703,
+      "Collected": false
+    },
+    {
+      "Name": "Goomy",
+      "Number": 704,
+      "Collected": false
+    },
+    {
+      "Name": "Sliggoo",
+      "Number": 705,
+      "Collected": false
+    },
+    {
+      "Name": "Goodra",
+      "Number": 706,
+      "Collected": false
+    },
+    {
+      "Name": "Klefki",
+      "Number": 707,
+      "Collected": false
+    },
+    {
+      "Name": "Phantump",
+      "Number": 708,
+      "Collected": false
+    },
+    {
+      "Name": "Trevenant",
+      "Number": 709,
+      "Collected": false
+    },
+    {
+      "Name": "Pumpkaboo",
+      "Number": 710,
+      "Collected": false
+    },
+    {
+      "Name": "Gourgeist",
+      "Number": 711,
+      "Collected": false
+    },
+    {
+      "Name": "Bergmite",
+      "Number": 712,
+      "Collected": false
+    },
+    {
+      "Name": "Avalugg",
+      "Number": 713,
+      "Collected": false
+    },
+    {
+      "Name": "Noibat",
+      "Number": 714,
+      "Collected": false
+    },
+    {
+      "Name": "Noivern",
+      "Number": 715,
+      "Collected": false
+    },
+    {
+      "Name": "Xerneas",
+      "Number": 716,
+      "Collected": false
+    },
+    {
+      "Name": "Yveltal",
+      "Number": 717,
+      "Collected": false
+    },
+    {
+      "Name": "Zygarde",
+      "Number": 718,
+      "Collected": false
+    },
+    {
+      "Name": "Diancie",
+      "Number": 719,
+      "Collected": false
+    },
+    {
+      "Name": "Hoopa",
+      "Number": 720,
+      "Collected": false
+    },
+    {
+      "Name": "Volcanion",
+      "Number": 721,
+      "Collected": false
+    },
+    {
+      "Name": "Rowlet",
+      "Number": 722,
+      "Collected": false
+    },
+    {
+      "Name": "Dartrix",
+      "Number": 723,
+      "Collected": false
+    },
+    {
+      "Name": "Decidueye",
+      "Number": 724,
+      "Collected": false
+    },
+    {
+      "Name": "Litten",
+      "Number": 725,
+      "Collected": false
+    },
+    {
+      "Name": "Torracat",
+      "Number": 726,
+      "Collected": false
+    },
+    {
+      "Name": "Incineroar",
+      "Number": 727,
+      "Collected": false
+    },
+    {
+      "Name": "Popplio",
+      "Number": 728,
+      "Collected": false
+    },
+    {
+      "Name": "Brionne",
+      "Number": 729,
+      "Collected": false
+    },
+    {
+      "Name": "Primarina",
+      "Number": 730,
+      "Collected": false
+    },
+    {
+      "Name": "Pikipek",
+      "Number": 731,
+      "Collected": false
+    },
+    {
+      "Name": "Trumbeak",
+      "Number": 732,
+      "Collected": false
+    },
+    {
+      "Name": "Toucannon",
+      "Number": 733,
+      "Collected": false
+    },
+    {
+      "Name": "Yungoos",
+      "Number": 734,
+      "Collected": false
+    },
+    {
+      "Name": "Gumshoos",
+      "Number": 735,
+      "Collected": false
+    },
+    {
+      "Name": "Grubbin",
+      "Number": 736,
+      "Collected": false
+    },
+    {
+      "Name": "Charjabug",
+      "Number": 737,
+      "Collected": false
+    },
+    {
+      "Name": "Vikavolt",
+      "Number": 738,
+      "Collected": false
+    },
+    {
+      "Name": "Crabrawler",
+      "Number": 739,
+      "Collected": false
+    },
+    {
+      "Name": "Crabominable",
+      "Number": 740,
+      "Collected": false
+    },
+    {
+      "Name": "Oricorio",
+      "Number": 741,
+      "Collected": false
+    },
+    {
+      "Name": "Cutiefly",
+      "Number": 742,
+      "Collected": false
+    },
+    {
+      "Name": "Ribombee",
+      "Number": 743,
+      "Collected": false
+    },
+    {
+      "Name": "Rockruff",
+      "Number": 744,
+      "Collected": false
+    },
+    {
+      "Name": "Lycanroc",
+      "Number": 745,
+      "Collected": false
+    },
+    {
+      "Name": "Wishiwashi",
+      "Number": 746,
+      "Collected": false
+    },
+    {
+      "Name": "Mareanie",
+      "Number": 747,
+      "Collected": false
+    },
+    {
+      "Name": "Toxapex",
+      "Number": 748,
+      "Collected": false
+    },
+    {
+      "Name": "Mudbray",
+      "Number": 749,
+      "Collected": false
+    },
+    {
+      "Name": "Mudsdale",
+      "Number": 750,
+      "Collected": false
+    },
+    {
+      "Name": "Dewpider",
+      "Number": 751,
+      "Collected": false
+    },
+    {
+      "Name": "Araquanid",
+      "Number": 752,
+      "Collected": false
+    },
+    {
+      "Name": "Fomantis",
+      "Number": 753,
+      "Collected": false
+    },
+    {
+      "Name": "Lurantis",
+      "Number": 754,
+      "Collected": false
+    },
+    {
+      "Name": "Morelull",
+      "Number": 755,
+      "Collected": false
+    },
+    {
+      "Name": "Shiinotic",
+      "Number": 756,
+      "Collected": false
+    },
+    {
+      "Name": "Salandit",
+      "Number": 757,
+      "Collected": false
+    },
+    {
+      "Name": "Salazzle",
+      "Number": 758,
+      "Collected": false
+    },
+    {
+      "Name": "Stufful",
+      "Number": 759,
+      "Collected": false
+    },
+    {
+      "Name": "Bewear",
+      "Number": 760,
+      "Collected": false
+    },
+    {
+      "Name": "Bounsweet",
+      "Number": 761,
+      "Collected": false
+    },
+    {
+      "Name": "Steenee",
+      "Number": 762,
+      "Collected": false
+    },
+    {
+      "Name": "Tsareena",
+      "Number": 763,
+      "Collected": false
+    },
+    {
+      "Name": "Comfey",
+      "Number": 764,
+      "Collected": false
+    },
+    {
+      "Name": "Oranguru",
+      "Number": 765,
+      "Collected": false
+    },
+    {
+      "Name": "Passimian",
+      "Number": 766,
+      "Collected": false
+    },
+    {
+      "Name": "Wimpod",
+      "Number": 767,
+      "Collected": false
+    },
+    {
+      "Name": "Golisopod",
+      "Number": 768,
+      "Collected": false
+    },
+    {
+      "Name": "Sandygast",
+      "Number": 769,
+      "Collected": false
+    },
+    {
+      "Name": "Palossand",
+      "Number": 770,
+      "Collected": false
+    },
+    {
+      "Name": "Pyukumuku",
+      "Number": 771,
+      "Collected": false
+    },
+    {
+      "Name": "Type: Null",
+      "Number": 772,
+      "Collected": false
+    },
+    {
+      "Name": "Silvally",
+      "Number": 773,
+      "Collected": false
+    },
+    {
+      "Name": "Minior",
+      "Number": 774,
+      "Collected": false
+    },
+    {
+      "Name": "Komala",
+      "Number": 775,
+      "Collected": false
+    },
+    {
+      "Name": "Turtonator",
+      "Number": 776,
+      "Collected": false
+    },
+    {
+      "Name": "Togedemaru",
+      "Number": 777,
+      "Collected": false
+    },
+    {
+      "Name": "Mimikyu",
+      "Number": 778,
+      "Collected": false
+    },
+    {
+      "Name": "Bruxish",
+      "Number": 779,
+      "Collected": false
+    },
+    {
+      "Name": "Drampa",
+      "Number": 780,
+      "Collected": false
+    },
+    {
+      "Name": "Dhelmise",
+      "Number": 781,
+      "Collected": false
+    },
+    {
+      "Name": "Jangmo-o",
+      "Number": 782,
+      "Collected": false
+    },
+    {
+      "Name": "Hakamo-o",
+      "Number": 783,
+      "Collected": false
+    },
+    {
+      "Name": "Kommo-o",
+      "Number": 784,
+      "Collected": false
+    },
+    {
+      "Name": "Tapu Koko",
+      "Number": 785,
+      "Collected": false
+    },
+    {
+      "Name": "Tapu Lele",
+      "Number": 786,
+      "Collected": false
+    },
+    {
+      "Name": "Tapu Bulu",
+      "Number": 787,
+      "Collected": false
+    },
+    {
+      "Name": "Tapu Fini",
+      "Number": 788,
+      "Collected": false
+    },
+    {
+      "Name": "Cosmog",
+      "Number": 789,
+      "Collected": false
+    },
+    {
+      "Name": "Cosmoem",
+      "Number": 790,
+      "Collected": false
+    },
+    {
+      "Name": "Solgaleo",
+      "Number": 791,
+      "Collected": false
+    },
+    {
+      "Name": "Lunala",
+      "Number": 792,
+      "Collected": false
+    },
+    {
+      "Name": "Nihilego",
+      "Number": 793,
+      "Collected": false
+    },
+    {
+      "Name": "Buzzwole",
+      "Number": 794,
+      "Collected": false
+    },
+    {
+      "Name": "Pheromosa",
+      "Number": 795,
+      "Collected": false
+    },
+    {
+      "Name": "Xurkitree",
+      "Number": 796,
+      "Collected": false
+    },
+    {
+      "Name": "Celesteela",
+      "Number": 797,
+      "Collected": false
+    },
+    {
+      "Name": "Kartana",
+      "Number": 798,
+      "Collected": false
+    },
+    {
+      "Name": "Guzzlord",
+      "Number": 799,
+      "Collected": false
+    },
+    {
+      "Name": "Necrozma",
+      "Number": 800,
+      "Collected": false
+    },
+    {
+      "Name": "Magearna",
+      "Number": 801,
+      "Collected": false
+    },
+    {
+      "Name": "Marshadow",
+      "Number": 802,
+      "Collected": false
+    },
+    {
+      "Name": "Poipole",
+      "Number": 803,
+      "Collected": false
+    },
+    {
+      "Name": "Naganadel",
+      "Number": 804,
+      "Collected": false
+    },
+    {
+      "Name": "Stakataka",
+      "Number": 805,
+      "Collected": false
+    },
+    {
+      "Name": "Blacephalon",
+      "Number": 806,
+      "Collected": false
+    },
+    {
+      "Name": "Zeraora",
+      "Number": 807,
+      "Collected": false
+    },
+    {
+      "Name": "Meltan",
+      "Number": 808,
+      "Collected": false
+    },
+    {
+      "Name": "Melmetal",
+      "Number": 809,
+      "Collected": false
+    },
+    {
+      "Name": "Grookey",
+      "Number": 810,
+      "Collected": false
+    },
+    {
+      "Name": "Thwackey",
+      "Number": 811,
+      "Collected": false
+    },
+    {
+      "Name": "Rillaboom",
+      "Number": 812,
+      "Collected": false
+    },
+    {
+      "Name": "Scorbunny",
+      "Number": 813,
+      "Collected": false
+    },
+    {
+      "Name": "Raboot",
+      "Number": 814,
+      "Collected": false
+    },
+    {
+      "Name": "Cinderace",
+      "Number": 815,
+      "Collected": false
+    },
+    {
+      "Name": "Sobble",
+      "Number": 816,
+      "Collected": false
+    },
+    {
+      "Name": "Drizzile",
+      "Number": 817,
+      "Collected": false
+    },
+    {
+      "Name": "Inteleon",
+      "Number": 818,
+      "Collected": false
+    },
+    {
+      "Name": "Skwovet",
+      "Number": 819,
+      "Collected": false
+    },
+    {
+      "Name": "Greedent",
+      "Number": 820,
+      "Collected": false
+    },
+    {
+      "Name": "Rookidee",
+      "Number": 821,
+      "Collected": false
+    },
+    {
+      "Name": "Corvisquire",
+      "Number": 822,
+      "Collected": false
+    },
+    {
+      "Name": "Corviknight",
+      "Number": 823,
+      "Collected": false
+    },
+    {
+      "Name": "Blipbug",
+      "Number": 824,
+      "Collected": false
+    },
+    {
+      "Name": "Dottler",
+      "Number": 825,
+      "Collected": false
+    },
+    {
+      "Name": "Orbeetle",
+      "Number": 826,
+      "Collected": false
+    },
+    {
+      "Name": "Nickit",
+      "Number": 827,
+      "Collected": false
+    },
+    {
+      "Name": "Thievul",
+      "Number": 828,
+      "Collected": false
+    },
+    {
+      "Name": "Gossifleur",
+      "Number": 829,
+      "Collected": false
+    },
+    {
+      "Name": "Eldegoss",
+      "Number": 830,
+      "Collected": false
+    },
+    {
+      "Name": "Wooloo",
+      "Number": 831,
+      "Collected": false
+    },
+    {
+      "Name": "Dubwool",
+      "Number": 832,
+      "Collected": false
+    },
+    {
+      "Name": "Chewtle",
+      "Number": 833,
+      "Collected": false
+    },
+    {
+      "Name": "Drednaw",
+      "Number": 834,
+      "Collected": false
+    },
+    {
+      "Name": "Yamper",
+      "Number": 835,
+      "Collected": false
+    },
+    {
+      "Name": "Boltund",
+      "Number": 836,
+      "Collected": false
+    },
+    {
+      "Name": "Rolycoly",
+      "Number": 837,
+      "Collected": false
+    },
+    {
+      "Name": "Carkol",
+      "Number": 838,
+      "Collected": false
+    },
+    {
+      "Name": "Coalossal",
+      "Number": 839,
+      "Collected": false
+    },
+    {
+      "Name": "Applin",
+      "Number": 840,
+      "Collected": false
+    },
+    {
+      "Name": "Flapple",
+      "Number": 841,
+      "Collected": false
+    },
+    {
+      "Name": "Appletun",
+      "Number": 842,
+      "Collected": false
+    },
+    {
+      "Name": "Silicobra",
+      "Number": 843,
+      "Collected": false
+    },
+    {
+      "Name": "Sandaconda",
+      "Number": 844,
+      "Collected": false
+    },
+    {
+      "Name": "Cramorant",
+      "Number": 845,
+      "Collected": false
+    },
+    {
+      "Name": "Arrokuda",
+      "Number": 846,
+      "Collected": false
+    },
+    {
+      "Name": "Barraskewda",
+      "Number": 847,
+      "Collected": false
+    },
+    {
+      "Name": "Toxel",
+      "Number": 848,
+      "Collected": false
+    },
+    {
+      "Name": "Toxtricity",
+      "Number": 849,
+      "Collected": false
+    },
+    {
+      "Name": "Sizzlipede",
+      "Number": 850,
+      "Collected": false
+    },
+    {
+      "Name": "Centiskorch",
+      "Number": 851,
+      "Collected": false
+    },
+    {
+      "Name": "Clobbopus",
+      "Number": 852,
+      "Collected": false
+    },
+    {
+      "Name": "Grapploct",
+      "Number": 853,
+      "Collected": false
+    },
+    {
+      "Name": "Sinistea",
+      "Number": 854,
+      "Collected": false
+    },
+    {
+      "Name": "Polteageist",
+      "Number": 855,
+      "Collected": false
+    },
+    {
+      "Name": "Hatenna",
+      "Number": 856,
+      "Collected": false
+    },
+    {
+      "Name": "Hattrem",
+      "Number": 857,
+      "Collected": false
+    },
+    {
+      "Name": "Hatterene",
+      "Number": 858,
+      "Collected": false
+    },
+    {
+      "Name": "Impidimp",
+      "Number": 859,
+      "Collected": false
+    },
+    {
+      "Name": "Morgrem",
+      "Number": 860,
+      "Collected": false
+    },
+    {
+      "Name": "Grimmsnarl",
+      "Number": 861,
+      "Collected": false
+    },
+    {
+      "Name": "Obstagoon",
+      "Number": 862,
+      "Collected": false
+    },
+    {
+      "Name": "Perrserker",
+      "Number": 863,
+      "Collected": false
+    },
+    {
+      "Name": "Cursola",
+      "Number": 864,
+      "Collected": false
+    },
+    {
+      "Name": "Sirfetch’d",
+      "Number": 865,
+      "Collected": false
+    },
+    {
+      "Name": "Mr. Rime",
+      "Number": 866,
+      "Collected": false
+    },
+    {
+      "Name": "Runerigus",
+      "Number": 867,
+      "Collected": false
+    },
+    {
+      "Name": "Milcery",
+      "Number": 868,
+      "Collected": false
+    },
+    {
+      "Name": "Alcremie",
+      "Number": 869,
+      "Collected": false
+    },
+    {
+      "Name": "Falinks",
+      "Number": 870,
+      "Collected": false
+    },
+    {
+      "Name": "Pincurchin",
+      "Number": 871,
+      "Collected": false
+    },
+    {
+      "Name": "Snom",
+      "Number": 872,
+      "Collected": false
+    },
+    {
+      "Name": "Frosmoth",
+      "Number": 873,
+      "Collected": false
+    },
+    {
+      "Name": "Stonjourner",
+      "Number": 874,
+      "Collected": false
+    },
+    {
+      "Name": "Eiscue",
+      "Number": 875,
+      "Collected": false
+    },
+    {
+      "Name": "Indeedee",
+      "Number": 876,
+      "Collected": false
+    },
+    {
+      "Name": "Morpeko",
+      "Number": 877,
+      "Collected": false
+    },
+    {
+      "Name": "Cufant",
+      "Number": 878,
+      "Collected": false
+    },
+    {
+      "Name": "Copperajah",
+      "Number": 879,
+      "Collected": false
+    },
+    {
+      "Name": "Dracozolt",
+      "Number": 880,
+      "Collected": false
+    },
+    {
+      "Name": "Arctozolt",
+      "Number": 881,
+      "Collected": false
+    },
+    {
+      "Name": "Dracovish",
+      "Number": 882,
+      "Collected": false
+    },
+    {
+      "Name": "Arctovish",
+      "Number": 883,
+      "Collected": false
+    },
+    {
+      "Name": "Duraludon",
+      "Number": 884,
+      "Collected": false
+    },
+    {
+      "Name": "Dreepy",
+      "Number": 885,
+      "Collected": false
+    },
+    {
+      "Name": "Drakloak",
+      "Number": 886,
+      "Collected": false
+    },
+    {
+      "Name": "Dragapult",
+      "Number": 887,
+      "Collected": false
+    },
+    {
+      "Name": "Zacian",
+      "Number": 888,
+      "Collected": false
+    },
+    {
+      "Name": "Zamazenta",
+      "Number": 889,
+      "Collected": false
+    },
+    {
+      "Name": "Eternatus",
+      "Number": 890,
+      "Collected": false
+    },
+    {
+      "Name": "Kubfu",
+      "Number": 891,
+      "Collected": false
+    },
+    {
+      "Name": "Urshifu",
+      "Number": 892,
+      "Collected": false
+    },
+    {
+      "Name": "Zarude",
+      "Number": 893,
+      "Collected": false
+    },
+    {
+      "Name": "Regieleki",
+      "Number": 894,
+      "Collected": false
+    },
+    {
+      "Name": "Regidrago",
+      "Number": 895,
+      "Collected": false
+    },
+    {
+      "Name": "Glastrier",
+      "Number": 896,
+      "Collected": false
+    },
+    {
+      "Name": "Spectrier",
+      "Number": 897,
+      "Collected": false
+    },
+    {
+      "Name": "Calyrex",
+      "Number": 898,
+      "Collected": false
+    },
+    {
+      "Name": "Wyrdeer",
+      "Number": 899,
+      "Collected": false
+    },
+    {
+      "Name": "Kleavor",
+      "Number": 900,
+      "Collected": false
+    },
+    {
+      "Name": "Ursaluna",
+      "Number": 901,
+      "Collected": false
+    },
+    {
+      "Name": "Basculegion",
+      "Number": 902,
+      "Collected": false
+    },
+    {
+      "Name": "Sneasler",
+      "Number": 903,
+      "Collected": false
+    },
+    {
+      "Name": "Overqwil",
+      "Number": 904,
+      "Collected": false
+    },
+    {
+      "Name": "Enamorus",
+      "Number": 905,
+      "Collected": false
+    },
+    {
+      "Name": "Sprigatito",
+      "Number": 906,
+      "Collected": false
+    },
+    {
+      "Name": "Floragato",
+      "Number": 907,
+      "Collected": false
+    },
+    {
+      "Name": "Meowscarada",
+      "Number": 908,
+      "Collected": false
+    },
+    {
+      "Name": "Fuecoco",
+      "Number": 909,
+      "Collected": false
+    },
+    {
+      "Name": "Crocalor",
+      "Number": 910,
+      "Collected": false
+    },
+    {
+      "Name": "Skeledirge",
+      "Number": 911,
+      "Collected": false
+    },
+    {
+      "Name": "Quaxly",
+      "Number": 912,
+      "Collected": false
+    },
+    {
+      "Name": "Quaxwell",
+      "Number": 913,
+      "Collected": false
+    },
+    {
+      "Name": "Quaquaval",
+      "Number": 914,
+      "Collected": false
+    },
+    {
+      "Name": "Lechonk",
+      "Number": 915,
+      "Collected": false
+    },
+    {
+      "Name": "Oinkologne",
+      "Number": 916,
+      "Collected": false
+    },
+    {
+      "Name": "Tarountula",
+      "Number": 917,
+      "Collected": false
+    },
+    {
+      "Name": "Spidops",
+      "Number": 918,
+      "Collected": false
+    },
+    {
+      "Name": "Nymble",
+      "Number": 919,
+      "Collected": false
+    },
+    {
+      "Name": "Lokix",
+      "Number": 920,
+      "Collected": false
+    },
+    {
+      "Name": "Pawmi",
+      "Number": 921,
+      "Collected": false
+    },
+    {
+      "Name": "Pawmo",
+      "Number": 922,
+      "Collected": false
+    },
+    {
+      "Name": "Pawmot",
+      "Number": 923,
+      "Collected": false
+    },
+    {
+      "Name": "Tandemaus",
+      "Number": 924,
+      "Collected": false
+    },
+    {
+      "Name": "Maushold",
+      "Number": 925,
+      "Collected": false
+    },
+    {
+      "Name": "Fidough",
+      "Number": 926,
+      "Collected": false
+    },
+    {
+      "Name": "Dachsbun",
+      "Number": 927,
+      "Collected": false
+    },
+    {
+      "Name": "Smoliv",
+      "Number": 928,
+      "Collected": false
+    },
+    {
+      "Name": "Dolliv",
+      "Number": 929,
+      "Collected": false
+    },
+    {
+      "Name": "Arboliva",
+      "Number": 930,
+      "Collected": false
+    },
+    {
+      "Name": "Squawkabilly",
+      "Number": 931,
+      "Collected": false
+    },
+    {
+      "Name": "Nacli",
+      "Number": 932,
+      "Collected": false
+    },
+    {
+      "Name": "Naclstack",
+      "Number": 933,
+      "Collected": false
+    },
+    {
+      "Name": "Garganacl",
+      "Number": 934,
+      "Collected": false
+    },
+    {
+      "Name": "Charcadet",
+      "Number": 935,
+      "Collected": false
+    },
+    {
+      "Name": "Armarouge",
+      "Number": 936,
+      "Collected": false
+    },
+    {
+      "Name": "Ceruledge",
+      "Number": 937,
+      "Collected": false
+    },
+    {
+      "Name": "Tadbulb",
+      "Number": 938,
+      "Collected": false
+    },
+    {
+      "Name": "Bellibolt",
+      "Number": 939,
+      "Collected": false
+    },
+    {
+      "Name": "Wattrel",
+      "Number": 940,
+      "Collected": false
+    },
+    {
+      "Name": "Kilowattrel",
+      "Number": 941,
+      "Collected": false
+    },
+    {
+      "Name": "Maschiff",
+      "Number": 942,
+      "Collected": false
+    },
+    {
+      "Name": "Mabosstiff",
+      "Number": 943,
+      "Collected": false
+    },
+    {
+      "Name": "Shroodle",
+      "Number": 944,
+      "Collected": false
+    },
+    {
+      "Name": "Grafaiai",
+      "Number": 945,
+      "Collected": false
+    },
+    {
+      "Name": "Bramblin",
+      "Number": 946,
+      "Collected": false
+    },
+    {
+      "Name": "Brambleghast",
+      "Number": 947,
+      "Collected": false
+    },
+    {
+      "Name": "Toedscool",
+      "Number": 948,
+      "Collected": false
+    },
+    {
+      "Name": "Toedscruel",
+      "Number": 949,
+      "Collected": false
+    },
+    {
+      "Name": "Klawf",
+      "Number": 950,
+      "Collected": false
+    },
+    {
+      "Name": "Capsakid",
+      "Number": 951,
+      "Collected": false
+    },
+    {
+      "Name": "Scovillain",
+      "Number": 952,
+      "Collected": false
+    },
+    {
+      "Name": "Rellor",
+      "Number": 953,
+      "Collected": false
+    },
+    {
+      "Name": "Rabsca",
+      "Number": 954,
+      "Collected": false
+    },
+    {
+      "Name": "Flittle",
+      "Number": 955,
+      "Collected": false
+    },
+    {
+      "Name": "Espathra",
+      "Number": 956,
+      "Collected": false
+    },
+    {
+      "Name": "Tinkatink",
+      "Number": 957,
+      "Collected": false
+    },
+    {
+      "Name": "Tinkatuff",
+      "Number": 958,
+      "Collected": false
+    },
+    {
+      "Name": "Tinkaton",
+      "Number": 959,
+      "Collected": false
+    },
+    {
+      "Name": "Wiglett",
+      "Number": 960,
+      "Collected": false
+    },
+    {
+      "Name": "Wugtrio",
+      "Number": 961,
+      "Collected": false
+    },
+    {
+      "Name": "Bombirdier",
+      "Number": 962,
+      "Collected": false
+    },
+    {
+      "Name": "Finizen",
+      "Number": 963,
+      "Collected": false
+    },
+    {
+      "Name": "Palafin",
+      "Number": 964,
+      "Collected": false
+    },
+    {
+      "Name": "Varoom",
+      "Number": 965,
+      "Collected": false
+    },
+    {
+      "Name": "Revavroom",
+      "Number": 966,
+      "Collected": false
+    },
+    {
+      "Name": "Cyclizar",
+      "Number": 967,
+      "Collected": false
+    },
+    {
+      "Name": "Orthworm",
+      "Number": 968,
+      "Collected": false
+    },
+    {
+      "Name": "Glimmet",
+      "Number": 969,
+      "Collected": false
+    },
+    {
+      "Name": "Glimmora",
+      "Number": 970,
+      "Collected": false
+    },
+    {
+      "Name": "Greavard",
+      "Number": 971,
+      "Collected": false
+    },
+    {
+      "Name": "Houndstone",
+      "Number": 972,
+      "Collected": false
+    },
+    {
+      "Name": "Flamigo",
+      "Number": 973,
+      "Collected": false
+    },
+    {
+      "Name": "Cetoddle",
+      "Number": 974,
+      "Collected": false
+    },
+    {
+      "Name": "Cetitan",
+      "Number": 975,
+      "Collected": false
+    },
+    {
+      "Name": "Veluza",
+      "Number": 976,
+      "Collected": false
+    },
+    {
+      "Name": "Dondozo",
+      "Number": 977,
+      "Collected": false
+    },
+    {
+      "Name": "Tatsugiri",
+      "Number": 978,
+      "Collected": false
+    },
+    {
+      "Name": "Annihilape",
+      "Number": 979,
+      "Collected": false
+    },
+    {
+      "Name": "Clodsire",
+      "Number": 980,
+      "Collected": false
+    },
+    {
+      "Name": "Farigiraf",
+      "Number": 981,
+      "Collected": false
+    },
+    {
+      "Name": "Dudunsparce",
+      "Number": 982,
+      "Collected": false
+    },
+    {
+      "Name": "Kingambit",
+      "Number": 983,
+      "Collected": false
+    },
+    {
+      "Name": "Great Tusk",
+      "Number": 984,
+      "Collected": false
+    },
+    {
+      "Name": "Scream Tail",
+      "Number": 985,
+      "Collected": false
+    },
+    {
+      "Name": "Brute Bonnet",
+      "Number": 986,
+      "Collected": false
+    },
+    {
+      "Name": "Flutter Mane",
+      "Number": 987,
+      "Collected": false
+    },
+    {
+      "Name": "Slither Wing",
+      "Number": 988,
+      "Collected": false
+    },
+    {
+      "Name": "Sandy Shocks",
+      "Number": 989,
+      "Collected": false
+    },
+    {
+      "Name": "Iron Treads",
+      "Number": 990,
+      "Collected": false
+    },
+    {
+      "Name": "Iron Bundle",
+      "Number": 991,
+      "Collected": false
+    },
+    {
+      "Name": "Iron Hands",
+      "Number": 992,
+      "Collected": false
+    },
+    {
+      "Name": "Iron Jugulis",
+      "Number": 993,
+      "Collected": false
+    },
+    {
+      "Name": "Iron Moth",
+      "Number": 994,
+      "Collected": false
+    },
+    {
+      "Name": "Iron Thorns",
+      "Number": 995,
+      "Collected": false
+    },
+    {
+      "Name": "Frigibax",
+      "Number": 996,
+      "Collected": false
+    },
+    {
+      "Name": "Arctibax",
+      "Number": 997,
+      "Collected": false
+    },
+    {
+      "Name": "Baxcalibur",
+      "Number": 998,
+      "Collected": false
+    },
+    {
+      "Name": "Gimmighoul",
+      "Number": 999,
+      "Collected": false
+    },
+    {
+      "Name": "Gholdengo",
+      "Number": 1000,
+      "Collected": false
+    },
+    {
+      "Name": "Wo-Chien",
+      "Number": 1001,
+      "Collected": false
+    },
+    {
+      "Name": "Chien-Pao",
+      "Number": 1002,
+      "Collected": false
+    },
+    {
+      "Name": "Ting-Lu",
+      "Number": 1003,
+      "Collected": false
+    },
+    {
+      "Name": "Chi-Yu",
+      "Number": 1004,
+      "Collected": false
+    },
+    {
+      "Name": "Roaring Moon",
+      "Number": 1005,
+      "Collected": false
+    },
+    {
+      "Name": "Iron Valiant",
+      "Number": 1006,
+      "Collected": false
+    },
+    {
+      "Name": "Koraidon",
+      "Number": 1007,
+      "Collected": false
+    },
+    {
+      "Name": "Miraidon",
+      "Number": 1008,
+      "Collected": false
+    },
+    {
+      "Name": "Walking Wake",
+      "Number": 1009,
+      "Collected": false
+    },
+    {
+      "Name": "Iron Leaves",
+      "Number": 1010,
+      "Collected": false
+    },
+    {
+      "Name": "Dipplin",
+      "Number": 1011,
+      "Collected": false
+    },
+    {
+      "Name": "Poltchageist",
+      "Number": 1012,
+      "Collected": false
+    },
+    {
+      "Name": "Sinistcha",
+      "Number": 1013,
+      "Collected": false
+    },
+    {
+      "Name": "Okidogi",
+      "Number": 1014,
+      "Collected": false
+    },
+    {
+      "Name": "Munkidori",
+      "Number": 1015,
+      "Collected": false
+    },
+    {
+      "Name": "Fezandipiti",
+      "Number": 1016,
+      "Collected": false
+    },
+    {
+      "Name": "Ogerpon",
+      "Number": 1017,
+      "Collected": false
+    },
+    {
+      "Name": "Archaludon",
+      "Number": 1018,
+      "Collected": false
+    },
+    {
+      "Name": "Hydrapple",
+      "Number": 1019,
+      "Collected": false
+    },
+    {
+      "Name": "Gouging Fire",
+      "Number": 1020,
+      "Collected": false
+    },
+    {
+      "Name": "Raging Bolt",
+      "Number": 1021,
+      "Collected": false
+    },
+    {
+      "Name": "Iron Boulder",
+      "Number": 1022,
+      "Collected": false
+    },
+    {
+      "Name": "Iron Crown",
+      "Number": 1023,
+      "Collected": false
+    },
+    {
+      "Name": "Terapagos",
+      "Number": 1024,
+      "Collected": false
+    },
+    {
+      "Name": "Pecharunt",
+      "Number": 1025,
+      "Collected": false
+    }
+  ],
+  "summary": {
+    "totalPokemon": 1025,
+    "collectedPokemon": 133,
+    "completionRate": 12.98,
+    "uniqueCards": 153,
+    "totalCards": 165,
+    "otherCards": 18,
+    "totalOtherCards": 48
+  }
+}
