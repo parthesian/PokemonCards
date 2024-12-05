@@ -34,7 +34,7 @@
       "Quantity": 1,
       "Set": "Crystal Guardians",
       "Code": "ex14-30",
-      "Special": "δ DELTA SPECIES"
+      "Special": "δ"
     },
     {
       "Number": 6,
@@ -43,7 +43,7 @@
       "Quantity": 1,
       "Set": "Crystal Guardians",
       "Code": "ex14-4",
-      "Special": "δ DELTA SPECIES"
+      "Special": "δ"
     },
     {
       "Number": 7,
@@ -97,7 +97,7 @@
       "Quantity": 1,
       "Set": "Dragon Frontiers",
       "Code": "ex15-56",
-      "Special": "δ DELTA SPECIES"
+      "Special": "δ"
     },
     {
       "Number": 32,
@@ -106,7 +106,7 @@
       "Quantity": 1,
       "Set": "Dragon Frontiers",
       "Code": "ex15-57",
-      "Special": "δ DELTA SPECIES"
+      "Special": "δ"
     },
     {
       "Number": 35,
@@ -275,9 +275,9 @@
       "Name": "Magnemite",
       "Card": "images\\PokemonCards-15.png",
       "Quantity": 1,
-      "Set": "Ex Delta Species",
+      "Set": "Delta Species",
       "Code": "ex11-70",
-      "Special": "Holon's Magnemite"
+      "Special": "Holon's Magnemite δ"
     },
     {
       "Number": 81,
@@ -403,7 +403,7 @@
       "Quantity": 1,
       "Set": "Dragon Frontiers",
       "Code": "ex15-29",
-      "Special": "δ DELTA SPECIES"
+      "Special": "δ"
     },
     {
       "Number": 130,
@@ -412,7 +412,7 @@
       "Quantity": 1,
       "Set": "Holon Phantoms",
       "Code": "ex13-8",
-      "Special": "δ DELTA SPECIES"
+      "Special": "δ"
     },
     {
       "Number": 131,
@@ -466,7 +466,7 @@
       "Quantity": 1,
       "Set": "Holon Phantoms",
       "Code": "ex13-9",
-      "Special": "δ DELTA SPECIES"
+      "Special": "δ"
     },
     {
       "Number": 147,
@@ -475,7 +475,7 @@
       "Quantity": 1,
       "Set": "Dragon Frontiers",
       "Code": "ex15-46",
-      "Special": "δ DELTA SPECIES"
+      "Special": "δ"
     },
     {
       "Number": 149,
@@ -493,7 +493,7 @@
       "Quantity": 1,
       "Set": "Dragon Frontiers",
       "Code": "ex15-45",
-      "Special": "δ DELTA SPECIES"
+      "Special": "δ"
     },
     {
       "Number": 157,
@@ -529,7 +529,7 @@
       "Quantity": 1,
       "Set": "Dragon Frontiers",
       "Code": "ex15-25",
-      "Special": "δ DELTA SPECIES"
+      "Special": "δ"
     },
     {
       "Number": 181,
@@ -538,7 +538,7 @@
       "Quantity": 1,
       "Set": "Dragon Frontiers",
       "Code": "ex15-1",
-      "Special": "δ DELTA SPECIES"
+      "Special": "δ"
     },
     {
       "Number": 183,
@@ -664,7 +664,7 @@
       "Quantity": 1,
       "Set": "Holon Phantoms",
       "Code": "ex13-10",
-      "Special": "δ DELTA SPECIES"
+      "Special": "δ"
     },
     {
       "Number": 240,
@@ -682,7 +682,7 @@
       "Quantity": 1,
       "Set": "Dragon Frontiers",
       "Code": "ex15-59",
-      "Special": "δ DELTA SPECIES"
+      "Special": "δ"
     },
     {
       "Number": 248,
@@ -691,7 +691,7 @@
       "Quantity": 1,
       "Set": "Delta Species",
       "Code": "ex11-16",
-      "Special": "δ DELTA SPECIES"
+      "Special": "δ"
     },
     {
       "Number": 248,
@@ -988,7 +988,7 @@
       "Quantity": 1,
       "Set": "Holon Phantoms",
       "Code": "hp-68",
-      "Special": "δ DELTA SPECIES"
+      "Special": "δ"
     },
     {
       "Number": 348,
@@ -1022,7 +1022,7 @@
       "Name": "Duskull",
       "Card": "images\\PokemonCards-12.png",
       "Quantity": 1,
-      "Set": "EX Power Keepers",
+      "Set": "Power Keepers",
       "Code": "ex16-50",
       "Special": null
     },
@@ -1150,7 +1150,7 @@
       "Quantity": 1,
       "Set": "Dragon Frontiers",
       "Code": "ex15-97",
-      "Special": "ex δ DELTA SPECIES"
+      "Special": "ex δ"
     },
     {
       "Number": 385,

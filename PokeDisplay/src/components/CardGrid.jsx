@@ -5,23 +5,67 @@ import CardItem from './CardItem';
 const CardGrid = ({ pokemonCards, otherCards, searchConfig, filterType }) => {
   const [activeTab, setActiveTab] = useState('pokemon');
 
-  const filterCards = (cards, searchTerm) => {
-    if (!cards) return [];
-    const term = searchTerm.toLowerCase();
-    return cards.filter(card => 
-      card.Name.toLowerCase().includes(term) ||
-      card.Code.toLowerCase().includes(term) ||
-      card.Set.toLowerCase().includes(term)
-    );
+  const normalizeSearch = (text) => {
+    if (text === null || text === undefined) return '';
+    // Convert delta symbol to 'delta' for searching
+    return text.toString().toLowerCase().replace('δ', 'delta');
   };
 
-  const filteredPokemon = filterCards(
+  const padPokedexNumber = (number) => {
+    if (!number) return '';
+    // Convert number to 4-digit string with leading zeros
+    return number.toString().padStart(4, '0');
+  };
+
+  const filterCards = (cards, searchTerm) => {
+    if (!Array.isArray(cards)) return [];
+    if (!searchTerm) return cards;
+    
+    const normalizedTerm = normalizeSearch(searchTerm);
+
+    return cards.filter(card => {
+      try {
+        // Convert card data for searching
+        const searchableFields = [
+          card.Name,
+          card.Code,
+          card.Set,
+          card.Special,
+          card.Number
+        ].map(field => normalizeSearch(field));
+
+        // Add padded number if it exists
+        if (card.Number) {
+          searchableFields.push(padPokedexNumber(card.Number));
+        }
+
+        // Return true if any field matches the search term
+        return searchableFields.some(field => 
+          field.includes(normalizedTerm)
+        );
+      } catch (error) {
+        console.error('Error filtering card:', card, error);
+        return false;
+      }
+    });
+  };
+
+  const safeFilter = (cards, term) => {
+    try {
+      return filterCards(cards, term);
+    } catch (error) {
+      console.error('Error in filtering:', error);
+      return [];
+    }
+  };
+
+  const filteredPokemon = safeFilter(
     pokemonCards,
     searchConfig.term
   );
 
-  const filteredOther = filterCards(
-    otherCards.filter(card => filterType === 'all' || card.Type === filterType),
+  const filteredOther = safeFilter(
+    otherCards?.filter(card => filterType === 'all' || card.Type === filterType),
     searchConfig.term
   );
 
@@ -62,14 +106,18 @@ CardGrid.propTypes = {
   pokemonCards: PropTypes.arrayOf(PropTypes.shape({
     Code: PropTypes.string.isRequired,
     Name: PropTypes.string.isRequired,
+    Set: PropTypes.string.isRequired,
+    Number: PropTypes.string,
+    Special: PropTypes.string
   })).isRequired,
   otherCards: PropTypes.arrayOf(PropTypes.shape({
     Code: PropTypes.string.isRequired,
     Name: PropTypes.string.isRequired,
-    Type: PropTypes.string.isRequired,
+    Set: PropTypes.string.isRequired,
+    Type: PropTypes.string.isRequired
   })).isRequired,
   searchConfig: PropTypes.shape({
-    term: PropTypes.string.isRequired
+    term: PropTypes.string
   }).isRequired,
   filterType: PropTypes.string.isRequired
 };

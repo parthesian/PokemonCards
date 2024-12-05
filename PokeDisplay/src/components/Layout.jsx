@@ -5,7 +5,7 @@ const Layout = ({ children }) => {
     <div>
       <header className="header">
         <div className="container">
-          <h1>Pokemon Card Collection</h1>
+          <h1>Pokedex</h1>
         </div>
       </header>
       

@@ -1,11 +1,43 @@
 import { useState, useRef, useCallback, useEffect } from 'react';
 import PropTypes from 'prop-types';
+import regionData from '../data/region_to_dex.json';
 
 const PokemonScrollViewer = ({ pokedexData }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isDragging, setIsDragging] = useState(false);
   const scrollbarRef = useRef(null);
   
+  const getCurrentRegion = useCallback((number) => {
+    const numericNumber = parseInt(number);
+    for (const [region, data] of Object.entries(regionData)) {
+      if (numericNumber >= data.start && numericNumber <= data.end) {
+        return { region, ...data };
+      }
+    }
+    return null;
+  }, []);
+
+  const getAdjacentRegions = useCallback((currentNumber) => {
+    const regions = Object.entries(regionData);
+    const currentRegion = getCurrentRegion(currentNumber);
+    const currentIndex = regions.findIndex(([region]) => region === currentRegion?.region);
+    
+    return {
+      previous: currentIndex > 0 ? {
+        name: regions[currentIndex - 1][0],
+        ...regions[currentIndex - 1][1]
+      } : null,
+      current: currentRegion ? {
+        name: currentRegion.region,
+        ...currentRegion
+      } : null,
+      next: currentIndex < regions.length - 1 ? {
+        name: regions[currentIndex + 1][0],
+        ...regions[currentIndex + 1][1]
+      } : null
+    };
+  }, [getCurrentRegion]);
+
   const calculateIndexFromPosition = useCallback((clientX) => {
     const rect = scrollbarRef.current.getBoundingClientRect();
     const position = clientX - rect.left;
@@ -74,6 +106,7 @@ const PokemonScrollViewer = ({ pokedexData }) => {
 
   const visibleIndices = getAdjacentIndices(currentIndex, pokedexData.length, 10);
   const scrollPosition = (currentIndex / (pokedexData.length - 1)) * 100;
+  const regions = getAdjacentRegions(pokedexData[currentIndex].Number);
 
   return (
     <div style={{ marginBottom: '2rem', marginTop:'2rem' }}>
@@ -82,14 +115,77 @@ const PokemonScrollViewer = ({ pokedexData }) => {
         height: '200px',
         display: 'flex',
         flexDirection: 'column',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        position: 'relative'
       }}>
+        <div style={{
+          position: 'absolute',
+          top: '1rem',
+          left: '1rem',
+          width: '32px',
+          height: '32px',
+          backgroundImage: 'url(/PokedexIcon.png)',
+          backgroundSize: 'contain',
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'center'
+        }} />
+
+          <div style={{
+            position: 'absolute',
+            top: '1rem',
+            right: '1rem',
+            display: 'flex',
+            alignItems: 'center',
+            gap: '1.5rem',
+            fontSize: '0.875rem'
+          }}>
+          {regions.previous && (
+            <div style={{ 
+              display: 'flex',
+              alignItems: 'center',
+              color: 'var(--text-secondary)',
+              flexDirection: 'column'
+            }}>
+              <div style={{ fontSize: '0.75rem', opacity: 0.7 }}>
+                #{regions.previous.start}-{regions.previous.end}
+              </div>
+              <div>← {regions.previous.name}</div>
+            </div>
+          )}
+          <div style={{ 
+            fontWeight: 'bold',
+            color: 'var(--primary-color)',
+            textAlign: 'center'
+          }}>
+            <div style={{ fontSize: '1rem' }}>
+              {regions.current?.name}
+            </div>
+            <div style={{ fontSize: '0.75rem', opacity: 0.8 }}>
+              #{regions.current?.start}-{regions.current?.end}
+            </div>
+          </div>
+          {regions.next && (
+            <div style={{ 
+              display: 'flex',
+              alignItems: 'center',
+              color: 'var(--text-secondary)',
+              flexDirection: 'column'
+            }}>
+              <div style={{ fontSize: '0.75rem', opacity: 0.7 }}>
+                #{regions.next.start}-{regions.next.end}
+              </div>
+              <div>{regions.next.name} →</div>
+            </div>
+          )}
+        </div>
+        
         <div style={{ 
           display: 'flex', 
           alignItems: 'center', 
           justifyContent: 'center',
           overflow: 'hidden',
-          marginBottom: '1.5rem'
+          marginBottom: '1.5rem',
+          marginTop: '2rem'
         }}>
           <div style={{ 
             display: 'flex', 
@@ -142,7 +238,6 @@ const PokemonScrollViewer = ({ pokedexData }) => {
           </div>
         </div>
         
-        {/* Scrollbar */}
         <div 
           ref={scrollbarRef}
           style={{

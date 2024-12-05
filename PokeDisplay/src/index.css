@@ -60,6 +60,52 @@ body {
   padding: 1rem;
 }
 
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.card-quantity {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
+
+.set-logo {
+  height: 2rem;
+  width: 5rem;
+  object-fit: contain;
+}
+
+.card-info-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.25rem;
+  padding: 0 0.25rem; /* Added padding so the text isn't flush against the edges */
+}
+
+.card-number {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  flex: 1; /* Added to allow the number to have its own space */
+  text-align: left;
+}
+
+.card-code {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  flex: 1; /* Added to allow the code to have its own space */
+  text-align: right;
+}
+
+.card-special {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
+
 .card-image {
   position: relative;
   aspect-ratio: 2.5/3.5;

@@ -1,0 +1,52 @@
+{
+    "Kanto": {
+      "start": 1,
+      "end": 151,
+      "generation": 1
+    },
+    "Johto": {
+      "start": 152,
+      "end": 251,
+      "generation": 2
+    },
+    "Hoenn": {
+      "start": 252,
+      "end": 386,
+      "generation": 3
+    },
+    "Sinnoh": {
+      "start": 387,
+      "end": 493,
+      "generation": 4
+    },
+    "Unova": {
+      "start": 494,
+      "end": 649,
+      "generation": 5
+    },
+    "Kalos": {
+      "start": 650,
+      "end": 721,
+      "generation": 6
+    },
+    "Alola": {
+      "start": 722,
+      "end": 809,
+      "generation": 7
+    },
+    "Galar": {
+      "start": 810,
+      "end": 898,
+      "generation": 8
+    },
+    "Hisui": {
+      "start": 899,
+      "end": 905,
+      "generation": 8
+    },
+    "Paldea": {
+      "start": 906,
+      "end": 1025,
+      "generation": 9
+    }
+  }
