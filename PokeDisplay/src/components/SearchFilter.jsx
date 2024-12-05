@@ -1,30 +1,24 @@
 import PropTypes from 'prop-types';
-import { Input } from '@/components/ui/input';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 
 const SearchFilter = ({ onSearch, onFilterChange, currentFilter }) => {
   return (
-    <div className="flex flex-col sm:flex-row gap-4">
-      <div className="flex-1">
-        <Input
-          placeholder="Search cards..."
-          onChange={(e) => onSearch(e.target.value)}
-          className="w-full"
-        />
-      </div>
-      <div className="w-full sm:w-48">
-        <Select value={currentFilter} onValueChange={onFilterChange}>
-          <SelectTrigger>
-            <SelectValue placeholder="Filter by type" />
-          </SelectTrigger>
-          <SelectContent>
-            <SelectItem value="all">All Types</SelectItem>
-            <SelectItem value="Trainer">Trainer</SelectItem>
-            <SelectItem value="Energy">Energy</SelectItem>
-            <SelectItem value="Special">Special</SelectItem>
-          </SelectContent>
-        </Select>
-      </div>
+    <div className="search-filters">
+      <input
+        type="text"
+        className="search-input"
+        placeholder="Search by name, code, or set..."
+        onChange={(e) => onSearch({ term: e.target.value })}
+      />
+      <select 
+        className="filter-select"
+        value={currentFilter}
+        onChange={(e) => onFilterChange(e.target.value)}
+      >
+        <option value="all">All Types</option>
+        <option value="Trainer">Trainer</option>
+        <option value="Energy">Energy</option>
+        <option value="Special">Special</option>
+      </select>
     </div>
   );
 };

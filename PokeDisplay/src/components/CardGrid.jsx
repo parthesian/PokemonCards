@@ -1,41 +1,60 @@
+import { useState } from 'react';
 import PropTypes from 'prop-types';
 import CardItem from './CardItem';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 
-const CardGrid = ({ pokemonCards, otherCards, searchTerm, filterType }) => {
-  // Filter cards based on search term and type
-  const filteredPokemon = pokemonCards.filter(card => 
-    card.Name.toLowerCase().includes(searchTerm.toLowerCase())
+const CardGrid = ({ pokemonCards, otherCards, searchConfig, filterType }) => {
+  const [activeTab, setActiveTab] = useState('pokemon');
+
+  const filterCards = (cards, searchTerm) => {
+    if (!cards) return [];
+    const term = searchTerm.toLowerCase();
+    return cards.filter(card => 
+      card.Name.toLowerCase().includes(term) ||
+      card.Code.toLowerCase().includes(term) ||
+      card.Set.toLowerCase().includes(term)
+    );
+  };
+
+  const filteredPokemon = filterCards(
+    pokemonCards,
+    searchConfig.term
   );
 
-  const filteredOther = otherCards.filter(card => 
-    card.Name.toLowerCase().includes(searchTerm.toLowerCase()) &&
-    (filterType === 'all' || card.Type === filterType)
+  const filteredOther = filterCards(
+    otherCards.filter(card => filterType === 'all' || card.Type === filterType),
+    searchConfig.term
   );
 
   return (
-    <Tabs defaultValue="pokemon" className="w-full">
-      <TabsList>
-        <TabsTrigger value="pokemon">Pokemon ({filteredPokemon.length})</TabsTrigger>
-        <TabsTrigger value="other">Other Cards ({filteredOther.length})</TabsTrigger>
-      </TabsList>
-
-      <TabsContent value="pokemon">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
-          {filteredPokemon.map(card => (
-            <CardItem key={card.Code} card={card} type="pokemon" />
-          ))}
+    <div>
+      <div className="tabs">
+        <div className="tab-list">
+          <button
+            className={`tab ${activeTab === 'pokemon' ? 'active' : ''}`}
+            onClick={() => setActiveTab('pokemon')}
+          >
+            Pokemon ({filteredPokemon.length})
+          </button>
+          <button
+            className={`tab ${activeTab === 'other' ? 'active' : ''}`}
+            onClick={() => setActiveTab('other')}
+          >
+            Other Cards ({filteredOther.length})
+          </button>
         </div>
-      </TabsContent>
+      </div>
 
-      <TabsContent value="other">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
-          {filteredOther.map(card => (
-            <CardItem key={card.Code} card={card} type="other" />
-          ))}
-        </div>
-      </TabsContent>
-    </Tabs>
+      <div className="card-grid">
+        {activeTab === 'pokemon' 
+          ? filteredPokemon.map(card => (
+              <CardItem key={card.Code} card={card} type="pokemon" />
+            ))
+          : filteredOther.map(card => (
+              <CardItem key={card.Code} card={card} type="other" />
+            ))
+        }
+      </div>
+    </div>
   );
 };
 
@@ -49,8 +68,10 @@ CardGrid.propTypes = {
     Name: PropTypes.string.isRequired,
     Type: PropTypes.string.isRequired,
   })).isRequired,
-  searchTerm: PropTypes.string.isRequired,
-  filterType: PropTypes.string.isRequired,
+  searchConfig: PropTypes.shape({
+    term: PropTypes.string.isRequired
+  }).isRequired,
+  filterType: PropTypes.string.isRequired
 };
 
 export default CardGrid;
