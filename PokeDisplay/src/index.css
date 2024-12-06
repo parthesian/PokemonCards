@@ -218,3 +218,67 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+.card-header {
+  position: relative;
+}
+
+.card-number {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: #666;
+}
+
+.card-title {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin: 0;
+}
+
+.card-header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.card-title-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.card-badges {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* Existing badge styles */
+.card-badge-delta {
+  font-weight: bold;
+  color: #6366f1;
+}
+
+.card-badge-lvx {
+  font-weight: bold;
+  color: #d97706;
+}
+
+.card-badge-lvx-x {
+  color: #b91c1c;
+}
+
+.card-badge-ex,
+.card-badge-v {
+  height: auto;
+}
+
+.card-badge-v {
+  width: 50%;
+  height: 50%;
+}

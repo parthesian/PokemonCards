@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import cardData from './data/cards.json';
 import Layout from './components/Layout';
-import SearchFilter from './components/SearchFilter';
+import SearchFilter from './components/Search';
 import CardGrid from './components/CardGrid';
 import CollectionStats from './components/CollectionStats';
 import PokemonScrollViewer from './components/PokemonScrollViewer';
@@ -18,7 +18,11 @@ function App() {
       
       <PokemonScrollViewer pokedexData={cardData.pokedex} />
 
-      <CollectionStats summary={cardData.summary} />
+      <CollectionStats 
+        pokemon={cardData.pokemon}
+        other={cardData.other}
+        pokedex={cardData.pokedex}
+      />
       
       <div className="mb-8">
         <SearchFilter 

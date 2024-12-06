@@ -1,5 +1,6 @@
-import card_to_set from '../data/card_to_set.json'
+import React from 'react';
 import PropTypes from 'prop-types';
+import card_to_set from '../data/card_to_set.json';
 
 const CardItem = ({ card, type }) => {
   const imagePath = '/' + card.Card.replace(/\\/g, '/');
@@ -29,6 +30,16 @@ const CardItem = ({ card, type }) => {
         />
       );
     }
+    if (special?.toLowerCase().includes('v')) {
+      badges.push(
+        <img 
+          key="v" 
+          src="/badges/v.png" 
+          alt="V" 
+          className="card-badge-v"
+        />
+      );
+    }
     
     return badges;
   };
@@ -37,16 +48,19 @@ const CardItem = ({ card, type }) => {
     return (
       <div className="card">
         <div className="card-content">
-          <div className="card-header">
-            <h2 className="card-title">
-              {card.Name}{' '}  {/* Added explicit space here */}
-              {card.Special && (
-                <span className="card-badges">
-                  {renderSpecialBadges(card.Special)}
-                </span>
-              )}
-            </h2>
-          </div>
+        <div className="card-header">
+          <h2 className="card-title">
+            {card.Name}
+            {card.Special && (
+              <span className="card-badges">
+                {renderSpecialBadges(card.Special)}
+              </span>
+            )}
+          </h2>
+          <span className="card-number">
+            #{card.Number.toString().padStart(4, '0')}
+          </span>
+        </div>
           
           <div className="card-image">
             <img src={imagePath} alt={`${card.Name} card`} />
@@ -62,12 +76,9 @@ const CardItem = ({ card, type }) => {
           </div>
           
           <div className="card-info-footer">
-            <span className="card-number">
-                <b>#{card.Number.toString().padStart(4, '0')}</b>
-              </span>
-              <span className="card-code">
-                {card.Code}
-              </span>
+            <span className="card-code">
+              {card.Code}
+            </span>
           </div>
           
           {card.Special && (

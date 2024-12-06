@@ -1,12 +1,30 @@
 {
   "pokemon": [
     {
+      "Number": 1,
+      "Name": "Bulbasaur",
+      "Card": "images\\PokemonCards-186.png",
+      "Quantity": 1,
+      "Set": "151 JP",
+      "Code": "sv3pt5-1",
+      "Special": "Pokeball Pattern"
+    },
+    {
       "Number": 2,
       "Name": "Ivysaur",
       "Card": "images\\PokemonCards-115.png",
       "Quantity": 1,
       "Set": "Secret Wonders",
       "Code": "dp3-51",
+      "Special": null
+    },
+    {
+      "Number": 4,
+      "Name": "Charmander",
+      "Card": "images\\PokemonCards-178.png",
+      "Quantity": 1,
+      "Set": "Dragon Majesty",
+      "Code": "sm75-1",
       "Special": null
     },
     {
@@ -80,6 +98,33 @@
       "Set": "FireRed & LeafGreen",
       "Code": "ex6-104",
       "Special": "ex"
+    },
+    {
+      "Number": 11,
+      "Name": "Metapod",
+      "Card": "images\\PokemonCards-187.png",
+      "Quantity": 1,
+      "Set": "151 JP",
+      "Code": "sv3pt5-11",
+      "Special": "Pokeball Pattern"
+    },
+    {
+      "Number": 15,
+      "Name": "Beedrill",
+      "Card": "images\\PokemonCards-183.png",
+      "Quantity": 1,
+      "Set": "Unleashed",
+      "Code": "hgss2-12",
+      "Special": null
+    },
+    {
+      "Number": 25,
+      "Name": "Pikachu",
+      "Card": "images\\PokemonCards-184.png",
+      "Quantity": 1,
+      "Set": "XY",
+      "Code": "xy1-42",
+      "Special": null
     },
     {
       "Number": 26,
@@ -478,6 +523,15 @@
       "Special": "δ"
     },
     {
+      "Number": 148,
+      "Name": "Dragonair",
+      "Card": "images\\PokemonCards-171.png",
+      "Quantity": 1,
+      "Set": "151 JP",
+      "Code": " sv3pt5-181",
+      "Special": null
+    },
+    {
       "Number": 149,
       "Name": "Dragonite",
       "Card": "images\\PokemonCards-59.png",
@@ -676,6 +730,24 @@
       "Special": null
     },
     {
+      "Number": 243,
+      "Name": "Raikou",
+      "Card": "images\\PokemonCards-175.png",
+      "Quantity": 1,
+      "Set": "Shining Legends",
+      "Code": "sm35-32",
+      "Special": "Let's Play Pikachu"
+    },
+    {
+      "Number": 244,
+      "Name": "Entei",
+      "Card": "images\\PokemonCards-182.png",
+      "Quantity": 1,
+      "Set": "Paldean Fates",
+      "Code": "sv4pt5-112",
+      "Special": null
+    },
+    {
       "Number": 247,
       "Name": "Pupitar",
       "Card": "images\\PokemonCards-148.png",
@@ -710,6 +782,15 @@
       "Set": "POP Series 1",
       "Code": "pop1-17",
       "Special": "ex"
+    },
+    {
+      "Number": 249,
+      "Name": "Lugia",
+      "Card": "images\\PokemonCards-174.png",
+      "Quantity": 1,
+      "Set": "Paradigm Trigger JP",
+      "Code": "swsh12-138",
+      "Special": "V"
     },
     {
       "Number": 254,
@@ -799,6 +880,15 @@
       "Quantity": 1,
       "Set": "Power Keepers",
       "Code": "ex16-36",
+      "Special": null
+    },
+    {
+      "Number": 275,
+      "Name": "Shiftry",
+      "Card": "images\\PokemonCards-172.png",
+      "Quantity": 1,
+      "Set": "Cyber Judge JP",
+      "Code": "sv5-163",
       "Special": null
     },
     {
@@ -961,6 +1051,15 @@
       "Quantity": 1,
       "Set": "Great Encounters",
       "Code": "dp4-12",
+      "Special": null
+    },
+    {
+      "Number": 335,
+      "Name": "Zangoose",
+      "Card": "images\\PokemonCards-181.png",
+      "Quantity": 1,
+      "Set": "Team Up",
+      "Code": "sm9-132",
       "Special": null
     },
     {
@@ -1160,6 +1259,15 @@
       "Set": "Crystal Guardians",
       "Code": "ex14-94",
       "Special": "ex"
+    },
+    {
+      "Number": 386,
+      "Name": "Deoxys",
+      "Card": "images\\PokemonCards-180.png",
+      "Quantity": 1,
+      "Set": "Celestial Storm",
+      "Code": "sm7-69",
+      "Special": null
     },
     {
       "Number": 389,
@@ -1369,6 +1477,15 @@
       "Special": null
     },
     {
+      "Number": 489,
+      "Name": "Phione",
+      "Card": "images\\PokemonCards-173.png",
+      "Quantity": 1,
+      "Set": "Transformation Mask JP",
+      "Code": "sv6-175",
+      "Special": null
+    },
+    {
       "Number": 556,
       "Name": "Maractus",
       "Card": "images\\PokemonCards-4.png",
@@ -1376,6 +1493,42 @@
       "Set": "Paldean Fates",
       "Code": "sv4pt5-3",
       "Special": null
+    },
+    {
+      "Number": 571,
+      "Name": "Zoroark",
+      "Card": "images\\PokemonCards-179.png",
+      "Quantity": 1,
+      "Set": "Lost Origin",
+      "Code": "swsh11-76",
+      "Special": "Hisuian Zoroark"
+    },
+    {
+      "Number": 646,
+      "Name": "Kyurem",
+      "Card": "images\\PokemonCards-176.png",
+      "Quantity": 1,
+      "Set": "Fates Collide",
+      "Code": "xy10-21",
+      "Special": "White Kyurem"
+    },
+    {
+      "Number": 716,
+      "Name": "Xerneas",
+      "Card": "images\\PokemonCards-177.png",
+      "Quantity": 1,
+      "Set": "BREAKthrough",
+      "Code": "xy8-107",
+      "Special": null
+    },
+    {
+      "Number": 717,
+      "Name": "Yveltal",
+      "Card": "images\\PokemonCards-185.png",
+      "Quantity": 1,
+      "Set": "XY",
+      "Code": "xy1-79",
+      "Special": "ex"
     }
   ],
   "other": [
@@ -1528,7 +1681,7 @@
     {
       "Name": "Bulbasaur",
       "Number": 1,
-      "Collected": false
+      "Collected": true
     },
     {
       "Name": "Ivysaur",
@@ -1543,7 +1696,7 @@
     {
       "Name": "Charmander",
       "Number": 4,
-      "Collected": false
+      "Collected": true
     },
     {
       "Name": "Charmeleon",
@@ -1578,7 +1731,7 @@
     {
       "Name": "Metapod",
       "Number": 11,
-      "Collected": false
+      "Collected": true
     },
     {
       "Name": "Butterfree",
@@ -1598,7 +1751,7 @@
     {
       "Name": "Beedrill",
       "Number": 15,
-      "Collected": false
+      "Collected": true
     },
     {
       "Name": "Pidgey",
@@ -1648,7 +1801,7 @@
     {
       "Name": "Pikachu",
       "Number": 25,
-      "Collected": false
+      "Collected": true
     },
     {
       "Name": "Raichu",
@@ -2263,7 +2416,7 @@
     {
       "Name": "Dragonair",
       "Number": 148,
-      "Collected": false
+      "Collected": true
     },
     {
       "Name": "Dragonite",
@@ -2738,12 +2891,12 @@
     {
       "Name": "Raikou",
       "Number": 243,
-      "Collected": false
+      "Collected": true
     },
     {
       "Name": "Entei",
       "Number": 244,
-      "Collected": false
+      "Collected": true
     },
     {
       "Name": "Suicune",
@@ -2768,7 +2921,7 @@
     {
       "Name": "Lugia",
       "Number": 249,
-      "Collected": false
+      "Collected": true
     },
     {
       "Name": "Ho-Oh",
@@ -2898,7 +3051,7 @@
     {
       "Name": "Shiftry",
       "Number": 275,
-      "Collected": false
+      "Collected": true
     },
     {
       "Name": "Taillow",
@@ -3198,7 +3351,7 @@
     {
       "Name": "Zangoose",
       "Number": 335,
-      "Collected": false
+      "Collected": true
     },
     {
       "Name": "Seviper",
@@ -3453,7 +3606,7 @@
     {
       "Name": "Deoxys",
       "Number": 386,
-      "Collected": false
+      "Collected": true
     },
     {
       "Name": "Turtwig",
@@ -3968,7 +4121,7 @@
     {
       "Name": "Phione",
       "Number": 489,
-      "Collected": false
+      "Collected": true
     },
     {
       "Name": "Manaphy",
@@ -4378,7 +4531,7 @@
     {
       "Name": "Zoroark",
       "Number": 571,
-      "Collected": false
+      "Collected": true
     },
     {
       "Name": "Minccino",
@@ -4753,7 +4906,7 @@
     {
       "Name": "Kyurem",
       "Number": 646,
-      "Collected": false
+      "Collected": true
     },
     {
       "Name": "Keldeo",
@@ -5103,12 +5256,12 @@
     {
       "Name": "Xerneas",
       "Number": 716,
-      "Collected": false
+      "Collected": true
     },
     {
       "Name": "Yveltal",
       "Number": 717,
-      "Collected": false
+      "Collected": true
     },
     {
       "Name": "Zygarde",
@@ -6650,14 +6803,5 @@
       "Number": 1025,
       "Collected": false
     }
-  ],
-  "summary": {
-    "totalPokemon": 1025,
-    "collectedPokemon": 133,
-    "completionRate": 12.98,
-    "uniqueCards": 153,
-    "totalCards": 165,
-    "otherCards": 18,
-    "totalOtherCards": 48
-  }
+  ]
 }
