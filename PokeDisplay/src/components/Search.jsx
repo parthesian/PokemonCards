@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Search = ({ onSearch, searchTerm }) => {
-  const handleSearch = (value) => {
-    onSearch({ term: value });
+const Search = ({ onSearch, value }) => {
+  const handleSearch = (newValue) => {
+    onSearch({ term: newValue });
   };
 
   return (
@@ -11,8 +11,8 @@ const Search = ({ onSearch, searchTerm }) => {
       <input
         type="text"
         className="search-input"
-        placeholder="Search by name, number, code, set, or special..."
-        value={searchTerm || ''}
+        placeholder="Search by name, number, code, set..."
+        value={value || ''} // Control the input value from props
         onChange={(e) => handleSearch(e.target.value)}
       />
     </div>
@@ -21,7 +21,7 @@ const Search = ({ onSearch, searchTerm }) => {
 
 Search.propTypes = {
   onSearch: PropTypes.func.isRequired,
-  searchTerm: PropTypes.string
+  value: PropTypes.string
 };
 
 export default Search;

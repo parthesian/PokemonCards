@@ -7,13 +7,11 @@ const CardGrid = ({ pokemonCards, otherCards, searchConfig, filterType }) => {
 
   const normalizeSearch = (text) => {
     if (text === null || text === undefined) return '';
-    // Convert delta symbol to 'delta' for searching
-    return text.toString().toLowerCase().replace('δ', 'delta');
+    return text.toString().toLowerCase();
   };
 
   const padPokedexNumber = (number) => {
     if (!number) return '';
-    // Convert number to 4-digit string with leading zeros
     return number.toString().padStart(4, '0');
   };
 
@@ -25,18 +23,29 @@ const CardGrid = ({ pokemonCards, otherCards, searchConfig, filterType }) => {
 
     return cards.filter(card => {
       try {
-        // Convert card data for searching
+        // Basic searchable fields
         const searchableFields = [
           card.Name,
           card.Code,
           card.Set,
-          card.Special,
           card.Number
         ].map(field => normalizeSearch(field));
 
         // Add padded number if it exists
         if (card.Number) {
           searchableFields.push(padPokedexNumber(card.Number));
+        }
+
+        // Add special characteristics if they exist
+        if (card.Special) {
+          if (card.Special.delta) searchableFields.push('delta');
+          if (card.Special['LV. X']) searchableFields.push('lv x');
+          if (card.Special.ex) searchableFields.push('ex');
+          if (card.Special.EX) searchableFields.push('ex');
+          if (card.Special.V) searchableFields.push('v');
+          if (card.Special.paradox) searchableFields.push(card.Special.paradox.toLowerCase());
+          if (card.Special['Trainer Pokemon']) searchableFields.push(normalizeSearch(card.Special['Trainer Pokemon']));
+          if (card.Special.Form) searchableFields.push(normalizeSearch(card.Special.Form));
         }
 
         // Return true if any field matches the search term
@@ -108,7 +117,16 @@ CardGrid.propTypes = {
     Name: PropTypes.string.isRequired,
     Set: PropTypes.string.isRequired,
     Number: PropTypes.string,
-    Special: PropTypes.string
+    Special: PropTypes.shape({
+      ex: PropTypes.bool,
+      EX: PropTypes.bool,
+      'LV. X': PropTypes.bool,
+      V: PropTypes.bool,
+      delta: PropTypes.bool,
+      paradox: PropTypes.string,
+      'Trainer Pokemon': PropTypes.string,
+      Form: PropTypes.string
+    })
   })).isRequired,
   otherCards: PropTypes.arrayOf(PropTypes.shape({
     Code: PropTypes.string.isRequired,

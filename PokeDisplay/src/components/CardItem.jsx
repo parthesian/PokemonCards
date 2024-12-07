@@ -6,13 +6,14 @@ const CardItem = ({ card, type }) => {
   const imagePath = '/' + card.Card.replace(/\\/g, '/');
 
   const renderSpecialBadges = (special) => {
+    if (!special) return null;
     const badges = [];
     
-    if (special?.includes('δ')) {
+    if (special.delta) {
       badges.push(<span key="δ" className="card-badge-delta">δ</span>);
     }
     
-    if (special?.includes('Lv. X')) {
+    if (special['LV. X']) {
       badges.push(
         <span key="Lv. X" className="card-badge-lvx">
           LV. <span className="card-badge-lvx-x">X</span>
@@ -20,17 +21,29 @@ const CardItem = ({ card, type }) => {
       );
     }
     
-    if (special?.toLowerCase().includes('ex')) {
+    if (special.ex) {
       badges.push(
         <img 
           key="ex" 
-          src="/badges/ex.png" 
+          src="/badges/ex_lower.png" 
+          alt="ex" 
+          className="card-badge-ex" 
+        />
+      );
+    }
+
+    if (special.EX) {
+      badges.push(
+        <img 
+          key="EX" 
+          src="/badges/ex_upper.png" 
           alt="EX" 
           className="card-badge-ex" 
         />
       );
     }
-    if (special?.toLowerCase().includes('v')) {
+
+    if (special.V) {
       badges.push(
         <img 
           key="v" 
@@ -40,27 +53,67 @@ const CardItem = ({ card, type }) => {
         />
       );
     }
+
+    if (special.paradox === "Future") {
+      badges.push(
+        <img 
+          key="paradox" 
+          src="/badges/paradox_future.png" 
+          alt="Future Paradox" 
+          className="card-badge-paradox" 
+        />
+      );
+    }
     
     return badges;
+  };
+
+  const renderSpecialInfo = (special) => {
+    if (!special) return null;
+    const info = [];
+
+    if (special["Trainer Pokemon"]) {
+      info.push(
+        <div key="trainer" className="card-special-info">
+          <span className="card-special-label">Trainer Pokemon:</span>
+          <span>{special["Trainer Pokemon"]}</span>
+        </div>
+      );
+    }
+
+    if (special.Form) {
+      info.push(
+        <div key="form" className="card-special-info">
+          <span className="card-special-label">Form:</span>
+          <span>{special.Form}</span>
+        </div>
+      );
+    }
+
+    return info.length > 0 ? (
+      <div className="card-special-section">
+        {info}
+      </div>
+    ) : null;
   };
 
   if (type === 'pokemon') {
     return (
       <div className="card">
         <div className="card-content">
-        <div className="card-header">
-          <h2 className="card-title">
-            {card.Name}
-            {card.Special && (
-              <span className="card-badges">
-                {renderSpecialBadges(card.Special)}
-              </span>
-            )}
-          </h2>
-          <span className="card-number">
-            #{card.Number.toString().padStart(4, '0')}
-          </span>
-        </div>
+          <div className="card-header">
+            <h2 className="card-title">
+              {card.Name}
+              {card.Special && (
+                <span className="card-badges">
+                  {renderSpecialBadges(card.Special)}
+                </span>
+              )}
+            </h2>
+            <span className="card-number">
+              #{card.Number.toString().padStart(4, '0')}
+            </span>
+          </div>
           
           <div className="card-image">
             <img src={imagePath} alt={`${card.Name} card`} />
@@ -81,12 +134,7 @@ const CardItem = ({ card, type }) => {
             </span>
           </div>
           
-          {card.Special && (
-            <div className="card-special">
-              <span>Special: </span>
-              <span>{card.Special}</span>
-            </div>
-          )}
+          {renderSpecialInfo(card.Special)}
         </div>
       </div>
     );
@@ -130,7 +178,17 @@ CardItem.propTypes = {
       Quantity: PropTypes.number.isRequired,
       Code: PropTypes.string.isRequired,
       Number: PropTypes.string.isRequired,
-      Special: PropTypes.string,
+      Language: PropTypes.oneOf(['EN', 'JP']).isRequired,
+      Special: PropTypes.shape({
+        ex: PropTypes.bool,
+        EX: PropTypes.bool,
+        'LV. X': PropTypes.bool,
+        V: PropTypes.bool,
+        delta: PropTypes.bool,
+        paradox: PropTypes.string,
+        'Trainer Pokemon': PropTypes.string,
+        Form: PropTypes.string
+      })
     }),
     PropTypes.shape({
       Name: PropTypes.string.isRequired,
@@ -139,6 +197,7 @@ CardItem.propTypes = {
       Quantity: PropTypes.number.isRequired,
       Code: PropTypes.string.isRequired,
       Type: PropTypes.string.isRequired,
+      Language: PropTypes.oneOf(['EN', 'JP']).isRequired,
     }),
   ]).isRequired,
   type: PropTypes.oneOf(['pokemon', 'other']).isRequired,

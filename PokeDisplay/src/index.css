@@ -275,10 +275,29 @@ body {
 
 .card-badge-ex,
 .card-badge-v {
-  height: auto;
-}
-
-.card-badge-v {
   width: 50%;
   height: 50%;
+}
+
+.card-special-section {
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.card-special-info {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.25rem;
+}
+
+.card-special-label {
+  font-weight: 500;
+  margin-right: 0.5rem;
+}
+
+.card-badge-paradox {
+  height: 1.25rem;
+  width: auto;
+  vertical-align: middle;
 }

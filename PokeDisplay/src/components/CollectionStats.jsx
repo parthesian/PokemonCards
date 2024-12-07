@@ -272,7 +272,17 @@ CollectionStats.propTypes = {
     Quantity: PropTypes.number.isRequired,
     Set: PropTypes.string.isRequired,
     Code: PropTypes.string.isRequired,
-    Special: PropTypes.string
+    Language: PropTypes.oneOf(['EN', 'JP']).isRequired,
+    Special: PropTypes.shape({
+      ex: PropTypes.bool,
+      EX: PropTypes.bool,
+      'LV. X': PropTypes.bool,
+      V: PropTypes.bool,
+      delta: PropTypes.bool,
+      paradox: PropTypes.string,
+      'Trainer Pokemon': PropTypes.string,
+      Form: PropTypes.string
+    })
   })).isRequired,
   other: PropTypes.arrayOf(PropTypes.shape({
     Type: PropTypes.string.isRequired,
@@ -280,7 +290,8 @@ CollectionStats.propTypes = {
     Card: PropTypes.string.isRequired,
     Quantity: PropTypes.number.isRequired,
     Set: PropTypes.string.isRequired,
-    Code: PropTypes.string.isRequired
+    Code: PropTypes.string.isRequired,
+    Language: PropTypes.oneOf(['EN', 'JP']).isRequired
   })).isRequired,
   pokedex: PropTypes.arrayOf(PropTypes.shape({
     Name: PropTypes.string.isRequired,
