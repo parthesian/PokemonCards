@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import cardData from './data/cards.json';
 import Layout from './components/Layout';
 import SearchFilter from './components/Search';
@@ -12,11 +12,29 @@ function App() {
     field: 'name'
   });
   const [filterType, setFilterType] = useState('all');
+  const searchRef = useRef(null);
+
+  const handlePokemonClick = (pokemon) => {
+    if (pokemon.Collected) {
+      setSearchConfig({
+        ...searchConfig,
+        term: pokemon.Name
+      });
+      
+      // Scroll to search section
+      searchRef.current?.scrollIntoView({ 
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
+  };
 
   return (
     <Layout>
-      
-      <PokemonScrollViewer pokedexData={cardData.pokedex} />
+      <PokemonScrollViewer 
+        pokedexData={cardData.pokedex}
+        onPokemonClick={handlePokemonClick}
+      />
 
       <CollectionStats 
         pokemon={cardData.pokemon}
@@ -24,11 +42,12 @@ function App() {
         pokedex={cardData.pokedex}
       />
       
-      <div className="mb-8">
+      <div className="mb-8" ref={searchRef}>
         <SearchFilter 
           onSearch={setSearchConfig}
           onFilterChange={setFilterType}
           currentFilter={filterType}
+          searchTerm={searchConfig.term}
         />
       </div>
       

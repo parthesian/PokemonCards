@@ -2,7 +2,7 @@ import { useState, useRef, useCallback, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import regionData from '../data/region_to_dex.json';
 
-const PokemonScrollViewer = ({ pokedexData }) => {
+const PokemonScrollViewer = ({ pokedexData, onPokemonClick }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isDragging, setIsDragging] = useState(false);
   const scrollbarRef = useRef(null);
@@ -67,6 +67,13 @@ const PokemonScrollViewer = ({ pokedexData }) => {
       setCurrentIndex(newIndex);
     }
     setIsDragging(true);
+  };
+
+  const handlePokemonSelect = (pokemon, e) => {
+    e.stopPropagation(); // Prevent event from bubbling to scrollbar
+    if (pokemon.Collected) {
+      onPokemonClick(pokemon);
+    }
   };
 
   useEffect(() => {
@@ -200,6 +207,7 @@ const PokemonScrollViewer = ({ pokedexData }) => {
               return (
                 <div 
                   key={pokemon.Number}
+                  onClick={(e) => handlePokemonSelect(pokemon, e)}
                   style={{ 
                     textAlign: 'center',
                     transform: isCurrent ? 'scale(1.2)' : 'scale(1)',
@@ -210,7 +218,14 @@ const PokemonScrollViewer = ({ pokedexData }) => {
                     alignItems: 'center',
                     gap: '0.5rem',
                     width: isCurrent ? '120px' : '80px',
-                    height: isCurrent ? '90px' : '75px'
+                    height: isCurrent ? '90px' : '75px',
+                    cursor: pokemon.Collected ? 'pointer' : 'default',
+                    padding: '0.5rem',
+                    borderRadius: '0.5rem',
+                    backgroundColor: pokemon.Collected ? 'rgba(255, 255, 255, 0.1)' : 'transparent',
+                    '&:hover': {
+                      backgroundColor: pokemon.Collected ? 'rgba(255, 255, 255, 0.2)' : 'transparent'
+                    }
                   }}
                 >
                   <div style={{ 
@@ -274,7 +289,8 @@ PokemonScrollViewer.propTypes = {
     Number: PropTypes.string.isRequired,
     Name: PropTypes.string.isRequired,
     Collected: PropTypes.bool.isRequired
-  })).isRequired
+  })).isRequired,
+  onPokemonClick: PropTypes.func.isRequired
 };
 
 export default PokemonScrollViewer;

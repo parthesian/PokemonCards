@@ -1,11 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
-const Search = ({ onSearch }) => {
-  const [searchTerm, setSearchTerm] = useState('');
-
+const Search = ({ onSearch, searchTerm }) => {
   const handleSearch = (value) => {
-    setSearchTerm(value);
     onSearch({ term: value });
   };
 
@@ -15,7 +12,7 @@ const Search = ({ onSearch }) => {
         type="text"
         className="search-input"
         placeholder="Search by name, number, code, set, or special..."
-        value={searchTerm}
+        value={searchTerm || ''}
         onChange={(e) => handleSearch(e.target.value)}
       />
     </div>
@@ -23,7 +20,8 @@ const Search = ({ onSearch }) => {
 };
 
 Search.propTypes = {
-  onSearch: PropTypes.func.isRequired
+  onSearch: PropTypes.func.isRequired,
+  searchTerm: PropTypes.string
 };
 
 export default Search;
