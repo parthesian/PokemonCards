@@ -1182,7 +1182,8 @@
       "Code": "ex15-92",
       "Language": "EN",
       "Special": {
-        "ex": true
+        "ex": true,
+        "delta": true
       }
     },
     {
