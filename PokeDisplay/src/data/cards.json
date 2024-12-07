@@ -1522,6 +1522,258 @@
       "Special": null
     },
     {
+      "Number": 1025,
+      "Name": "Pecharunt",
+      "Card": "images\\PokemonCards-188.png",
+      "Quantity": 1,
+      "Set": "Shrouded Fable",
+      "Code": "sv6pt5-39",
+      "Special": "ex"
+    },
+    {
+      "Number": 570,
+      "Name": "Zorua",
+      "Card": "images\\PokemonCards-189.png",
+      "Quantity": 1,
+      "Set": "Shrouded Fable",
+      "Code": "sv6pt5-31",
+      "Special": null
+    },
+    {
+      "Number": 229,
+      "Name": "Houndoom",
+      "Card": "images\\PokemonCards-190.png",
+      "Quantity": 1,
+      "Set": "Shrouded Fable",
+      "Code": "sv6pt5-8",
+      "Special": null
+    },
+    {
+      "Number": 649,
+      "Name": "Genesect",
+      "Card": "images\\PokemonCards-191.png",
+      "Quantity": 1,
+      "Set": "Shrouded Fable",
+      "Code": "sv6pt5-40",
+      "Special": null
+    },
+    {
+      "Number": 687,
+      "Name": "Malamar",
+      "Card": "images\\PokemonCards-192.png",
+      "Quantity": 1,
+      "Set": "Shrouded Fable",
+      "Code": "sv6pt5-34",
+      "Special": null
+    },
+    {
+      "Number": 596,
+      "Name": "Galvantula",
+      "Card": "images\\PokemonCards-193.png",
+      "Quantity": 1,
+      "Set": "Shrouded Fable",
+      "Code": "sv6pt5-2",
+      "Special": null
+    },
+    {
+      "Number": 116,
+      "Name": "Horsea",
+      "Card": "images\\PokemonCards-194.png",
+      "Quantity": 3,
+      "Set": "Shrouded Fable",
+      "Code": "sv6pt5-10",
+      "Special": null
+    },
+    {
+      "Number": 52,
+      "Name": "Meowth",
+      "Card": "images\\PokemonCards-195.png",
+      "Quantity": 1,
+      "Set": "Shrouded Fable",
+      "Code": "sv6pt5-48",
+      "Special": null
+    },
+    {
+      "Number": 454,
+      "Name": "Toxicroak",
+      "Card": "images\\PokemonCards-196.png",
+      "Quantity": 2,
+      "Set": "Shrouded Fable",
+      "Code": "sv6pt5-24",
+      "Special": null
+    },
+    {
+      "Number": 676,
+      "Name": "Furfrou",
+      "Card": "images\\PokemonCards-197.png",
+      "Quantity": 1,
+      "Set": "Shrouded Fable",
+      "Code": "sv6pt5-51",
+      "Special": null
+    },
+    {
+      "Number": 994,
+      "Name": "Iron Moth",
+      "Card": "images\\PokemonCards-198.png",
+      "Quantity": 1,
+      "Set": "Shrouded Fable",
+      "Code": "sv6pt5-9",
+      "Special": null
+    },
+    {
+      "Number": 169,
+      "Name": "Crobat",
+      "Card": "images\\PokemonCards-199.png",
+      "Quantity": 1,
+      "Set": "Shrouded Fable",
+      "Code": "sv6pt5-29",
+      "Special": null
+    },
+    {
+      "Number": 901,
+      "Name": "Ursaluna",
+      "Card": "images\\PokemonCards-200.png",
+      "Quantity": 2,
+      "Set": "Shrouded Fable",
+      "Code": "sv6pt5-25",
+      "Special": "Bloodmoon"
+    },
+    {
+      "Number": 724,
+      "Name": "Decidueye",
+      "Card": "images\\PokemonCards-201.png",
+      "Quantity": 1,
+      "Set": "Shrouded Fable",
+      "Code": "sv6pt5-5",
+      "Special": null
+    },
+    {
+      "Number": 97,
+      "Name": "Hypno",
+      "Card": "images\\PokemonCards-202.png",
+      "Quantity": 2,
+      "Set": "Shrouded Fable",
+      "Code": "sv6pt5-17",
+      "Special": null
+    },
+    {
+      "Number": 760,
+      "Name": "Bewear",
+      "Card": "images\\PokemonCards-203.png",
+      "Quantity": 1,
+      "Set": "Shrouded Fable",
+      "Code": "sv6pt5-53",
+      "Special": null
+    },
+    {
+      "Number": 355,
+      "Name": "Duskull",
+      "Card": "images\\PokemonCards-204.png",
+      "Quantity": 1,
+      "Set": "Shrouded Fable",
+      "Code": "sv6pt5-18",
+      "Special": null
+    },
+    {
+      "Number": 965,
+      "Name": "Varoom",
+      "Card": "images\\PokemonCards-205.png",
+      "Quantity": 1,
+      "Set": "Shrouded Fable",
+      "Code": "sv6pt5-43",
+      "Special": null
+    },
+    {
+      "Number": 787,
+      "Name": "Tapu Bulu",
+      "Card": "images\\PokemonCards-206.png",
+      "Quantity": 1,
+      "Set": "Shrouded Fable",
+      "Code": "sv6pt5-6",
+      "Special": null
+    },
+    {
+      "Number": 646,
+      "Name": "Kyurem",
+      "Card": "images\\PokemonCards-207.png",
+      "Quantity": 1,
+      "Set": "Shrouded Fable",
+      "Code": "sv6pt5-47",
+      "Special": null
+    },
+    {
+      "Number": 717,
+      "Name": "Yveltal",
+      "Card": "images\\PokemonCards-208.png",
+      "Quantity": 1,
+      "Set": "Shrouded Fable",
+      "Code": "sv6pt5-35",
+      "Special": null
+    },
+    {
+      "Number": 215,
+      "Name": "Sneasel",
+      "Card": "images\\PokemonCards-209.png",
+      "Quantity": 1,
+      "Set": "Shrouded Fable",
+      "Code": "sv6pt5-13",
+      "Special": null
+    },
+    {
+      "Number": 610,
+      "Name": "Axew",
+      "Card": "images\\PokemonCards-210.png",
+      "Quantity": 1,
+      "Set": "Shrouded Fable",
+      "Code": "sv6pt5-44",
+      "Special": null
+    },
+    {
+      "Number": 42,
+      "Name": "Golbat",
+      "Card": "images\\PokemonCards-211.png",
+      "Quantity": 1,
+      "Set": "Shrouded Fable",
+      "Code": "sv6pt5-28",
+      "Special": null
+    },
+    {
+      "Number": 41,
+      "Name": "Zubat",
+      "Card": "images\\PokemonCards-212.png",
+      "Quantity": 2,
+      "Set": "Shrouded Fable",
+      "Code": "sv6pt5-27",
+      "Special": null
+    },
+    {
+      "Number": 96,
+      "Name": "Drowzee",
+      "Card": "images\\PokemonCards-213.png",
+      "Quantity": 1,
+      "Set": "Shrouded Fable",
+      "Code": "sv6pt5-16",
+      "Special": null
+    },
+    {
+      "Number": 722,
+      "Name": "Rowlet",
+      "Card": "images\\PokemonCards-214.png",
+      "Quantity": 1,
+      "Set": "Shrouded Fable",
+      "Code": "sv6pt5-3",
+      "Special": null
+    },
+    {
+      "Number": 878,
+      "Name": "Cufant",
+      "Card": "images\\PokemonCards-215.png",
+      "Quantity": 1,
+      "Set": "Shrouded Fable",
+      "Code": "sv6pt5-41",
+      "Special": null
+    },
+    {
       "Number": 717,
       "Name": "Yveltal",
       "Card": "images\\PokemonCards-185.png",
@@ -1536,9 +1788,9 @@
       "Type": "Energy",
       "Name": "Basic Lightning Energy",
       "Card": "images\\PokemonCards-154.png",
-      "Quantity": 1,
+      "Quantity": 2,
       "Set": "Paldean Fates",
-      "Code": "sve4-4"
+      "Code": "sve-4"
     },
     {
       "Type": "Energy",
@@ -1667,6 +1919,78 @@
       "Quantity": 3,
       "Set": "Base Set 2",
       "Code": "base4-120"
+    },
+    {
+      "Type": "Item",
+      "Name": "Night Stretcher",
+      "Card": "images\\PokemonCards-216.png",
+      "Quantity": 1,
+      "Set": "Shrouded Fable",
+      "Code": "sv6pt5-61"
+    },
+    {
+      "Type": "Supporter",
+      "Name": "Colress's Tenacity",
+      "Card": "images\\PokemonCards-217.png",
+      "Quantity": 1,
+      "Set": "Shrouded Fable",
+      "Code": "sv6pt5-57"
+    },
+    {
+      "Type": "Supporter",
+      "Name": "Janine's Secret Art",
+      "Card": "images\\PokemonCards-218.png",
+      "Quantity": 1,
+      "Set": "Shrouded Fable",
+      "Code": "sv6pt5-88"
+    },
+    {
+      "Type": "Energy",
+      "Name": "Basic Water Energy",
+      "Card": "images\\PokemonCards-219.png",
+      "Quantity": 1,
+      "Set": "Shrouded Fable",
+      "Code": "sve-3"
+    },
+    {
+      "Type": "Stadium",
+      "Name": "Academy at Night",
+      "Card": "images\\PokemonCards-220.png",
+      "Quantity": 1,
+      "Set": "Shrouded Fable",
+      "Code": "sv6pt5-54"
+    },
+    {
+      "Type": "Tool",
+      "Name": "Binding Mochi",
+      "Card": "images\\PokemonCards-221.png",
+      "Quantity": 1,
+      "Set": "Shrouded Fable",
+      "Code": "sv6pt5-55"
+    },
+    {
+      "Type": "Energy",
+      "Name": "Basic Dark Energy",
+      "Card": "images\\PokemonCards-222.png",
+      "Quantity": 1,
+      "Set": "Shrouded Fable",
+      "Code": "sve-7"
+    },
+    {
+      "Type": "Supporter",
+      "Name": "Janine's Secret Art",
+      "Card": "images\\PokemonCards-223.png",
+      "Quantity": 1,
+      "Set": "Shrouded Fable",
+      "Code": "sv6pt5-59"
+    },
+    {
+      "Type": "Energy",
+      "Name": "Basic Metal Energy",
+      "Card": "images\\PokemonCards-224.png",
+      "Quantity": 1,
+      "Set": "Shrouded Fable",
+      "Code": "sve-8"
     },
     {
       "Type": "Trainer",
@@ -1881,12 +2205,12 @@
     {
       "Name": "Zubat",
       "Number": 41,
-      "Collected": false
+      "Collected": true
     },
     {
       "Name": "Golbat",
       "Number": 42,
-      "Collected": false
+      "Collected": true
     },
     {
       "Name": "Oddish",
@@ -1936,7 +2260,7 @@
     {
       "Name": "Meowth",
       "Number": 52,
-      "Collected": false
+      "Collected": true
     },
     {
       "Name": "Persian",
@@ -2161,7 +2485,7 @@
     {
       "Name": "Hypno",
       "Number": 97,
-      "Collected": false
+      "Collected": true
     },
     {
       "Name": "Krabby",
@@ -2256,7 +2580,7 @@
     {
       "Name": "Horsea",
       "Number": 116,
-      "Collected": false
+      "Collected": true
     },
     {
       "Name": "Seadra",
@@ -2521,7 +2845,7 @@
     {
       "Name": "Crobat",
       "Number": 169,
-      "Collected": false
+      "Collected": true
     },
     {
       "Name": "Chinchou",
@@ -2751,7 +3075,7 @@
     {
       "Name": "Sneasel",
       "Number": 215,
-      "Collected": false
+      "Collected": true
     },
     {
       "Name": "Teddiursa",
@@ -2821,7 +3145,7 @@
     {
       "Name": "Houndoom",
       "Number": 229,
-      "Collected": false
+      "Collected": true
     },
     {
       "Name": "Kingdra",
@@ -3946,7 +4270,7 @@
     {
       "Name": "Toxicroak",
       "Number": 454,
-      "Collected": false
+      "Collected": true
     },
     {
       "Name": "Carnivine",
@@ -4526,7 +4850,7 @@
     {
       "Name": "Zorua",
       "Number": 570,
-      "Collected": false
+      "Collected": true
     },
     {
       "Name": "Zoroark",
@@ -4656,7 +4980,7 @@
     {
       "Name": "Galvantula",
       "Number": 596,
-      "Collected": false
+      "Collected": true
     },
     {
       "Name": "Ferroseed",
@@ -4726,7 +5050,7 @@
     {
       "Name": "Axew",
       "Number": 610,
-      "Collected": false
+      "Collected": true
     },
     {
       "Name": "Fraxure",
@@ -4921,7 +5245,7 @@
     {
       "Name": "Genesect",
       "Number": 649,
-      "Collected": false
+      "Collected": true
     },
     {
       "Name": "Chespin",
@@ -5056,7 +5380,7 @@
     {
       "Name": "Furfrou",
       "Number": 676,
-      "Collected": false
+      "Collected": true
     },
     {
       "Name": "Espurr",
@@ -5111,7 +5435,7 @@
     {
       "Name": "Malamar",
       "Number": 687,
-      "Collected": false
+      "Collected": true
     },
     {
       "Name": "Binacle",
@@ -5286,7 +5610,7 @@
     {
       "Name": "Rowlet",
       "Number": 722,
-      "Collected": false
+      "Collected": true
     },
     {
       "Name": "Dartrix",
@@ -5296,7 +5620,7 @@
     {
       "Name": "Decidueye",
       "Number": 724,
-      "Collected": false
+      "Collected": true
     },
     {
       "Name": "Litten",
@@ -5476,7 +5800,7 @@
     {
       "Name": "Bewear",
       "Number": 760,
-      "Collected": false
+      "Collected": true
     },
     {
       "Name": "Bounsweet",
@@ -5611,7 +5935,7 @@
     {
       "Name": "Tapu Bulu",
       "Number": 787,
-      "Collected": false
+      "Collected": true
     },
     {
       "Name": "Tapu Fini",
@@ -6066,7 +6390,7 @@
     {
       "Name": "Cufant",
       "Number": 878,
-      "Collected": false
+      "Collected": true
     },
     {
       "Name": "Copperajah",
@@ -6181,7 +6505,7 @@
     {
       "Name": "Ursaluna",
       "Number": 901,
-      "Collected": false
+      "Collected": true
     },
     {
       "Name": "Basculegion",
@@ -6501,7 +6825,7 @@
     {
       "Name": "Varoom",
       "Number": 965,
-      "Collected": false
+      "Collected": true
     },
     {
       "Name": "Revavroom",
@@ -6646,7 +6970,7 @@
     {
       "Name": "Iron Moth",
       "Number": 994,
-      "Collected": false
+      "Collected": true
     },
     {
       "Name": "Iron Thorns",
@@ -6801,7 +7125,7 @@
     {
       "Name": "Pecharunt",
       "Number": 1025,
-      "Collected": false
+      "Collected": true
     }
   ]
 }
