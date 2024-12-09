@@ -10,6 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@cloudinary/react": "^1.13.1",
+    "@cloudinary/url-gen": "^1.21.0",
+    "cloudinary-build-url": "^0.2.4",
     "lucide-react": "^0.465.0",
     "pokedisplay": "file:",
     "react": "^18.3.1",

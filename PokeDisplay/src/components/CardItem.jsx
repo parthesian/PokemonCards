@@ -1,9 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { AdvancedImage } from '@cloudinary/react';
 import card_to_set from '../data/card_to_set.json';
+import { getCloudinaryImage } from '../utils/imageHelper';
 
 const CardItem = ({ card, type }) => {
-  const imagePath = '/' + card.Card.replace(/\\/g, '/');
+  const cardImage = getCloudinaryImage(card.cloudinary_id);
+  const setImage = getCloudinaryImage(card_to_set[card.Set]?.cloudinary_id);
 
   const renderSpecialBadges = (special) => {
     if (!special) return null;
@@ -97,6 +100,36 @@ const CardItem = ({ card, type }) => {
     ) : null;
   };
 
+  const cardImageElement = cardImage ? (
+    <AdvancedImage 
+      cldImg={cardImage} 
+      loading="lazy"
+      alt={`${card.Name} card`}
+    />
+  ) : (
+    <img 
+      src={card.Card}
+      alt={`${card.Name} card`}
+      loading="lazy"
+    />
+  );
+
+  const setImageElement = setImage ? (
+    <AdvancedImage 
+      cldImg={setImage}
+      className="set-logo"
+      loading="lazy"
+      alt={card.Set}
+    />
+  ) : (
+    <img 
+      src={`/sets/${card_to_set[card.Set]}`}
+      className="set-logo"
+      alt={card.Set}
+      loading="lazy"
+    />
+  );
+
   if (type === 'pokemon') {
     return (
       <div className="card">
@@ -116,16 +149,12 @@ const CardItem = ({ card, type }) => {
           </div>
           
           <div className="card-image">
-            <img src={imagePath} alt={`${card.Name} card`} />
+            {cardImageElement}
           </div>
           
           <div className="card-footer">
             <span className="card-quantity">x{card.Quantity}</span>
-            <img 
-              src={`/sets/${card_to_set[card.Set]}`}
-              alt={card.Set}
-              className="set-logo"
-            />
+            {setImageElement}
           </div>
           
           <div className="card-info-footer">
@@ -149,16 +178,12 @@ const CardItem = ({ card, type }) => {
         </div>
         
         <div className="card-image">
-          <img src={imagePath} alt={`${card.Name} card`} />
+          {cardImageElement}
         </div>
         
         <div className="card-footer">
           <span className="card-quantity">x{card.Quantity}</span>
-          <img 
-            src={`/sets/${card_to_set[card.Set]}`}
-            alt={card.Set}
-            className="set-logo"
-          />
+          {setImageElement}
         </div>
         
         <div className="card-code-footer">
@@ -179,6 +204,7 @@ CardItem.propTypes = {
       Code: PropTypes.string.isRequired,
       Number: PropTypes.string.isRequired,
       Language: PropTypes.oneOf(['EN', 'JP']).isRequired,
+      cloudinary_id: PropTypes.string,
       Special: PropTypes.shape({
         ex: PropTypes.bool,
         EX: PropTypes.bool,
@@ -198,6 +224,7 @@ CardItem.propTypes = {
       Code: PropTypes.string.isRequired,
       Type: PropTypes.string.isRequired,
       Language: PropTypes.oneOf(['EN', 'JP']).isRequired,
+      cloudinary_id: PropTypes.string
     }),
   ]).isRequired,
   type: PropTypes.oneOf(['pokemon', 'other']).isRequired,

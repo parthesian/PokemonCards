@@ -6,8 +6,12 @@ import SearchFilter from './components/Search';
 import CardGrid from './components/CardGrid';
 import CollectionStats from './components/CollectionStats';
 import PokemonScrollViewer from './components/PokemonScrollViewer';
+import { normalizeCardData, normalizePokedexData } from './utils/dataNormalizer';
 
 function App() {
+  const normalizedCards = normalizeCardData(cardData);
+  const normalizedPokedex = normalizePokedexData(pokedexData);
+
   const [searchConfig, setSearchConfig] = useState({
     term: '',
     field: 'name'
@@ -33,14 +37,14 @@ function App() {
   return (
     <Layout>
       <PokemonScrollViewer 
-        pokedexData={pokedexData.pokedex} 
+        pokedexData={normalizedPokedex.pokedex}
         onPokemonClick={handlePokemonClick}
       />
 
       <CollectionStats 
-        pokemon={cardData.pokemon}
-        other={cardData.other}
-        pokedex={pokedexData.pokedex}
+        pokemon={normalizedCards.pokemon}
+        other={normalizedCards.other}
+        pokedex={normalizedPokedex.pokedex}
       />
       
       <div ref={searchRef} className="mb-8">
@@ -53,8 +57,8 @@ function App() {
       </div>
       
       <CardGrid 
-        pokemonCards={cardData.pokemon}
-        otherCards={cardData.other}
+        pokemonCards={normalizedCards.pokemon}
+        otherCards={normalizedCards.other}
         searchConfig={searchConfig}
         filterType={filterType}
       />
