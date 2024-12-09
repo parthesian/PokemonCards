@@ -68,14 +68,36 @@ const CardGrid = ({ pokemonCards, otherCards, searchConfig, filterType }) => {
     }
   };
 
-  const filteredPokemon = safeFilter(
-    pokemonCards,
-    searchConfig.term
+  // Sort function for Pokemon cards
+  const sortByPokedexNumber = (cards) => {
+    return [...cards].sort((a, b) => {
+      const numA = parseInt(a.Number) || Infinity;
+      const numB = parseInt(b.Number) || Infinity;
+      return numA - numB;
+    });
+  };
+
+  // Sort function for other cards
+  const sortOtherCards = (cards) => {
+    return [...cards].sort((a, b) => {
+      // First sort by Type
+      if (a.Type < b.Type) return -1;
+      if (a.Type > b.Type) return 1;
+      
+      // Then sort alphabetically by Name within each Type
+      return a.Name.localeCompare(b.Name);
+    });
+  };
+
+  const filteredPokemon = sortByPokedexNumber(
+    safeFilter(pokemonCards, searchConfig.term)
   );
 
-  const filteredOther = safeFilter(
-    otherCards?.filter(card => filterType === 'all' || card.Type === filterType),
-    searchConfig.term
+  const filteredOther = sortOtherCards(
+    safeFilter(
+      otherCards?.filter(card => filterType === 'all' || card.Type === filterType),
+      searchConfig.term
+    )
   );
 
   return (

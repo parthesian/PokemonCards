@@ -2068,6 +2068,46 @@
       "Special": null
     },
     {
+      "Number": 250,
+      "Name": "Ho-oh",
+      "Card": "images\\PokemonCards-225.png",
+      "Quantity": 1,
+      "Set": "Neo Revelation",
+      "Code": "neo3-18",
+      "Language": "EN",
+      "Special": null
+    },
+    {
+      "Number": 350,
+      "Name": "Milotic",
+      "Card": "images\\PokemonCards-226.png",
+      "Quantity": 1,
+      "Set": "Incandescent Arcana JP",
+      "Code": "swsh12tg-TG02",
+      "Language": "JP",
+      "Special": null
+    },
+    {
+      "Number": 474,
+      "Name": "Porygon-Z",
+      "Card": "images\\PokemonCards-227.png",
+      "Quantity": 1,
+      "Set": "Future Flash JP",
+      "Code": "sv4-214",
+      "Language": "JP",
+      "Special": null
+    },
+    {
+      "Number": 628,
+      "Name": "Braviary",
+      "Card": "images\\PokemonCards-228.png",
+      "Quantity": 1,
+      "Set": "Paradise Dragona JP",
+      "Code": "sv8-214",
+      "Language": "JP",
+      "Special": null
+    },
+    {
       "Number": 717,
       "Name": "Yveltal",
       "Card": "images\\PokemonCards-185.png",

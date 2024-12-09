@@ -25,6 +25,7 @@ const RegionalCompletion = ({ pokedex, region, data }) => {
   );
 };
 
+
 const SplitStatCard = ({ title, leftValue, rightValue, leftLabel, rightLabel }) => (
   <div className="stat-card">
     <div className="stat-title">{title}</div>
@@ -49,7 +50,8 @@ const CollectionStats = ({ pokemon, other, pokedex }) => {
     totalOtherCards: other.reduce((sum, card) => sum + card.Quantity, 0),
     totalCards: pokemon.reduce((sum, card) => sum + card.Quantity, 0) +
                 other.reduce((sum, card) => sum + card.Quantity, 0),
-    completionRate: Math.round((pokedex.filter(p => p.Collected).length / pokedex.length) * 100)
+    completionRate: Math.round((pokedex.filter(p => p.Collected).length / pokedex.length) * 100),
+    collectedPokemon: pokedex.filter(p => p.Collected).length
   };
 
   return (
@@ -182,11 +184,16 @@ const CollectionStats = ({ pokemon, other, pokedex }) => {
             <div className="stat-value">{stats.completionRate}%</div>
             <div className="stat-title">Total Pokedex Completion</div>
           </div>
-          <div className="progress-bar" style={{ width: '200px' }}>
-            <div 
-              className="progress-bar-fill"
-              style={{ width: `${stats.completionRate}%` }}
-            />
+          <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+            <span className="region-count" style={{ minWidth: '80px', textAlign: 'right' }}>
+              {stats.collectedPokemon}/1025
+            </span>
+            <div className="progress-bar" style={{ width: '200px' }}>
+              <div 
+                className="progress-bar-fill"
+                style={{ width: `${stats.completionRate}%` }}
+              />
+            </div>
           </div>
         </div>
 

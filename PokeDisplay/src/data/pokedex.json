@@ -1248,7 +1248,7 @@
       {
         "Name": "Ho-Oh",
         "Number": 250,
-        "Collected": false
+        "Collected": true
       },
       {
         "Name": "Celebi",
@@ -1748,7 +1748,7 @@
       {
         "Name": "Milotic",
         "Number": 350,
-        "Collected": false
+        "Collected": true
       },
       {
         "Name": "Castform",
@@ -3138,7 +3138,7 @@
       {
         "Name": "Braviary",
         "Number": 628,
-        "Collected": false
+        "Collected": true
       },
       {
         "Name": "Vullaby",
