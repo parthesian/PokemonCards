@@ -2325,7 +2325,7 @@
   "other": [
     {
       "Type": "Energy",
-      "Name": "Basic Lightning Energy",
+      "Name": "Basic Electric Energy",
       "Card": "images\\PokemonCards-154.png",
       "Quantity": 2,
       "Set": "Paldean Fates",
