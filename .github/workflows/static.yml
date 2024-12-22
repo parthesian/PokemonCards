@@ -10,23 +10,29 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          persist-credentials: false # Add this
+
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '18'
           cache: 'npm'
           cache-dependency-path: './PokeDisplay/package-lock.json'
+
       - name: Install Dependencies
         working-directory: ./PokeDisplay
         run: npm install
+
       - name: Build
         working-directory: ./PokeDisplay
         env:
           VITE_CLOUDINARY_CLOUD_NAME: ${{ secrets.VITE_CLOUDINARY_CLOUD_NAME }}
         run: npm run build
+
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: PokeDisplay/dist  # The source folder is still PokeDisplay/dist
-          branch: gh-pages          # But it will be deployed to match vite.config.js base
-          repository-name: PokemonCards  # Add this to be explicit
+          folder: PokeDisplay/dist # The folder containing the built files
+          branch: gh-pages
+          clean: true # Add this to ensure clean deployment
