@@ -8,6 +8,7 @@ import CollectionStats from './components/CollectionStats';
 import PokemonScrollViewer from './components/PokemonScrollViewer';
 import { normalizeCardData, normalizePokedexData } from './utils/dataNormalizer';
 
+
 function App() {
   const normalizedCards = normalizeCardData(cardData);
   const normalizedPokedex = normalizePokedexData(pokedexData);

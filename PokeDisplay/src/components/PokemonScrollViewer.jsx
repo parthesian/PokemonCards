@@ -131,7 +131,7 @@ const PokemonScrollViewer = ({ pokedexData, onPokemonClick }) => {
           left: '1rem',
           width: '32px',
           height: '32px',
-          backgroundImage: 'url(/PokedexIcon.png)',
+          backgroundImage: `url(${import.meta.env.BASE_URL}PokedexIcon.png)`,
           backgroundSize: 'contain',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center'

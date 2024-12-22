@@ -29,40 +29,40 @@ const CardItem = ({ card, type }) => {
       badges.push(
         <img 
           key="ex" 
-          src="/badges/ex_lower.png" 
+          src={`${import.meta.env.BASE_URL}badges/ex_lower.png`}
           alt="ex" 
           className="card-badge-ex" 
         />
       );
     }
-
+    
     if (special.EX) {
       badges.push(
         <img 
           key="EX" 
-          src="/badges/ex_upper.png" 
+          src={`${import.meta.env.BASE_URL}badges/ex_upper.png`}
           alt="EX" 
           className="card-badge-ex" 
         />
       );
     }
-
+    
     if (special.V) {
       badges.push(
         <img 
           key="v" 
-          src="/badges/v.png" 
+          src={`${import.meta.env.BASE_URL}badges/v.png`}
           alt="V" 
           className="card-badge-v"
         />
       );
     }
-
+    
     if (special.paradox === "Future") {
       badges.push(
         <img 
           key="paradox" 
-          src="/badges/paradox_future.png" 
+          src={`${import.meta.env.BASE_URL}badges/paradox_future.png`}
           alt="Future Paradox" 
           className="card-badge-paradox" 
         />
@@ -136,7 +136,8 @@ const CardItem = ({ card, type }) => {
     />
   ) : (
     <img 
-      src={`/sets/${card_to_set[card.Set]}`}
+      // Update this line to use the correct path
+      src={`${import.meta.env.BASE_URL}sets/${card_to_set[card.Set]}`}
       className="set-logo"
       alt={card.Set}
       loading="lazy"
