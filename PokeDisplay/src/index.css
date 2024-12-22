@@ -301,3 +301,60 @@ body {
   width: auto;
   vertical-align: middle;
 }
+
+/* Add these to your index.css */
+
+/* Loading indicator */
+.loading-indicator {
+  text-align: center;
+  padding: 2rem;
+  color: var(--text-secondary);
+}
+
+/* Card image loading state */
+.card-image {
+  position: relative;
+  aspect-ratio: 2.5/3.5;
+  margin-bottom: 1rem;
+  background-color: #f3f4f6;
+  transition: opacity 0.3s ease;
+}
+
+.card-image.loaded {
+  background-color: transparent;
+}
+
+.card-image-placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Loading spinner */
+.loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid #f3f4f6;
+  border-top: 3px solid var(--primary-color);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Loader element */
+.loader {
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+}

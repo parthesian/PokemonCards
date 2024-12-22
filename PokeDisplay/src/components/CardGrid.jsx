@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import CardItem from './CardItem';
 
-const CARDS_PER_PAGE = 20;
+const CARDS_PER_PAGE = 12; // Reduced batch size for smoother loading
 
 const CardGrid = ({ pokemonCards, otherCards, searchConfig, filterType }) => {
   const [visibleCards, setVisibleCards] = useState([]);
@@ -11,23 +11,64 @@ const CardGrid = ({ pokemonCards, otherCards, searchConfig, filterType }) => {
   const [hasMore, setHasMore] = useState(true);
   const [activeTab, setActiveTab] = useState('pokemon');
   const loaderRef = useRef(null);
+  const timeoutRef = useRef(null);
 
+  // Detect when images are in viewport
+  useEffect(() => {
+    const imageObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const img = entry.target;
+            if (img.dataset.src) {
+              img.src = img.dataset.src;
+              img.removeAttribute('data-src');
+              imageObserver.unobserve(img);
+            }
+          }
+        });
+      },
+      {
+        rootMargin: '50px 0px',
+        threshold: 0.1
+      }
+    );
+
+    // Observe all lazy-loaded images
+    document.querySelectorAll('.card-image img[data-src]').forEach(img => {
+      imageObserver.observe(img);
+    });
+
+    return () => imageObserver.disconnect();
+  }, [visibleCards]);
+
+  // Infinite scroll detection
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
         const first = entries[0];
         if (first.isIntersecting && hasMore && !loading) {
-          loadMoreCards();
+          // Add debounce to prevent multiple rapid loads
+          if (timeoutRef.current) clearTimeout(timeoutRef.current);
+          timeoutRef.current = setTimeout(() => {
+            loadMoreCards();
+          }, 300);
         }
       },
-      { threshold: 0.1 }
+      {
+        rootMargin: '100px 0px',
+        threshold: 0.1
+      }
     );
 
     if (loaderRef.current) {
       observer.observe(loaderRef.current);
     }
 
-    return () => observer.disconnect();
+    return () => {
+      observer.disconnect();
+      if (timeoutRef.current) clearTimeout(timeoutRef.current);
+    };
   }, [hasMore, loading, page]);
 
   useEffect(() => {
@@ -53,10 +94,13 @@ const CardGrid = ({ pokemonCards, otherCards, searchConfig, filterType }) => {
     const end = start + CARDS_PER_PAGE;
     const newCards = cards.slice(start, end);
 
-    setVisibleCards(prev => reset ? newCards : [...prev, ...newCards]);
-    setHasMore(end < cards.length);
-    setPage(currentPage + 1);
-    setLoading(false);
+    // Artificial delay to prevent rapid loading
+    setTimeout(() => {
+      setVisibleCards(prev => reset ? newCards : [...prev, ...newCards]);
+      setHasMore(end < cards.length);
+      setPage(currentPage + 1);
+      setLoading(false);
+    }, 300);
   };
 
   const normalizeSearch = (text) => {
@@ -163,9 +207,9 @@ const CardGrid = ({ pokemonCards, otherCards, searchConfig, filterType }) => {
       </div>
 
       <div className="card-grid">
-        {visibleCards.map(card => (
+        {visibleCards.map((card, index) => (
           <CardItem 
-            key={card.Code} 
+            key={`${card.Code}-${index}`}
             card={card}
             type={activeTab}
           />
@@ -174,7 +218,11 @@ const CardGrid = ({ pokemonCards, otherCards, searchConfig, filterType }) => {
 
       {hasMore && (
         <div ref={loaderRef} className="loader">
-          {loading ? 'Loading...' : ''}
+          {loading ? (
+            <div className="loading-indicator">
+              Loading more cards...
+            </div>
+          ) : null}
         </div>
       )}
     </div>

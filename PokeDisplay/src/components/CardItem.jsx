@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import { AdvancedImage } from '@cloudinary/react';
+import { AdvancedImage, lazyload } from '@cloudinary/react';
 import card_to_set from '../data/card_to_set.json';
 import { getCloudinaryImage } from '../utils/imageHelper';
 
 const CardItem = ({ card, type }) => {
+  const [imageLoaded, setImageLoaded] = useState(false);
   const cardImage = getCloudinaryImage(card.cloudinary_id);
   const setImage = getCloudinaryImage(card_to_set[card.Set]?.cloudinary_id);
 
@@ -101,23 +102,35 @@ const CardItem = ({ card, type }) => {
   };
 
   const cardImageElement = cardImage ? (
-    <AdvancedImage 
-      cldImg={cardImage} 
-      loading="lazy"
-      alt={`${card.Name} card`}
-    />
+    <div className={`card-image ${imageLoaded ? 'loaded' : ''}`}>
+      <AdvancedImage 
+        cldImg={cardImage}
+        plugins={[lazyload()]}
+        onLoad={() => setImageLoaded(true)}
+        loading="lazy"
+        alt={`${card.Name} card`}
+      />
+      {!imageLoaded && (
+        <div className="card-image-placeholder">
+          <div className="loading-spinner"></div>
+        </div>
+      )}
+    </div>
   ) : (
-    <img 
-      src={card.Card}
-      alt={`${card.Name} card`}
-      loading="lazy"
-    />
+    <div className="card-image">
+      <img 
+        src={card.Card}
+        alt={`${card.Name} card`}
+        loading="lazy"
+      />
+    </div>
   );
 
   const setImageElement = setImage ? (
     <AdvancedImage 
       cldImg={setImage}
       className="set-logo"
+      plugins={[lazyload()]}
       loading="lazy"
       alt={card.Set}
     />
